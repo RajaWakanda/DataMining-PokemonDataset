@@ -21,11 +21,6 @@ Alur:
        C7. Normalisasi (Min-Max dan Z-score)
   D. Simpan hasil + log pembersihan
 
-Cara pakai di VS Code:
-  1. Simpan file ini satu folder dengan pokemon_complete_stats.csv
-  2. pip install pandas numpy matplotlib   (matplotlib opsional, untuk grafik)
-  3. Jalankan: python pokemon_cleaning_transformasi.py
-     Hasil tersimpan di folder "output_cleaning"
 """
 
 # %% 0. Import & konfigurasi
