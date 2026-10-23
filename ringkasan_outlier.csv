@@ -1,0 +1,11 @@
+kolom,batas_bawah,batas_atas,jumlah_outlier,persen
+height_dm,-10.5,33.5,95,7.03
+weight_hg,-1042.75,1991.25,174,12.88
+base_experience,-141.25,432.75,2,0.15
+hp,10.0,130.0,30,2.22
+attack,-3.75,166.25,10,0.74
+defense,-5.0,155.0,19,1.41
+special_attack,-20.5,167.5,14,1.04
+special_defense,0.0,144.0,17,1.26
+speed,-20.0,164.0,2,0.15
+capture_rate,-67.5,232.5,111,8.22
