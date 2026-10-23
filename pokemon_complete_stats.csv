@@ -1,0 +1,1352 @@
+id,name,height_dm,weight_hg,base_experience,type_1,type_2,hp,attack,defense,special_attack,special_defense,speed,abilities,generation,is_legendary,is_mythical,color,shape,capture_rate
+1,bulbasaur,7,69,64.0,grass,poison,45,49,49,65,65,45,"overgrow, chlorophyll",generation-i,False,False,green,quadruped,45
+2,ivysaur,10,130,142.0,grass,poison,60,62,63,80,80,60,"overgrow, chlorophyll",generation-i,False,False,green,quadruped,45
+3,venusaur,20,1000,236.0,grass,poison,80,82,83,100,100,80,"overgrow, chlorophyll",generation-i,False,False,green,quadruped,45
+4,charmander,6,85,62.0,fire,,39,52,43,60,50,65,"blaze, solar-power",generation-i,False,False,red,upright,45
+5,charmeleon,11,190,142.0,fire,,58,64,58,80,65,80,"blaze, solar-power",generation-i,False,False,red,upright,45
+6,charizard,17,905,240.0,fire,flying,78,84,78,109,85,100,"blaze, solar-power",generation-i,False,False,red,upright,45
+7,squirtle,5,90,63.0,water,,44,48,65,50,64,43,"torrent, rain-dish",generation-i,False,False,blue,upright,45
+8,wartortle,10,225,142.0,water,,59,63,80,65,80,58,"torrent, rain-dish",generation-i,False,False,blue,upright,45
+9,blastoise,16,855,239.0,water,,79,83,100,85,105,78,"torrent, rain-dish",generation-i,False,False,blue,upright,45
+10,caterpie,3,29,39.0,bug,,45,30,35,20,20,45,"shield-dust, run-away",generation-i,False,False,green,armor,255
+11,metapod,7,99,72.0,bug,,50,20,55,25,25,30,shed-skin,generation-i,False,False,green,squiggle,120
+12,butterfree,11,320,178.0,bug,flying,60,45,50,90,80,70,"compound-eyes, tinted-lens",generation-i,False,False,white,bug-wings,45
+13,weedle,3,32,39.0,bug,poison,40,35,30,20,20,50,"shield-dust, run-away",generation-i,False,False,brown,armor,255
+14,kakuna,6,100,72.0,bug,poison,45,25,50,25,25,35,shed-skin,generation-i,False,False,yellow,squiggle,120
+15,beedrill,10,295,178.0,bug,poison,65,90,40,45,80,75,"swarm, sniper",generation-i,False,False,yellow,bug-wings,45
+16,pidgey,3,18,50.0,normal,flying,40,45,40,35,35,56,"keen-eye, tangled-feet, big-pecks",generation-i,False,False,brown,wings,255
+17,pidgeotto,11,300,122.0,normal,flying,63,60,55,50,50,71,"keen-eye, tangled-feet, big-pecks",generation-i,False,False,brown,wings,120
+18,pidgeot,15,395,216.0,normal,flying,83,80,75,70,70,101,"keen-eye, tangled-feet, big-pecks",generation-i,False,False,brown,wings,45
+19,rattata,3,35,51.0,normal,,30,56,35,25,35,72,"run-away, guts, hustle",generation-i,False,False,purple,quadruped,255
+20,raticate,7,185,145.0,normal,,55,81,60,50,70,97,"run-away, guts, hustle",generation-i,False,False,brown,quadruped,127
+21,spearow,3,20,52.0,normal,flying,40,60,30,31,31,70,"keen-eye, sniper",generation-i,False,False,brown,wings,255
+22,fearow,12,380,155.0,normal,flying,65,90,65,61,61,100,"keen-eye, sniper",generation-i,False,False,brown,wings,90
+23,ekans,20,69,58.0,poison,,35,60,44,40,54,55,"intimidate, shed-skin, unnerve",generation-i,False,False,purple,squiggle,255
+24,arbok,35,650,157.0,poison,,60,95,69,65,79,80,"intimidate, shed-skin, unnerve",generation-i,False,False,purple,squiggle,90
+25,pikachu,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+26,raichu,8,300,218.0,electric,,60,90,55,90,80,110,"static, lightning-rod",generation-i,False,False,yellow,upright,75
+27,sandshrew,6,120,60.0,ground,,50,75,85,20,30,40,"sand-veil, sand-rush",generation-i,False,False,yellow,upright,255
+28,sandslash,10,295,158.0,ground,,75,100,110,45,55,65,"sand-veil, sand-rush",generation-i,False,False,yellow,upright,90
+29,nidoran-f,4,70,55.0,poison,,55,47,52,40,40,41,"poison-point, rivalry, hustle",generation-i,False,False,blue,quadruped,235
+30,nidorina,8,200,128.0,poison,,70,62,67,55,55,56,"poison-point, rivalry, hustle",generation-i,False,False,blue,quadruped,120
+31,nidoqueen,13,600,227.0,poison,ground,90,92,87,75,85,76,"poison-point, rivalry, sheer-force",generation-i,False,False,blue,upright,45
+32,nidoran-m,5,90,55.0,poison,,46,57,40,40,40,50,"poison-point, rivalry, hustle",generation-i,False,False,purple,quadruped,235
+33,nidorino,9,195,128.0,poison,,61,72,57,55,55,65,"poison-point, rivalry, hustle",generation-i,False,False,purple,quadruped,120
+34,nidoking,14,620,227.0,poison,ground,81,102,77,85,75,85,"poison-point, rivalry, sheer-force",generation-i,False,False,purple,upright,45
+35,clefairy,6,75,113.0,fairy,,70,45,48,60,65,35,"cute-charm, magic-guard, friend-guard",generation-i,False,False,pink,upright,150
+36,clefable,13,400,217.0,fairy,,95,70,73,95,90,60,"cute-charm, magic-guard, unaware",generation-i,False,False,pink,upright,25
+37,vulpix,6,99,60.0,fire,,38,41,40,50,65,65,"flash-fire, drought",generation-i,False,False,brown,quadruped,190
+38,ninetales,11,199,177.0,fire,,73,76,75,81,100,100,"flash-fire, drought",generation-i,False,False,yellow,quadruped,75
+39,jigglypuff,5,55,95.0,normal,fairy,115,45,20,45,25,20,"cute-charm, competitive, friend-guard",generation-i,False,False,pink,humanoid,170
+40,wigglytuff,10,120,196.0,normal,fairy,140,70,45,85,50,45,"cute-charm, competitive, frisk",generation-i,False,False,pink,humanoid,50
+41,zubat,8,75,49.0,poison,flying,40,45,35,30,40,55,"inner-focus, infiltrator",generation-i,False,False,purple,wings,255
+42,golbat,16,550,159.0,poison,flying,75,80,70,65,75,90,"inner-focus, infiltrator",generation-i,False,False,purple,wings,90
+43,oddish,5,54,64.0,grass,poison,45,50,55,75,65,30,"chlorophyll, run-away",generation-i,False,False,blue,legs,255
+44,gloom,8,86,138.0,grass,poison,60,65,70,85,75,40,"chlorophyll, stench",generation-i,False,False,blue,humanoid,120
+45,vileplume,12,186,221.0,grass,poison,75,80,85,110,90,50,"chlorophyll, effect-spore",generation-i,False,False,red,humanoid,45
+46,paras,3,54,57.0,bug,grass,35,70,55,45,55,25,"effect-spore, dry-skin, damp",generation-i,False,False,red,armor,190
+47,parasect,10,295,142.0,bug,grass,60,95,80,60,80,30,"effect-spore, dry-skin, damp",generation-i,False,False,red,armor,75
+48,venonat,10,300,61.0,bug,poison,60,55,50,40,55,45,"compound-eyes, tinted-lens, run-away",generation-i,False,False,purple,humanoid,190
+49,venomoth,15,125,158.0,bug,poison,70,65,60,90,75,90,"shield-dust, tinted-lens, wonder-skin",generation-i,False,False,purple,bug-wings,75
+50,diglett,2,8,53.0,ground,,10,55,25,35,45,95,"sand-veil, arena-trap, sand-force",generation-i,False,False,brown,blob,255
+51,dugtrio,7,333,149.0,ground,,35,100,50,50,70,120,"sand-veil, arena-trap, sand-force",generation-i,False,False,brown,heads,50
+52,meowth,4,42,58.0,normal,,40,45,35,40,40,90,"pickup, technician, unnerve",generation-i,False,False,yellow,quadruped,255
+53,persian,10,320,154.0,normal,,65,70,60,65,65,115,"limber, technician, unnerve",generation-i,False,False,yellow,quadruped,90
+54,psyduck,8,196,64.0,water,,50,52,48,65,50,55,"damp, cloud-nine, swift-swim",generation-i,False,False,yellow,upright,190
+55,golduck,17,766,175.0,water,,80,82,78,95,80,85,"damp, cloud-nine, swift-swim",generation-i,False,False,blue,upright,75
+56,mankey,5,280,61.0,fighting,,40,80,35,35,45,70,"vital-spirit, anger-point, defiant",generation-i,False,False,brown,upright,190
+57,primeape,10,320,159.0,fighting,,65,105,60,60,70,95,"vital-spirit, anger-point, defiant",generation-i,False,False,brown,upright,75
+58,growlithe,7,190,70.0,fire,,55,70,45,70,50,60,"intimidate, flash-fire, justified",generation-i,False,False,brown,quadruped,190
+59,arcanine,19,1550,194.0,fire,,90,110,80,100,80,95,"intimidate, flash-fire, justified",generation-i,False,False,brown,quadruped,75
+60,poliwag,6,124,60.0,water,,40,50,40,40,40,90,"water-absorb, damp, swift-swim",generation-i,False,False,blue,legs,255
+61,poliwhirl,10,200,135.0,water,,65,65,65,50,50,90,"water-absorb, damp, swift-swim",generation-i,False,False,blue,humanoid,120
+62,poliwrath,13,540,230.0,water,fighting,90,95,95,70,90,70,"water-absorb, damp, swift-swim",generation-i,False,False,blue,humanoid,45
+63,abra,9,195,62.0,psychic,,25,20,15,105,55,90,"synchronize, inner-focus, magic-guard",generation-i,False,False,brown,upright,200
+64,kadabra,13,565,140.0,psychic,,40,35,30,120,70,105,"synchronize, inner-focus, magic-guard",generation-i,False,False,brown,upright,100
+65,alakazam,15,480,225.0,psychic,,55,50,45,135,95,120,"synchronize, inner-focus, magic-guard",generation-i,False,False,brown,humanoid,50
+66,machop,8,195,61.0,fighting,,70,80,50,35,35,35,"guts, no-guard, steadfast",generation-i,False,False,gray,upright,180
+67,machoke,15,705,142.0,fighting,,80,100,70,50,60,45,"guts, no-guard, steadfast",generation-i,False,False,gray,humanoid,90
+68,machamp,16,1300,227.0,fighting,,90,130,80,65,85,55,"guts, no-guard, steadfast",generation-i,False,False,gray,humanoid,45
+69,bellsprout,7,40,60.0,grass,poison,50,75,35,70,30,40,"chlorophyll, gluttony",generation-i,False,False,green,humanoid,255
+70,weepinbell,10,64,137.0,grass,poison,65,90,50,85,45,55,"chlorophyll, gluttony",generation-i,False,False,green,blob,120
+71,victreebel,17,155,221.0,grass,poison,80,105,65,100,70,70,"chlorophyll, gluttony",generation-i,False,False,green,blob,45
+72,tentacool,9,455,67.0,water,poison,40,40,35,50,100,70,"clear-body, liquid-ooze, rain-dish",generation-i,False,False,blue,tentacles,190
+73,tentacruel,16,550,180.0,water,poison,80,70,65,80,120,100,"clear-body, liquid-ooze, rain-dish",generation-i,False,False,blue,tentacles,60
+74,geodude,4,200,60.0,rock,ground,40,80,100,30,30,20,"rock-head, sturdy, sand-veil",generation-i,False,False,brown,arms,255
+75,graveler,10,1050,137.0,rock,ground,55,95,115,45,45,35,"rock-head, sturdy, sand-veil",generation-i,False,False,brown,humanoid,120
+76,golem,14,3000,223.0,rock,ground,80,120,130,55,65,45,"rock-head, sturdy, sand-veil",generation-i,False,False,brown,humanoid,45
+77,ponyta,10,300,82.0,fire,,50,85,55,65,65,90,"run-away, flash-fire, flame-body",generation-i,False,False,yellow,quadruped,190
+78,rapidash,17,950,175.0,fire,,65,100,70,80,80,105,"run-away, flash-fire, flame-body",generation-i,False,False,yellow,quadruped,60
+79,slowpoke,12,360,63.0,water,psychic,90,65,65,40,40,15,"oblivious, own-tempo, regenerator",generation-i,False,False,pink,quadruped,190
+80,slowbro,16,785,172.0,water,psychic,95,75,110,100,80,30,"oblivious, own-tempo, regenerator",generation-i,False,False,pink,upright,75
+81,magnemite,3,60,65.0,electric,steel,25,35,70,95,55,45,"magnet-pull, sturdy, analytic",generation-i,False,False,gray,arms,190
+82,magneton,10,600,163.0,electric,steel,50,60,95,120,70,70,"magnet-pull, sturdy, analytic",generation-i,False,False,gray,heads,60
+83,farfetchd,8,150,132.0,normal,flying,52,90,55,58,62,60,"keen-eye, inner-focus, defiant",generation-i,False,False,brown,wings,45
+84,doduo,14,392,62.0,normal,flying,35,85,45,35,35,75,"run-away, early-bird, tangled-feet",generation-i,False,False,brown,legs,190
+85,dodrio,18,852,165.0,normal,flying,60,110,70,60,60,110,"run-away, early-bird, tangled-feet",generation-i,False,False,brown,legs,45
+86,seel,11,900,65.0,water,,65,45,55,45,70,45,"thick-fat, hydration, ice-body",generation-i,False,False,white,fish,190
+87,dewgong,17,1200,166.0,water,ice,90,70,80,70,95,70,"thick-fat, hydration, ice-body",generation-i,False,False,white,fish,75
+88,grimer,9,300,65.0,poison,,80,80,50,40,50,25,"stench, sticky-hold, poison-touch",generation-i,False,False,purple,arms,190
+89,muk,12,300,175.0,poison,,105,105,75,65,100,50,"stench, sticky-hold, poison-touch",generation-i,False,False,purple,arms,75
+90,shellder,3,40,61.0,water,,30,65,100,45,25,40,"shell-armor, skill-link, overcoat",generation-i,False,False,purple,ball,190
+91,cloyster,15,1325,184.0,water,ice,50,95,180,85,45,70,"shell-armor, skill-link, overcoat",generation-i,False,False,purple,ball,60
+92,gastly,13,1,62.0,ghost,poison,30,35,30,100,35,80,levitate,generation-i,False,False,purple,ball,190
+93,haunter,16,1,142.0,ghost,poison,45,50,45,115,55,95,levitate,generation-i,False,False,purple,arms,90
+94,gengar,15,405,225.0,ghost,poison,60,65,60,130,75,110,cursed-body,generation-i,False,False,purple,upright,45
+95,onix,88,2100,77.0,rock,ground,35,45,160,30,45,70,"rock-head, sturdy, weak-armor",generation-i,False,False,gray,squiggle,45
+96,drowzee,10,324,66.0,psychic,,60,48,45,43,90,42,"insomnia, forewarn, inner-focus",generation-i,False,False,yellow,humanoid,190
+97,hypno,16,756,169.0,psychic,,85,73,70,73,115,67,"insomnia, forewarn, inner-focus",generation-i,False,False,yellow,humanoid,75
+98,krabby,4,65,65.0,water,,30,105,90,25,25,50,"hyper-cutter, shell-armor, sheer-force",generation-i,False,False,red,armor,225
+99,kingler,13,600,166.0,water,,55,130,115,50,50,75,"hyper-cutter, shell-armor, sheer-force",generation-i,False,False,red,armor,60
+100,voltorb,5,104,66.0,electric,,40,30,50,55,55,100,"soundproof, static, aftermath",generation-i,False,False,red,ball,190
+101,electrode,12,666,172.0,electric,,60,50,70,80,80,150,"soundproof, static, aftermath",generation-i,False,False,red,ball,60
+102,exeggcute,4,25,65.0,grass,psychic,60,40,80,60,45,40,"chlorophyll, harvest",generation-i,False,False,pink,heads,90
+103,exeggutor,20,1200,186.0,grass,psychic,95,95,85,125,75,55,"chlorophyll, harvest",generation-i,False,False,yellow,legs,45
+104,cubone,4,65,64.0,ground,,50,50,95,40,50,35,"rock-head, lightning-rod, battle-armor",generation-i,False,False,brown,upright,190
+105,marowak,10,450,149.0,ground,,60,80,110,50,80,45,"rock-head, lightning-rod, battle-armor",generation-i,False,False,brown,upright,75
+106,hitmonlee,15,498,159.0,fighting,,50,120,53,35,110,87,"limber, reckless, unburden",generation-i,False,False,brown,humanoid,45
+107,hitmonchan,14,502,159.0,fighting,,50,105,79,35,110,76,"keen-eye, iron-fist, inner-focus",generation-i,False,False,brown,humanoid,45
+108,lickitung,12,655,77.0,normal,,90,55,75,60,75,30,"own-tempo, oblivious, cloud-nine",generation-i,False,False,pink,upright,45
+109,koffing,6,10,68.0,poison,,40,65,95,60,45,35,"levitate, neutralizing-gas, stench",generation-i,False,False,purple,ball,190
+110,weezing,12,95,172.0,poison,,65,90,120,85,70,60,"levitate, neutralizing-gas, stench",generation-i,False,False,purple,heads,60
+111,rhyhorn,10,1150,69.0,ground,rock,80,85,95,30,30,25,"lightning-rod, rock-head, reckless",generation-i,False,False,gray,quadruped,120
+112,rhydon,19,1200,170.0,ground,rock,105,130,120,45,45,40,"lightning-rod, rock-head, reckless",generation-i,False,False,gray,upright,60
+113,chansey,11,346,395.0,normal,,250,5,5,35,105,50,"natural-cure, serene-grace, healer",generation-i,False,False,pink,upright,30
+114,tangela,10,350,87.0,grass,,65,55,115,100,40,60,"chlorophyll, leaf-guard, regenerator",generation-i,False,False,blue,legs,45
+115,kangaskhan,22,800,172.0,normal,,105,95,80,40,80,90,"early-bird, scrappy, inner-focus",generation-i,False,False,brown,upright,45
+116,horsea,4,80,59.0,water,,30,40,70,70,25,60,"swift-swim, sniper, damp",generation-i,False,False,blue,blob,225
+117,seadra,12,250,154.0,water,,55,65,95,95,45,85,"poison-point, sniper, damp",generation-i,False,False,blue,blob,75
+118,goldeen,6,150,64.0,water,,45,67,60,35,50,63,"swift-swim, water-veil, lightning-rod",generation-i,False,False,red,fish,225
+119,seaking,13,390,158.0,water,,80,92,65,65,80,68,"swift-swim, water-veil, lightning-rod",generation-i,False,False,red,fish,60
+120,staryu,8,345,68.0,water,,30,45,55,70,55,85,"illuminate, natural-cure, analytic",generation-i,False,False,brown,blob,225
+121,starmie,11,800,182.0,water,psychic,60,75,85,100,85,115,"illuminate, natural-cure, analytic",generation-i,False,False,purple,blob,60
+122,mr-mime,13,545,161.0,psychic,fairy,40,45,65,100,120,90,"soundproof, filter, technician",generation-i,False,False,pink,humanoid,45
+123,scyther,15,560,100.0,bug,flying,70,110,80,55,80,105,"swarm, technician, steadfast",generation-i,False,False,green,bug-wings,45
+124,jynx,14,406,159.0,ice,psychic,65,50,35,115,95,95,"oblivious, forewarn, dry-skin",generation-i,False,False,red,humanoid,45
+125,electabuzz,11,300,172.0,electric,,65,83,57,95,85,105,"static, vital-spirit",generation-i,False,False,yellow,upright,45
+126,magmar,13,445,173.0,fire,,65,95,57,100,85,93,"flame-body, vital-spirit",generation-i,False,False,red,upright,45
+127,pinsir,15,550,175.0,bug,,65,125,100,55,70,85,"hyper-cutter, mold-breaker, moxie",generation-i,False,False,brown,humanoid,45
+128,tauros,14,884,172.0,normal,,75,100,95,40,70,110,"intimidate, anger-point, sheer-force",generation-i,False,False,brown,quadruped,45
+129,magikarp,9,100,40.0,water,,20,10,55,15,20,80,"swift-swim, rattled",generation-i,False,False,red,fish,255
+130,gyarados,65,2350,189.0,water,flying,95,125,79,60,100,81,"intimidate, moxie",generation-i,False,False,blue,squiggle,45
+131,lapras,25,2200,187.0,water,ice,130,85,80,85,95,60,"water-absorb, shell-armor, hydration",generation-i,False,False,blue,fish,45
+132,ditto,3,40,101.0,normal,,48,48,48,48,48,48,"limber, imposter",generation-i,False,False,purple,ball,35
+133,eevee,3,65,65.0,normal,,55,55,50,45,65,55,"run-away, adaptability, anticipation",generation-i,False,False,brown,quadruped,45
+134,vaporeon,10,290,184.0,water,,130,65,60,110,95,65,"water-absorb, hydration",generation-i,False,False,blue,quadruped,45
+135,jolteon,8,245,184.0,electric,,65,65,60,110,95,130,"volt-absorb, quick-feet",generation-i,False,False,yellow,quadruped,45
+136,flareon,9,250,184.0,fire,,65,130,60,95,110,65,"flash-fire, guts",generation-i,False,False,red,quadruped,45
+137,porygon,8,365,79.0,normal,,65,60,70,85,75,40,"trace, download, analytic",generation-i,False,False,pink,legs,45
+138,omanyte,4,75,71.0,rock,water,35,40,100,90,55,35,"swift-swim, shell-armor, weak-armor",generation-i,False,False,blue,tentacles,45
+139,omastar,10,350,173.0,rock,water,70,60,125,115,70,55,"swift-swim, shell-armor, weak-armor",generation-i,False,False,blue,tentacles,45
+140,kabuto,5,115,71.0,rock,water,30,80,90,55,45,55,"swift-swim, battle-armor, weak-armor",generation-i,False,False,brown,armor,45
+141,kabutops,13,405,173.0,rock,water,60,115,105,65,70,80,"swift-swim, battle-armor, weak-armor",generation-i,False,False,brown,upright,45
+142,aerodactyl,18,590,180.0,rock,flying,80,105,65,60,75,130,"rock-head, pressure, unnerve",generation-i,False,False,purple,wings,45
+143,snorlax,21,4600,189.0,normal,,160,110,65,65,110,30,"immunity, thick-fat, gluttony",generation-i,False,False,black,humanoid,25
+144,articuno,17,554,261.0,ice,flying,90,85,100,95,125,85,"pressure, snow-cloak",generation-i,True,False,blue,wings,3
+145,zapdos,16,526,261.0,electric,flying,90,90,85,125,90,100,"pressure, static",generation-i,True,False,yellow,wings,3
+146,moltres,20,600,261.0,fire,flying,90,100,90,125,85,90,"pressure, flame-body",generation-i,True,False,yellow,wings,3
+147,dratini,18,33,60.0,dragon,,41,64,45,50,50,50,"shed-skin, marvel-scale",generation-i,False,False,blue,squiggle,45
+148,dragonair,40,165,147.0,dragon,,61,84,65,70,70,70,"shed-skin, marvel-scale",generation-i,False,False,blue,squiggle,45
+149,dragonite,22,2100,270.0,dragon,flying,91,134,95,100,100,80,"inner-focus, multiscale",generation-i,False,False,brown,upright,45
+150,mewtwo,20,1220,306.0,psychic,,106,110,90,154,90,130,"pressure, unnerve",generation-i,True,False,purple,upright,3
+151,mew,4,40,270.0,psychic,,100,100,100,100,100,100,synchronize,generation-i,False,True,pink,upright,45
+152,chikorita,9,64,64.0,grass,,45,49,65,49,65,45,"overgrow, leaf-guard",generation-ii,False,False,green,quadruped,45
+153,bayleef,12,158,142.0,grass,,60,62,80,63,80,60,"overgrow, leaf-guard",generation-ii,False,False,green,quadruped,45
+154,meganium,18,1005,236.0,grass,,80,82,100,83,100,80,"overgrow, leaf-guard",generation-ii,False,False,green,quadruped,45
+155,cyndaquil,5,79,62.0,fire,,39,52,43,60,50,65,"blaze, flash-fire",generation-ii,False,False,yellow,humanoid,45
+156,quilava,9,190,142.0,fire,,58,64,58,80,65,80,"blaze, flash-fire",generation-ii,False,False,yellow,quadruped,45
+157,typhlosion,17,795,240.0,fire,,78,84,78,109,85,100,"blaze, flash-fire",generation-ii,False,False,yellow,quadruped,45
+158,totodile,6,95,63.0,water,,50,65,64,44,48,43,"torrent, sheer-force",generation-ii,False,False,blue,upright,45
+159,croconaw,11,250,142.0,water,,65,80,80,59,63,58,"torrent, sheer-force",generation-ii,False,False,blue,upright,45
+160,feraligatr,23,888,239.0,water,,85,105,100,79,83,78,"torrent, sheer-force",generation-ii,False,False,blue,upright,45
+161,sentret,8,60,43.0,normal,,35,46,34,35,45,20,"run-away, keen-eye, frisk",generation-ii,False,False,brown,quadruped,255
+162,furret,18,325,145.0,normal,,85,76,64,45,55,90,"run-away, keen-eye, frisk",generation-ii,False,False,brown,quadruped,90
+163,hoothoot,7,212,52.0,normal,flying,60,30,30,36,56,50,"insomnia, keen-eye, tinted-lens",generation-ii,False,False,brown,wings,255
+164,noctowl,16,408,158.0,normal,flying,100,50,50,86,96,70,"insomnia, keen-eye, tinted-lens",generation-ii,False,False,brown,wings,90
+165,ledyba,10,108,53.0,bug,flying,40,20,30,40,80,55,"swarm, early-bird, rattled",generation-ii,False,False,red,wings,255
+166,ledian,14,356,137.0,bug,flying,55,35,50,55,110,85,"swarm, early-bird, iron-fist",generation-ii,False,False,red,wings,90
+167,spinarak,5,85,50.0,bug,poison,40,60,40,40,40,30,"swarm, insomnia, sniper",generation-ii,False,False,green,armor,255
+168,ariados,11,335,140.0,bug,poison,70,90,70,60,70,40,"swarm, insomnia, sniper",generation-ii,False,False,red,armor,90
+169,crobat,18,750,241.0,poison,flying,85,90,80,70,80,130,"inner-focus, infiltrator",generation-ii,False,False,purple,bug-wings,90
+170,chinchou,5,120,66.0,water,electric,75,38,38,56,56,67,"volt-absorb, illuminate, water-absorb",generation-ii,False,False,blue,fish,190
+171,lanturn,12,225,161.0,water,electric,125,58,58,76,76,67,"volt-absorb, illuminate, water-absorb",generation-ii,False,False,blue,fish,75
+172,pichu,3,20,41.0,electric,,20,40,15,35,35,60,"static, lightning-rod",generation-ii,False,False,yellow,quadruped,190
+173,cleffa,3,30,44.0,fairy,,50,25,28,45,55,15,"cute-charm, magic-guard, friend-guard",generation-ii,False,False,pink,upright,150
+174,igglybuff,3,10,42.0,normal,fairy,90,30,15,40,20,15,"cute-charm, competitive, friend-guard",generation-ii,False,False,pink,humanoid,170
+175,togepi,3,15,49.0,fairy,,35,20,65,40,65,20,"hustle, serene-grace, super-luck",generation-ii,False,False,white,humanoid,190
+176,togetic,6,32,142.0,fairy,flying,55,40,85,80,105,40,"hustle, serene-grace, super-luck",generation-ii,False,False,white,humanoid,75
+177,natu,2,20,64.0,psychic,flying,40,50,45,70,45,70,"synchronize, early-bird, magic-bounce",generation-ii,False,False,green,wings,190
+178,xatu,15,150,165.0,psychic,flying,65,75,70,95,70,95,"synchronize, early-bird, magic-bounce",generation-ii,False,False,green,wings,75
+179,mareep,6,78,56.0,electric,,55,40,40,65,45,35,"static, plus",generation-ii,False,False,white,quadruped,235
+180,flaaffy,8,133,128.0,electric,,70,55,55,80,60,45,"static, plus",generation-ii,False,False,pink,upright,120
+181,ampharos,14,615,230.0,electric,,90,75,85,115,90,55,"static, plus",generation-ii,False,False,yellow,upright,45
+182,bellossom,4,58,221.0,grass,,75,80,95,90,100,50,"chlorophyll, healer",generation-ii,False,False,green,humanoid,45
+183,marill,4,85,88.0,water,fairy,70,20,50,20,50,40,"thick-fat, huge-power, sap-sipper",generation-ii,False,False,blue,upright,190
+184,azumarill,8,285,189.0,water,fairy,100,50,80,60,80,50,"thick-fat, huge-power, sap-sipper",generation-ii,False,False,blue,upright,75
+185,sudowoodo,12,380,144.0,rock,,70,100,115,30,65,30,"sturdy, rock-head, rattled",generation-ii,False,False,brown,humanoid,65
+186,politoed,11,339,225.0,water,,90,75,75,90,100,70,"water-absorb, damp, drizzle",generation-ii,False,False,green,humanoid,45
+187,hoppip,4,5,50.0,grass,flying,35,35,40,35,55,50,"chlorophyll, leaf-guard, infiltrator",generation-ii,False,False,pink,upright,255
+188,skiploom,6,10,119.0,grass,flying,55,45,50,45,65,80,"chlorophyll, leaf-guard, infiltrator",generation-ii,False,False,green,upright,120
+189,jumpluff,8,30,207.0,grass,flying,75,55,70,55,95,110,"chlorophyll, leaf-guard, infiltrator",generation-ii,False,False,blue,upright,45
+190,aipom,8,115,72.0,normal,,55,70,55,40,55,85,"run-away, pickup, skill-link",generation-ii,False,False,purple,upright,45
+191,sunkern,3,18,36.0,grass,,30,30,30,30,30,30,"chlorophyll, solar-power, early-bird",generation-ii,False,False,yellow,ball,235
+192,sunflora,8,85,149.0,grass,,75,75,55,105,85,30,"chlorophyll, solar-power, early-bird",generation-ii,False,False,yellow,humanoid,120
+193,yanma,12,380,78.0,bug,flying,65,65,45,75,45,95,"speed-boost, compound-eyes, frisk",generation-ii,False,False,red,bug-wings,75
+194,wooper,4,85,42.0,water,ground,55,45,45,25,25,15,"damp, water-absorb, unaware",generation-ii,False,False,blue,legs,255
+195,quagsire,14,750,151.0,water,ground,95,85,85,65,65,35,"damp, water-absorb, unaware",generation-ii,False,False,blue,upright,90
+196,espeon,9,265,184.0,psychic,,65,65,60,130,95,110,"synchronize, magic-bounce",generation-ii,False,False,purple,quadruped,45
+197,umbreon,10,270,184.0,dark,,95,65,110,60,130,65,"synchronize, inner-focus",generation-ii,False,False,black,quadruped,45
+198,murkrow,5,21,81.0,dark,flying,60,85,42,85,42,91,"insomnia, super-luck, prankster",generation-ii,False,False,black,wings,30
+199,slowking,20,795,172.0,water,psychic,95,75,80,100,110,30,"oblivious, own-tempo, regenerator",generation-ii,False,False,pink,upright,70
+200,misdreavus,7,10,87.0,ghost,,60,60,60,85,85,85,levitate,generation-ii,False,False,gray,ball,45
+201,unown,5,50,118.0,psychic,,48,72,48,72,48,48,levitate,generation-ii,False,False,black,ball,225
+202,wobbuffet,13,285,142.0,psychic,,190,33,58,33,58,33,"shadow-tag, telepathy",generation-ii,False,False,blue,blob,45
+203,girafarig,15,415,159.0,normal,psychic,70,80,65,90,65,85,"inner-focus, early-bird, sap-sipper",generation-ii,False,False,yellow,quadruped,60
+204,pineco,6,72,58.0,bug,,50,65,90,35,35,15,"sturdy, overcoat",generation-ii,False,False,gray,ball,190
+205,forretress,12,1258,163.0,bug,steel,75,90,140,60,60,40,"sturdy, overcoat",generation-ii,False,False,purple,ball,75
+206,dunsparce,15,140,145.0,normal,,100,70,70,65,65,45,"serene-grace, run-away, rattled",generation-ii,False,False,yellow,squiggle,190
+207,gligar,11,648,86.0,ground,flying,65,75,105,35,65,85,"hyper-cutter, sand-veil, immunity",generation-ii,False,False,purple,wings,60
+208,steelix,92,4000,179.0,steel,ground,75,85,200,55,65,30,"rock-head, sturdy, sheer-force",generation-ii,False,False,gray,squiggle,25
+209,snubbull,6,78,60.0,fairy,,60,80,50,40,40,30,"intimidate, run-away, rattled",generation-ii,False,False,pink,humanoid,190
+210,granbull,14,487,158.0,fairy,,90,120,75,60,60,45,"intimidate, quick-feet, rattled",generation-ii,False,False,purple,upright,75
+211,qwilfish,5,39,88.0,water,poison,65,95,85,55,55,85,"poison-point, swift-swim, intimidate",generation-ii,False,False,gray,fish,45
+212,scizor,18,1180,175.0,bug,steel,70,130,100,55,80,65,"swarm, technician, light-metal",generation-ii,False,False,red,bug-wings,25
+213,shuckle,6,205,177.0,bug,rock,20,10,230,10,230,5,"sturdy, gluttony, contrary",generation-ii,False,False,yellow,armor,190
+214,heracross,15,540,175.0,bug,fighting,80,125,75,40,95,85,"swarm, guts, moxie",generation-ii,False,False,blue,humanoid,45
+215,sneasel,9,280,86.0,dark,ice,55,95,55,35,75,115,"inner-focus, keen-eye, pickpocket",generation-ii,False,False,black,upright,60
+216,teddiursa,6,88,66.0,normal,,60,80,50,50,50,40,"pickup, quick-feet, honey-gather",generation-ii,False,False,brown,upright,120
+217,ursaring,18,1258,175.0,normal,,90,130,75,75,75,55,"guts, quick-feet, unnerve",generation-ii,False,False,brown,upright,60
+218,slugma,7,350,50.0,fire,,40,40,40,70,40,20,"magma-armor, flame-body, weak-armor",generation-ii,False,False,red,squiggle,190
+219,magcargo,8,550,151.0,fire,rock,60,50,120,90,80,30,"magma-armor, flame-body, weak-armor",generation-ii,False,False,red,squiggle,75
+220,swinub,4,65,50.0,ice,ground,50,50,40,30,30,50,"oblivious, snow-cloak, thick-fat",generation-ii,False,False,brown,quadruped,225
+221,piloswine,11,558,158.0,ice,ground,100,100,80,60,60,50,"oblivious, snow-cloak, thick-fat",generation-ii,False,False,brown,quadruped,75
+222,corsola,6,50,144.0,water,rock,65,55,95,65,95,35,"hustle, natural-cure, regenerator",generation-ii,False,False,pink,armor,60
+223,remoraid,6,120,60.0,water,,35,65,35,65,35,65,"hustle, sniper, moody",generation-ii,False,False,gray,fish,190
+224,octillery,9,285,168.0,water,,75,105,75,105,75,45,"suction-cups, sniper, moody",generation-ii,False,False,red,tentacles,75
+225,delibird,9,160,116.0,ice,flying,45,55,45,65,45,75,"vital-spirit, hustle, insomnia",generation-ii,False,False,red,wings,45
+226,mantine,21,2200,170.0,water,flying,85,40,70,80,140,70,"swift-swim, water-absorb, water-veil",generation-ii,False,False,purple,wings,25
+227,skarmory,17,505,163.0,steel,flying,65,80,140,40,70,70,"keen-eye, sturdy, weak-armor",generation-ii,False,False,gray,wings,25
+228,houndour,6,108,66.0,dark,fire,45,60,30,80,50,65,"early-bird, flash-fire, unnerve",generation-ii,False,False,black,quadruped,120
+229,houndoom,14,350,175.0,dark,fire,75,90,50,110,80,95,"early-bird, flash-fire, unnerve",generation-ii,False,False,black,quadruped,45
+230,kingdra,18,1520,243.0,water,dragon,75,95,95,95,95,85,"swift-swim, sniper, damp",generation-ii,False,False,blue,blob,45
+231,phanpy,5,335,66.0,ground,,90,60,60,40,40,40,"pickup, sand-veil",generation-ii,False,False,blue,quadruped,120
+232,donphan,11,1200,175.0,ground,,90,120,120,60,60,50,"sturdy, sand-veil",generation-ii,False,False,gray,quadruped,60
+233,porygon2,6,325,180.0,normal,,85,80,90,105,95,60,"trace, download, analytic",generation-ii,False,False,red,legs,45
+234,stantler,14,712,163.0,normal,,73,95,62,85,65,85,"intimidate, frisk, sap-sipper",generation-ii,False,False,brown,quadruped,45
+235,smeargle,12,580,88.0,normal,,55,20,35,20,45,75,"own-tempo, technician, moody",generation-ii,False,False,white,upright,45
+236,tyrogue,7,210,42.0,fighting,,35,35,35,35,35,35,"guts, steadfast, vital-spirit",generation-ii,False,False,purple,humanoid,75
+237,hitmontop,14,480,159.0,fighting,,50,95,95,35,110,70,"intimidate, technician, steadfast",generation-ii,False,False,brown,upright,45
+238,smoochum,4,60,61.0,ice,psychic,45,30,15,85,65,65,"oblivious, forewarn, hydration",generation-ii,False,False,pink,humanoid,45
+239,elekid,6,235,72.0,electric,,45,63,37,65,55,95,"static, vital-spirit",generation-ii,False,False,yellow,humanoid,45
+240,magby,7,214,73.0,fire,,45,75,37,70,55,83,"flame-body, vital-spirit",generation-ii,False,False,red,upright,45
+241,miltank,12,755,172.0,normal,,95,80,105,40,70,100,"thick-fat, scrappy, sap-sipper",generation-ii,False,False,pink,upright,45
+242,blissey,15,468,608.0,normal,,255,10,10,75,135,55,"natural-cure, serene-grace, healer",generation-ii,False,False,pink,humanoid,30
+243,raikou,19,1780,261.0,electric,,90,85,75,115,100,115,"pressure, inner-focus",generation-ii,True,False,yellow,quadruped,3
+244,entei,21,1980,261.0,fire,,115,115,85,90,75,100,"pressure, inner-focus",generation-ii,True,False,brown,quadruped,3
+245,suicune,20,1870,261.0,water,,100,75,115,90,115,85,"pressure, inner-focus",generation-ii,True,False,blue,quadruped,3
+246,larvitar,6,720,60.0,rock,ground,50,64,50,45,50,41,"guts, sand-veil",generation-ii,False,False,green,upright,45
+247,pupitar,12,1520,144.0,rock,ground,70,84,70,65,70,51,shed-skin,generation-ii,False,False,gray,squiggle,45
+248,tyranitar,20,2020,270.0,rock,dark,100,134,110,95,100,61,"sand-stream, unnerve",generation-ii,False,False,green,upright,45
+249,lugia,52,2160,306.0,psychic,flying,106,90,130,90,154,110,"pressure, multiscale",generation-ii,True,False,white,wings,3
+250,ho-oh,38,1990,306.0,fire,flying,106,130,90,110,154,90,"pressure, regenerator",generation-ii,True,False,red,wings,3
+251,celebi,6,50,270.0,psychic,grass,100,100,100,100,100,100,natural-cure,generation-ii,False,True,green,humanoid,45
+252,treecko,5,50,62.0,grass,,40,45,35,65,55,70,"overgrow, unburden",generation-iii,False,False,green,upright,45
+253,grovyle,9,216,142.0,grass,,50,65,45,85,65,95,"overgrow, unburden",generation-iii,False,False,green,upright,45
+254,sceptile,17,522,239.0,grass,,70,85,65,105,85,120,"overgrow, unburden",generation-iii,False,False,green,upright,45
+255,torchic,4,25,62.0,fire,,45,60,40,70,50,45,"blaze, speed-boost",generation-iii,False,False,red,legs,45
+256,combusken,9,195,142.0,fire,fighting,60,85,60,85,60,55,"blaze, speed-boost",generation-iii,False,False,red,upright,45
+257,blaziken,19,520,239.0,fire,fighting,80,120,70,110,70,80,"blaze, speed-boost",generation-iii,False,False,red,upright,45
+258,mudkip,4,76,62.0,water,,50,70,50,50,50,40,"torrent, damp",generation-iii,False,False,blue,quadruped,45
+259,marshtomp,7,280,142.0,water,ground,70,85,70,60,70,50,"torrent, damp",generation-iii,False,False,blue,upright,45
+260,swampert,15,819,241.0,water,ground,100,110,90,85,90,60,"torrent, damp",generation-iii,False,False,blue,upright,45
+261,poochyena,5,136,56.0,dark,,35,55,35,30,30,35,"run-away, quick-feet, rattled",generation-iii,False,False,gray,quadruped,255
+262,mightyena,10,370,147.0,dark,,70,90,70,60,60,70,"intimidate, quick-feet, moxie",generation-iii,False,False,gray,quadruped,127
+263,zigzagoon,4,175,56.0,normal,,38,30,41,30,41,60,"pickup, gluttony, quick-feet",generation-iii,False,False,brown,quadruped,255
+264,linoone,5,325,147.0,normal,,78,70,61,50,61,100,"pickup, gluttony, quick-feet",generation-iii,False,False,white,quadruped,90
+265,wurmple,3,36,56.0,bug,,45,45,35,20,30,20,"shield-dust, run-away",generation-iii,False,False,red,armor,255
+266,silcoon,6,100,72.0,bug,,50,35,55,25,25,15,shed-skin,generation-iii,False,False,white,ball,120
+267,beautifly,10,284,178.0,bug,flying,60,70,50,100,50,65,"swarm, rivalry",generation-iii,False,False,yellow,bug-wings,45
+268,cascoon,7,115,72.0,bug,,50,35,55,25,25,15,shed-skin,generation-iii,False,False,purple,ball,120
+269,dustox,12,316,173.0,bug,poison,60,50,70,50,90,65,"shield-dust, compound-eyes",generation-iii,False,False,green,bug-wings,45
+270,lotad,5,26,44.0,water,grass,40,30,30,40,50,30,"swift-swim, rain-dish, own-tempo",generation-iii,False,False,green,armor,255
+271,lombre,12,325,119.0,water,grass,60,50,50,60,70,50,"swift-swim, rain-dish, own-tempo",generation-iii,False,False,green,humanoid,120
+272,ludicolo,15,550,216.0,water,grass,80,70,70,90,100,70,"swift-swim, rain-dish, own-tempo",generation-iii,False,False,green,humanoid,45
+273,seedot,5,40,44.0,grass,,40,40,50,30,30,30,"chlorophyll, early-bird, pickpocket",generation-iii,False,False,brown,legs,255
+274,nuzleaf,10,280,119.0,grass,dark,70,70,40,60,40,60,"chlorophyll, early-bird, pickpocket",generation-iii,False,False,brown,humanoid,120
+275,shiftry,13,596,216.0,grass,dark,90,100,60,90,60,80,"chlorophyll, wind-rider, pickpocket",generation-iii,False,False,brown,humanoid,45
+276,taillow,3,23,54.0,normal,flying,40,55,30,30,30,85,"guts, scrappy",generation-iii,False,False,blue,wings,200
+277,swellow,7,198,159.0,normal,flying,60,85,60,75,50,125,"guts, scrappy",generation-iii,False,False,blue,wings,45
+278,wingull,6,95,54.0,water,flying,40,30,30,55,30,85,"keen-eye, hydration, rain-dish",generation-iii,False,False,white,wings,190
+279,pelipper,12,280,154.0,water,flying,60,50,100,95,70,65,"keen-eye, drizzle, rain-dish",generation-iii,False,False,yellow,wings,45
+280,ralts,4,66,40.0,psychic,fairy,28,25,25,45,35,40,"synchronize, trace, telepathy",generation-iii,False,False,white,humanoid,235
+281,kirlia,8,202,97.0,psychic,fairy,38,35,35,65,55,50,"synchronize, trace, telepathy",generation-iii,False,False,white,humanoid,120
+282,gardevoir,16,484,233.0,psychic,fairy,68,65,65,125,115,80,"synchronize, trace, telepathy",generation-iii,False,False,white,humanoid,45
+283,surskit,5,17,54.0,bug,water,40,30,32,50,52,65,"swift-swim, rain-dish",generation-iii,False,False,blue,armor,200
+284,masquerain,8,36,159.0,bug,flying,70,60,62,100,82,80,"intimidate, unnerve",generation-iii,False,False,blue,bug-wings,75
+285,shroomish,4,45,59.0,grass,,60,40,60,40,60,35,"effect-spore, poison-heal, quick-feet",generation-iii,False,False,brown,legs,255
+286,breloom,12,392,161.0,grass,fighting,60,130,80,60,60,70,"effect-spore, poison-heal, technician",generation-iii,False,False,green,upright,90
+287,slakoth,8,240,56.0,normal,,60,60,60,35,35,30,truant,generation-iii,False,False,brown,quadruped,255
+288,vigoroth,14,465,154.0,normal,,80,80,80,55,55,90,vital-spirit,generation-iii,False,False,white,upright,120
+289,slaking,20,1305,252.0,normal,,150,160,100,95,65,100,truant,generation-iii,False,False,brown,humanoid,45
+290,nincada,5,55,53.0,bug,ground,31,45,90,30,30,40,"compound-eyes, run-away",generation-iii,False,False,gray,armor,255
+291,ninjask,8,120,160.0,bug,flying,61,90,45,50,50,160,"speed-boost, infiltrator",generation-iii,False,False,yellow,bug-wings,120
+292,shedinja,8,12,83.0,bug,ghost,1,90,45,30,30,40,wonder-guard,generation-iii,False,False,brown,blob,45
+293,whismur,6,163,48.0,normal,,64,51,23,51,23,28,"soundproof, rattled",generation-iii,False,False,pink,upright,190
+294,loudred,10,405,126.0,normal,,84,71,43,71,43,48,"soundproof, scrappy",generation-iii,False,False,blue,upright,120
+295,exploud,15,840,221.0,normal,,104,91,63,91,73,68,"soundproof, scrappy",generation-iii,False,False,blue,upright,45
+296,makuhita,10,864,47.0,fighting,,72,60,30,20,30,25,"thick-fat, guts, sheer-force",generation-iii,False,False,yellow,humanoid,180
+297,hariyama,23,2538,166.0,fighting,,144,120,60,40,60,50,"thick-fat, guts, sheer-force",generation-iii,False,False,brown,humanoid,200
+298,azurill,2,20,38.0,normal,fairy,50,20,40,20,40,20,"thick-fat, huge-power, sap-sipper",generation-iii,False,False,blue,legs,150
+299,nosepass,10,970,75.0,rock,,30,45,135,45,90,30,"sturdy, magnet-pull, sand-force",generation-iii,False,False,gray,humanoid,255
+300,skitty,6,110,52.0,normal,,50,45,45,35,35,50,"cute-charm, normalize, wonder-skin",generation-iii,False,False,pink,quadruped,255
+301,delcatty,11,326,140.0,normal,,70,65,65,55,55,90,"cute-charm, normalize, wonder-skin",generation-iii,False,False,purple,quadruped,60
+302,sableye,5,110,133.0,dark,ghost,50,75,75,65,65,50,"keen-eye, stall, prankster",generation-iii,False,False,purple,humanoid,45
+303,mawile,6,115,133.0,steel,fairy,50,85,85,55,55,50,"hyper-cutter, intimidate, sheer-force",generation-iii,False,False,black,humanoid,45
+304,aron,4,600,66.0,steel,rock,50,70,100,40,40,30,"sturdy, rock-head, heavy-metal",generation-iii,False,False,gray,quadruped,180
+305,lairon,9,1200,151.0,steel,rock,60,90,140,50,50,40,"sturdy, rock-head, heavy-metal",generation-iii,False,False,gray,quadruped,90
+306,aggron,21,3600,239.0,steel,rock,70,110,180,60,60,50,"sturdy, rock-head, heavy-metal",generation-iii,False,False,gray,upright,45
+307,meditite,6,112,56.0,fighting,psychic,30,40,55,40,55,60,"pure-power, telepathy",generation-iii,False,False,blue,humanoid,180
+308,medicham,13,315,144.0,fighting,psychic,60,60,75,60,75,80,"pure-power, telepathy",generation-iii,False,False,red,humanoid,90
+309,electrike,6,152,59.0,electric,,40,45,40,65,40,65,"static, lightning-rod, minus",generation-iii,False,False,green,quadruped,120
+310,manectric,15,402,166.0,electric,,70,75,60,105,60,105,"static, lightning-rod, minus",generation-iii,False,False,yellow,quadruped,45
+311,plusle,4,42,142.0,electric,,60,50,40,85,75,95,"plus, lightning-rod",generation-iii,False,False,yellow,upright,200
+312,minun,4,42,142.0,electric,,60,40,50,75,85,95,"minus, volt-absorb",generation-iii,False,False,yellow,upright,200
+313,volbeat,7,177,151.0,bug,,65,73,75,47,85,85,"illuminate, swarm, prankster",generation-iii,False,False,gray,upright,150
+314,illumise,6,177,151.0,bug,,65,47,75,73,85,85,"oblivious, tinted-lens, prankster",generation-iii,False,False,purple,humanoid,150
+315,roselia,3,20,140.0,grass,poison,50,60,45,100,80,65,"natural-cure, poison-point, leaf-guard",generation-iii,False,False,green,humanoid,150
+316,gulpin,4,103,60.0,poison,,70,43,53,43,53,40,"liquid-ooze, sticky-hold, gluttony",generation-iii,False,False,green,arms,225
+317,swalot,17,800,163.0,poison,,100,73,83,73,83,55,"liquid-ooze, sticky-hold, gluttony",generation-iii,False,False,purple,arms,75
+318,carvanha,8,208,61.0,water,dark,45,90,20,65,20,65,"rough-skin, speed-boost",generation-iii,False,False,red,fish,225
+319,sharpedo,18,888,161.0,water,dark,70,120,40,95,40,95,"rough-skin, speed-boost",generation-iii,False,False,blue,fish,60
+320,wailmer,20,1300,80.0,water,,130,70,35,70,35,60,"water-veil, oblivious, pressure",generation-iii,False,False,blue,fish,125
+321,wailord,145,3980,175.0,water,,170,90,45,90,45,60,"water-veil, oblivious, pressure",generation-iii,False,False,blue,fish,60
+322,numel,7,240,61.0,fire,ground,60,60,40,65,45,35,"oblivious, simple, own-tempo",generation-iii,False,False,yellow,quadruped,255
+323,camerupt,19,2200,161.0,fire,ground,70,100,70,105,75,40,"magma-armor, solid-rock, anger-point",generation-iii,False,False,red,quadruped,150
+324,torkoal,5,804,165.0,fire,,70,85,140,85,70,20,"white-smoke, drought, shell-armor",generation-iii,False,False,brown,quadruped,90
+325,spoink,7,306,66.0,psychic,,60,25,35,70,80,60,"thick-fat, own-tempo, gluttony",generation-iii,False,False,black,arms,255
+326,grumpig,9,715,165.0,psychic,,80,45,65,90,110,80,"thick-fat, own-tempo, gluttony",generation-iii,False,False,purple,upright,60
+327,spinda,11,50,126.0,normal,,60,60,60,60,60,60,"own-tempo, tangled-feet, contrary",generation-iii,False,False,brown,upright,255
+328,trapinch,7,150,58.0,ground,,45,100,45,45,45,10,"hyper-cutter, arena-trap, sheer-force",generation-iii,False,False,brown,armor,255
+329,vibrava,11,153,119.0,ground,dragon,50,70,50,50,50,70,levitate,generation-iii,False,False,green,bug-wings,120
+330,flygon,20,820,234.0,ground,dragon,80,100,80,80,80,100,levitate,generation-iii,False,False,green,wings,45
+331,cacnea,4,513,67.0,grass,,50,85,40,85,40,35,"sand-veil, water-absorb",generation-iii,False,False,green,humanoid,190
+332,cacturne,13,774,166.0,grass,dark,70,115,60,115,60,55,"sand-veil, water-absorb",generation-iii,False,False,green,humanoid,60
+333,swablu,4,12,62.0,normal,flying,45,40,60,40,75,50,"natural-cure, cloud-nine",generation-iii,False,False,blue,wings,255
+334,altaria,11,206,172.0,dragon,flying,75,70,90,70,105,80,"natural-cure, cloud-nine",generation-iii,False,False,blue,wings,45
+335,zangoose,13,403,160.0,normal,,73,115,60,60,60,90,"immunity, toxic-boost",generation-iii,False,False,white,upright,90
+336,seviper,27,525,160.0,poison,,73,100,60,100,60,65,"shed-skin, infiltrator",generation-iii,False,False,black,squiggle,90
+337,lunatone,10,1680,161.0,rock,psychic,90,55,65,95,85,70,levitate,generation-iii,False,False,yellow,ball,45
+338,solrock,12,1540,161.0,rock,psychic,90,95,85,55,65,70,levitate,generation-iii,False,False,red,ball,45
+339,barboach,4,19,58.0,water,ground,50,48,43,46,41,60,"oblivious, anticipation, hydration",generation-iii,False,False,gray,fish,190
+340,whiscash,9,236,164.0,water,ground,110,78,73,76,71,60,"oblivious, anticipation, hydration",generation-iii,False,False,blue,fish,75
+341,corphish,6,115,62.0,water,,43,80,65,50,35,35,"hyper-cutter, shell-armor, adaptability",generation-iii,False,False,red,armor,205
+342,crawdaunt,11,328,164.0,water,dark,63,120,85,90,55,55,"hyper-cutter, shell-armor, adaptability",generation-iii,False,False,red,armor,155
+343,baltoy,5,215,60.0,ground,psychic,40,40,55,40,70,55,levitate,generation-iii,False,False,brown,arms,255
+344,claydol,15,1080,175.0,ground,psychic,60,70,105,70,120,75,levitate,generation-iii,False,False,black,arms,90
+345,lileep,10,238,71.0,rock,grass,66,41,77,61,87,23,"suction-cups, storm-drain",generation-iii,False,False,purple,blob,45
+346,cradily,15,604,173.0,rock,grass,86,81,97,81,107,43,"suction-cups, storm-drain",generation-iii,False,False,green,blob,45
+347,anorith,7,125,71.0,rock,bug,45,95,50,40,50,75,"battle-armor, swift-swim",generation-iii,False,False,gray,armor,45
+348,armaldo,15,682,173.0,rock,bug,75,125,100,70,80,45,"battle-armor, swift-swim",generation-iii,False,False,gray,upright,45
+349,feebas,6,74,40.0,water,,20,15,20,10,55,80,"swift-swim, oblivious, adaptability",generation-iii,False,False,brown,fish,255
+350,milotic,62,1620,189.0,water,,95,60,79,100,125,81,"marvel-scale, competitive, cute-charm",generation-iii,False,False,pink,squiggle,60
+351,castform,3,8,147.0,normal,,70,70,70,70,70,70,forecast,generation-iii,False,False,gray,ball,45
+352,kecleon,10,220,154.0,normal,,60,90,70,60,120,40,"color-change, protean",generation-iii,False,False,green,upright,200
+353,shuppet,6,23,59.0,ghost,,44,75,35,63,33,45,"insomnia, frisk, cursed-body",generation-iii,False,False,black,ball,225
+354,banette,11,125,159.0,ghost,,64,115,65,83,63,65,"insomnia, frisk, cursed-body",generation-iii,False,False,black,upright,45
+355,duskull,8,150,59.0,ghost,,20,40,90,30,90,25,"levitate, frisk",generation-iii,False,False,black,arms,190
+356,dusclops,16,306,159.0,ghost,,40,70,130,60,130,25,"pressure, frisk",generation-iii,False,False,black,humanoid,90
+357,tropius,20,1000,161.0,grass,flying,99,68,83,72,87,51,"chlorophyll, solar-power, harvest",generation-iii,False,False,green,quadruped,200
+358,chimecho,6,10,159.0,psychic,,75,50,80,95,90,65,levitate,generation-iii,False,False,blue,arms,45
+359,absol,12,470,163.0,dark,,65,130,60,75,60,75,"pressure, super-luck, justified",generation-iii,False,False,white,quadruped,30
+360,wynaut,6,140,52.0,psychic,,95,23,48,23,48,23,"shadow-tag, telepathy",generation-iii,False,False,blue,upright,125
+361,snorunt,7,168,60.0,ice,,50,50,50,50,50,50,"inner-focus, ice-body, moody",generation-iii,False,False,gray,humanoid,190
+362,glalie,15,2565,168.0,ice,,80,80,80,80,80,80,"inner-focus, ice-body, moody",generation-iii,False,False,gray,ball,75
+363,spheal,8,395,58.0,ice,water,70,40,50,55,50,25,"thick-fat, ice-body, oblivious",generation-iii,False,False,blue,fish,255
+364,sealeo,11,876,144.0,ice,water,90,60,70,75,70,45,"thick-fat, ice-body, oblivious",generation-iii,False,False,blue,fish,120
+365,walrein,14,1506,239.0,ice,water,110,80,90,95,90,65,"thick-fat, ice-body, oblivious",generation-iii,False,False,blue,quadruped,45
+366,clamperl,4,525,69.0,water,,35,64,85,74,55,32,"shell-armor, rattled",generation-iii,False,False,blue,ball,255
+367,huntail,17,270,170.0,water,,55,104,105,94,75,52,"swift-swim, water-veil",generation-iii,False,False,blue,squiggle,60
+368,gorebyss,18,226,170.0,water,,55,84,105,114,75,52,"swift-swim, hydration",generation-iii,False,False,pink,squiggle,60
+369,relicanth,10,234,170.0,water,rock,100,90,130,45,65,55,"swift-swim, rock-head, sturdy",generation-iii,False,False,gray,fish,25
+370,luvdisc,6,87,116.0,water,,43,30,55,40,65,97,"swift-swim, hydration",generation-iii,False,False,pink,fish,225
+371,bagon,6,421,60.0,dragon,,45,75,60,40,30,50,"rock-head, sheer-force",generation-iii,False,False,blue,humanoid,45
+372,shelgon,11,1105,147.0,dragon,,65,95,100,60,50,50,"rock-head, overcoat",generation-iii,False,False,white,quadruped,45
+373,salamence,15,1026,270.0,dragon,flying,95,135,80,110,80,100,"intimidate, moxie",generation-iii,False,False,blue,quadruped,45
+374,beldum,6,952,60.0,steel,psychic,40,55,80,35,60,30,"clear-body, light-metal",generation-iii,False,False,blue,blob,3
+375,metang,12,2025,147.0,steel,psychic,60,75,100,55,80,50,"clear-body, light-metal",generation-iii,False,False,blue,arms,3
+376,metagross,16,5500,270.0,steel,psychic,80,135,130,95,90,70,"clear-body, light-metal",generation-iii,False,False,blue,heads,3
+377,regirock,17,2300,261.0,rock,,80,100,200,50,100,50,"clear-body, sturdy",generation-iii,True,False,brown,humanoid,3
+378,regice,18,1750,261.0,ice,,80,50,100,100,200,50,"clear-body, ice-body",generation-iii,True,False,blue,humanoid,3
+379,registeel,19,2050,261.0,steel,,80,75,150,75,150,50,"clear-body, light-metal",generation-iii,True,False,gray,humanoid,3
+380,latias,14,400,270.0,dragon,psychic,80,80,90,110,130,110,levitate,generation-iii,True,False,red,wings,3
+381,latios,20,600,270.0,dragon,psychic,80,90,80,130,110,110,levitate,generation-iii,True,False,blue,wings,3
+382,kyogre,45,3520,302.0,water,,100,100,90,150,140,90,drizzle,generation-iii,True,False,blue,fish,3
+383,groudon,35,9500,302.0,ground,,100,150,140,100,90,90,drought,generation-iii,True,False,red,upright,3
+384,rayquaza,70,2065,306.0,dragon,flying,105,150,90,150,90,95,air-lock,generation-iii,True,False,green,squiggle,45
+385,jirachi,3,11,270.0,steel,psychic,100,100,100,100,100,100,serene-grace,generation-iii,False,True,yellow,humanoid,3
+386,deoxys-normal,17,608,270.0,psychic,,50,150,50,150,50,150,pressure,generation-iii,False,True,red,humanoid,3
+387,turtwig,4,102,64.0,grass,,55,68,64,45,55,31,"overgrow, shell-armor",generation-iv,False,False,green,quadruped,45
+388,grotle,11,970,142.0,grass,,75,89,85,55,65,36,"overgrow, shell-armor",generation-iv,False,False,green,quadruped,45
+389,torterra,22,3100,236.0,grass,ground,95,109,105,75,85,56,"overgrow, shell-armor",generation-iv,False,False,green,quadruped,45
+390,chimchar,5,62,62.0,fire,,44,58,44,58,44,61,"blaze, iron-fist",generation-iv,False,False,brown,upright,45
+391,monferno,9,220,142.0,fire,fighting,64,78,52,78,52,81,"blaze, iron-fist",generation-iv,False,False,brown,upright,45
+392,infernape,12,550,240.0,fire,fighting,76,104,71,104,71,108,"blaze, iron-fist",generation-iv,False,False,brown,upright,45
+393,piplup,4,52,63.0,water,,53,51,53,61,56,40,"torrent, competitive",generation-iv,False,False,blue,humanoid,45
+394,prinplup,8,230,142.0,water,,64,66,68,81,76,50,"torrent, competitive",generation-iv,False,False,blue,upright,45
+395,empoleon,17,845,239.0,water,steel,84,86,88,111,101,60,"torrent, competitive",generation-iv,False,False,blue,upright,45
+396,starly,3,20,49.0,normal,flying,40,55,30,30,30,60,"keen-eye, reckless",generation-iv,False,False,brown,wings,255
+397,staravia,6,155,119.0,normal,flying,55,75,50,40,40,80,"intimidate, reckless",generation-iv,False,False,brown,wings,120
+398,staraptor,12,249,218.0,normal,flying,85,120,70,50,60,100,"intimidate, reckless",generation-iv,False,False,brown,wings,45
+399,bidoof,5,200,50.0,normal,,59,45,40,35,40,31,"simple, unaware, moody",generation-iv,False,False,brown,quadruped,255
+400,bibarel,10,315,144.0,normal,water,79,85,60,55,60,71,"simple, unaware, moody",generation-iv,False,False,brown,upright,127
+401,kricketot,3,22,39.0,bug,,37,25,41,25,41,25,"shed-skin, run-away",generation-iv,False,False,red,humanoid,255
+402,kricketune,10,255,134.0,bug,,77,85,51,55,51,65,"swarm, technician",generation-iv,False,False,red,bug-wings,45
+403,shinx,5,95,53.0,electric,,45,65,34,40,34,45,"rivalry, intimidate, guts",generation-iv,False,False,blue,quadruped,235
+404,luxio,9,305,127.0,electric,,60,85,49,60,49,60,"rivalry, intimidate, guts",generation-iv,False,False,blue,quadruped,120
+405,luxray,14,420,235.0,electric,,80,120,79,95,79,70,"rivalry, intimidate, guts",generation-iv,False,False,blue,quadruped,45
+406,budew,2,12,56.0,grass,poison,40,30,35,50,70,55,"natural-cure, poison-point, leaf-guard",generation-iv,False,False,green,humanoid,255
+407,roserade,9,145,232.0,grass,poison,60,70,65,125,105,90,"natural-cure, poison-point, technician",generation-iv,False,False,green,humanoid,75
+408,cranidos,9,315,70.0,rock,,67,125,40,30,30,58,"mold-breaker, sheer-force",generation-iv,False,False,blue,upright,45
+409,rampardos,16,1025,173.0,rock,,97,165,60,65,50,58,"mold-breaker, sheer-force",generation-iv,False,False,blue,upright,45
+410,shieldon,5,570,70.0,rock,steel,30,42,118,42,88,30,"sturdy, soundproof",generation-iv,False,False,gray,quadruped,45
+411,bastiodon,13,1495,173.0,rock,steel,60,52,168,47,138,30,"sturdy, soundproof",generation-iv,False,False,gray,quadruped,45
+412,burmy,2,34,45.0,bug,,40,29,45,29,45,36,"shed-skin, overcoat",generation-iv,False,False,green,blob,120
+413,wormadam-plant,5,65,148.0,bug,grass,60,59,85,79,105,36,"anticipation, overcoat",generation-iv,False,False,green,blob,45
+414,mothim,9,233,148.0,bug,flying,70,94,50,94,50,66,"swarm, tinted-lens",generation-iv,False,False,yellow,bug-wings,45
+415,combee,3,55,49.0,bug,flying,30,30,42,30,42,70,"honey-gather, hustle",generation-iv,False,False,yellow,heads,120
+416,vespiquen,12,385,166.0,bug,flying,70,80,102,80,102,40,"pressure, unnerve",generation-iv,False,False,yellow,bug-wings,45
+417,pachirisu,4,39,142.0,electric,,60,45,70,45,90,95,"run-away, pickup, volt-absorb",generation-iv,False,False,white,quadruped,200
+418,buizel,7,295,66.0,water,,55,65,35,60,30,85,"swift-swim, water-veil",generation-iv,False,False,brown,quadruped,190
+419,floatzel,11,335,173.0,water,,85,105,55,85,50,115,"swift-swim, water-veil",generation-iv,False,False,brown,quadruped,75
+420,cherubi,4,33,55.0,grass,,45,35,45,62,53,35,chlorophyll,generation-iv,False,False,pink,heads,190
+421,cherrim,5,93,158.0,grass,,70,60,70,87,78,85,flower-gift,generation-iv,False,False,purple,legs,75
+422,shellos,3,63,65.0,water,,76,48,48,57,62,34,"sticky-hold, storm-drain, sand-force",generation-iv,False,False,purple,squiggle,190
+423,gastrodon,9,299,166.0,water,ground,111,83,68,92,82,39,"sticky-hold, storm-drain, sand-force",generation-iv,False,False,purple,squiggle,75
+424,ambipom,12,203,169.0,normal,,75,100,66,60,66,115,"technician, pickup, skill-link",generation-iv,False,False,purple,upright,45
+425,drifloon,4,12,70.0,ghost,flying,90,50,34,60,44,70,"aftermath, unburden, flare-boost",generation-iv,False,False,purple,arms,125
+426,drifblim,12,150,174.0,ghost,flying,150,80,44,90,54,80,"aftermath, unburden, flare-boost",generation-iv,False,False,purple,arms,60
+427,buneary,4,55,70.0,normal,,55,66,44,44,56,85,"run-away, klutz, limber",generation-iv,False,False,brown,upright,190
+428,lopunny,12,333,168.0,normal,,65,76,84,54,96,105,"cute-charm, klutz, limber",generation-iv,False,False,brown,upright,60
+429,mismagius,9,44,173.0,ghost,,60,60,60,105,105,105,levitate,generation-iv,False,False,purple,ball,45
+430,honchkrow,9,273,177.0,dark,flying,100,125,52,105,52,71,"insomnia, super-luck, moxie",generation-iv,False,False,black,wings,30
+431,glameow,5,39,62.0,normal,,49,55,42,42,37,85,"limber, own-tempo, keen-eye",generation-iv,False,False,gray,quadruped,190
+432,purugly,10,438,158.0,normal,,71,82,64,64,59,112,"thick-fat, own-tempo, defiant",generation-iv,False,False,gray,quadruped,75
+433,chingling,2,6,57.0,psychic,,45,30,50,65,50,45,levitate,generation-iv,False,False,yellow,humanoid,120
+434,stunky,4,192,66.0,poison,dark,63,63,47,41,41,74,"stench, aftermath, keen-eye",generation-iv,False,False,purple,quadruped,225
+435,skuntank,10,380,168.0,poison,dark,103,93,67,71,61,84,"stench, aftermath, keen-eye",generation-iv,False,False,purple,quadruped,60
+436,bronzor,5,605,60.0,steel,psychic,57,24,86,24,86,23,"levitate, heatproof, heavy-metal",generation-iv,False,False,green,ball,255
+437,bronzong,13,1870,175.0,steel,psychic,67,89,116,79,116,33,"levitate, heatproof, heavy-metal",generation-iv,False,False,green,arms,90
+438,bonsly,5,150,58.0,rock,,50,80,95,10,45,10,"sturdy, rock-head, rattled",generation-iv,False,False,brown,legs,255
+439,mime-jr,6,130,62.0,psychic,fairy,20,25,45,70,90,60,"soundproof, filter, technician",generation-iv,False,False,pink,humanoid,145
+440,happiny,6,244,110.0,normal,,100,5,5,15,65,30,"natural-cure, serene-grace, friend-guard",generation-iv,False,False,pink,humanoid,130
+441,chatot,5,19,144.0,normal,flying,76,65,45,92,42,91,"keen-eye, tangled-feet, big-pecks",generation-iv,False,False,black,wings,30
+442,spiritomb,10,1080,170.0,ghost,dark,50,92,108,92,108,35,"pressure, infiltrator",generation-iv,False,False,purple,blob,100
+443,gible,7,205,60.0,dragon,ground,58,70,45,40,45,42,"sand-veil, rough-skin",generation-iv,False,False,blue,upright,45
+444,gabite,14,560,144.0,dragon,ground,68,90,65,50,55,82,"sand-veil, rough-skin",generation-iv,False,False,blue,upright,45
+445,garchomp,19,950,270.0,dragon,ground,108,130,95,80,85,102,"sand-veil, rough-skin",generation-iv,False,False,blue,upright,45
+446,munchlax,6,1050,78.0,normal,,135,85,40,40,85,5,"pickup, thick-fat, gluttony",generation-iv,False,False,black,humanoid,50
+447,riolu,7,202,57.0,fighting,,40,70,40,35,40,60,"steadfast, inner-focus, prankster",generation-iv,False,False,blue,upright,75
+448,lucario,12,540,184.0,fighting,steel,70,110,70,115,70,90,"steadfast, inner-focus, justified",generation-iv,False,False,blue,upright,45
+449,hippopotas,8,495,66.0,ground,,68,72,78,38,42,32,"sand-stream, sand-force",generation-iv,False,False,brown,quadruped,140
+450,hippowdon,20,3000,184.0,ground,,108,112,118,68,72,47,"sand-stream, sand-force",generation-iv,False,False,brown,quadruped,60
+451,skorupi,8,120,66.0,poison,bug,40,50,90,30,55,65,"battle-armor, sniper, keen-eye",generation-iv,False,False,purple,armor,120
+452,drapion,13,615,175.0,poison,dark,70,90,110,60,75,95,"battle-armor, sniper, keen-eye",generation-iv,False,False,purple,armor,45
+453,croagunk,7,230,60.0,poison,fighting,48,61,40,61,40,50,"anticipation, dry-skin, poison-touch",generation-iv,False,False,blue,humanoid,140
+454,toxicroak,13,444,172.0,poison,fighting,83,106,65,86,65,85,"anticipation, dry-skin, poison-touch",generation-iv,False,False,blue,humanoid,75
+455,carnivine,14,270,159.0,grass,,74,100,72,90,72,46,levitate,generation-iv,False,False,green,tentacles,200
+456,finneon,4,70,66.0,water,,49,49,56,49,61,66,"swift-swim, storm-drain, water-veil",generation-iv,False,False,blue,fish,190
+457,lumineon,12,240,161.0,water,,69,69,76,69,86,91,"swift-swim, storm-drain, water-veil",generation-iv,False,False,blue,fish,75
+458,mantyke,10,650,69.0,water,flying,45,20,50,60,120,50,"swift-swim, water-absorb, water-veil",generation-iv,False,False,blue,wings,25
+459,snover,10,505,67.0,grass,ice,60,62,50,62,60,40,"snow-warning, soundproof",generation-iv,False,False,white,upright,120
+460,abomasnow,22,1355,173.0,grass,ice,90,92,75,92,85,60,"snow-warning, soundproof",generation-iv,False,False,white,upright,60
+461,weavile,11,340,179.0,dark,ice,70,120,65,45,85,125,"pressure, pickpocket",generation-iv,False,False,black,upright,45
+462,magnezone,12,1800,241.0,electric,steel,70,70,115,130,90,60,"magnet-pull, sturdy, analytic",generation-iv,False,False,gray,arms,30
+463,lickilicky,17,1400,180.0,normal,,110,85,95,80,95,50,"own-tempo, oblivious, cloud-nine",generation-iv,False,False,pink,humanoid,30
+464,rhyperior,24,2828,241.0,ground,rock,115,140,130,55,55,40,"lightning-rod, solid-rock, reckless",generation-iv,False,False,gray,upright,30
+465,tangrowth,20,1286,187.0,grass,,100,100,125,110,50,50,"chlorophyll, leaf-guard, regenerator",generation-iv,False,False,blue,humanoid,30
+466,electivire,18,1386,243.0,electric,,75,123,67,95,85,95,"motor-drive, vital-spirit",generation-iv,False,False,yellow,upright,30
+467,magmortar,16,680,243.0,fire,,75,95,67,125,95,83,"flame-body, vital-spirit",generation-iv,False,False,red,upright,30
+468,togekiss,15,380,245.0,fairy,flying,85,50,95,120,115,80,"hustle, serene-grace, super-luck",generation-iv,False,False,white,wings,30
+469,yanmega,19,515,180.0,bug,flying,86,76,86,116,56,95,"speed-boost, tinted-lens, frisk",generation-iv,False,False,green,bug-wings,30
+470,leafeon,10,255,184.0,grass,,65,110,130,60,65,95,"leaf-guard, chlorophyll",generation-iv,False,False,green,quadruped,45
+471,glaceon,8,259,184.0,ice,,65,60,110,130,95,65,"snow-cloak, ice-body",generation-iv,False,False,blue,quadruped,45
+472,gliscor,20,425,179.0,ground,flying,75,95,125,45,75,95,"hyper-cutter, sand-veil, poison-heal",generation-iv,False,False,purple,wings,30
+473,mamoswine,25,2910,239.0,ice,ground,110,130,80,70,60,80,"oblivious, snow-cloak, thick-fat",generation-iv,False,False,brown,quadruped,50
+474,porygon-z,9,340,241.0,normal,,85,80,70,135,75,90,"adaptability, download, analytic",generation-iv,False,False,red,arms,30
+475,gallade,16,520,233.0,psychic,fighting,68,125,65,65,115,80,"steadfast, sharpness, justified",generation-iv,False,False,white,humanoid,45
+476,probopass,14,3400,184.0,rock,steel,60,55,145,75,150,40,"sturdy, magnet-pull, sand-force",generation-iv,False,False,gray,heads,60
+477,dusknoir,22,1066,236.0,ghost,,45,100,135,65,135,45,"pressure, frisk",generation-iv,False,False,black,arms,45
+478,froslass,13,266,168.0,ice,ghost,70,80,70,80,70,110,"snow-cloak, cursed-body",generation-iv,False,False,white,arms,75
+479,rotom,3,3,154.0,electric,ghost,50,50,77,95,77,91,levitate,generation-iv,False,False,red,ball,45
+480,uxie,3,3,261.0,psychic,,75,75,130,75,130,95,levitate,generation-iv,True,False,yellow,upright,3
+481,mesprit,3,3,261.0,psychic,,80,105,105,105,105,80,levitate,generation-iv,True,False,pink,upright,3
+482,azelf,3,3,261.0,psychic,,75,125,70,125,70,115,levitate,generation-iv,True,False,blue,upright,3
+483,dialga,54,6830,306.0,steel,dragon,100,120,120,150,100,90,"pressure, telepathy",generation-iv,True,False,white,quadruped,3
+484,palkia,42,3360,306.0,water,dragon,90,120,100,150,120,100,"pressure, telepathy",generation-iv,True,False,purple,upright,3
+485,heatran,17,4300,270.0,fire,steel,91,90,106,130,106,77,"flash-fire, flame-body",generation-iv,True,False,brown,quadruped,3
+486,regigigas,37,4200,302.0,normal,,110,160,110,80,110,100,slow-start,generation-iv,True,False,white,humanoid,3
+487,giratina-altered,45,7500,306.0,ghost,dragon,150,100,120,100,120,90,"pressure, telepathy",generation-iv,True,False,black,tentacles,3
+488,cresselia,15,856,270.0,psychic,,120,70,110,75,120,85,levitate,generation-iv,True,False,yellow,squiggle,3
+489,phione,4,31,216.0,water,,80,80,80,80,80,80,hydration,generation-iv,False,True,blue,arms,30
+490,manaphy,3,14,270.0,water,,100,100,100,100,100,100,hydration,generation-iv,False,True,blue,humanoid,3
+491,darkrai,15,505,270.0,dark,,70,90,90,135,90,125,bad-dreams,generation-iv,False,True,black,humanoid,3
+492,shaymin-land,2,21,270.0,grass,,100,100,100,100,100,100,natural-cure,generation-iv,False,True,green,quadruped,45
+493,arceus,32,3200,324.0,normal,,120,120,120,120,120,120,multitype,generation-iv,False,True,white,quadruped,3
+494,victini,4,40,270.0,psychic,fire,100,100,100,100,100,100,victory-star,generation-v,False,True,yellow,humanoid,3
+495,snivy,6,81,62.0,grass,,45,45,55,45,55,63,"overgrow, contrary",generation-v,False,False,green,upright,45
+496,servine,8,160,145.0,grass,,60,60,75,60,75,83,"overgrow, contrary",generation-v,False,False,green,upright,45
+497,serperior,33,630,238.0,grass,,75,75,95,75,95,113,"overgrow, contrary",generation-v,False,False,green,squiggle,45
+498,tepig,5,99,62.0,fire,,65,63,45,45,45,45,"blaze, thick-fat",generation-v,False,False,red,quadruped,45
+499,pignite,10,555,146.0,fire,fighting,90,93,55,70,55,55,"blaze, thick-fat",generation-v,False,False,red,upright,45
+500,emboar,16,1500,238.0,fire,fighting,110,123,65,100,65,65,"blaze, reckless",generation-v,False,False,red,upright,45
+501,oshawott,5,59,62.0,water,,55,55,45,63,45,45,"torrent, shell-armor",generation-v,False,False,blue,upright,45
+502,dewott,8,245,145.0,water,,75,75,60,83,60,60,"torrent, shell-armor",generation-v,False,False,blue,upright,45
+503,samurott,15,946,238.0,water,,95,100,85,108,70,70,"torrent, shell-armor",generation-v,False,False,blue,quadruped,45
+504,patrat,5,116,51.0,normal,,45,55,39,35,39,42,"run-away, keen-eye, analytic",generation-v,False,False,brown,quadruped,255
+505,watchog,11,270,147.0,normal,,60,85,69,60,69,77,"illuminate, keen-eye, analytic",generation-v,False,False,brown,upright,255
+506,lillipup,4,41,55.0,normal,,45,60,45,25,45,55,"vital-spirit, pickup, run-away",generation-v,False,False,brown,quadruped,255
+507,herdier,9,147,130.0,normal,,65,80,65,35,65,60,"intimidate, sand-rush, scrappy",generation-v,False,False,gray,quadruped,120
+508,stoutland,12,610,225.0,normal,,85,110,90,45,90,80,"intimidate, sand-rush, scrappy",generation-v,False,False,gray,quadruped,45
+509,purrloin,4,101,56.0,dark,,41,50,37,50,37,66,"limber, unburden, prankster",generation-v,False,False,purple,quadruped,255
+510,liepard,11,375,156.0,dark,,64,88,50,88,50,106,"limber, unburden, prankster",generation-v,False,False,purple,quadruped,90
+511,pansage,6,105,63.0,grass,,50,53,48,53,48,64,"gluttony, overgrow",generation-v,False,False,green,upright,190
+512,simisage,11,305,174.0,grass,,75,98,63,98,63,101,"gluttony, overgrow",generation-v,False,False,green,upright,75
+513,pansear,6,110,63.0,fire,,50,53,48,53,48,64,"gluttony, blaze",generation-v,False,False,red,upright,190
+514,simisear,10,280,174.0,fire,,75,98,63,98,63,101,"gluttony, blaze",generation-v,False,False,red,upright,75
+515,panpour,6,135,63.0,water,,50,53,48,53,48,64,"gluttony, torrent",generation-v,False,False,blue,upright,190
+516,simipour,10,290,174.0,water,,75,98,63,98,63,101,"gluttony, torrent",generation-v,False,False,blue,upright,75
+517,munna,6,233,58.0,psychic,,76,25,45,67,55,24,"forewarn, synchronize, telepathy",generation-v,False,False,pink,quadruped,190
+518,musharna,11,605,170.0,psychic,,116,55,85,107,95,29,"forewarn, synchronize, telepathy",generation-v,False,False,pink,humanoid,75
+519,pidove,3,21,53.0,normal,flying,50,55,50,36,30,43,"big-pecks, super-luck, rivalry",generation-v,False,False,gray,wings,255
+520,tranquill,6,150,125.0,normal,flying,62,77,62,50,42,65,"big-pecks, super-luck, rivalry",generation-v,False,False,gray,wings,120
+521,unfezant,12,290,220.0,normal,flying,80,115,80,65,55,93,"big-pecks, super-luck, rivalry",generation-v,False,False,gray,wings,45
+522,blitzle,8,298,59.0,electric,,45,60,32,50,32,76,"lightning-rod, motor-drive, sap-sipper",generation-v,False,False,black,quadruped,190
+523,zebstrika,16,795,174.0,electric,,75,100,63,80,63,116,"lightning-rod, motor-drive, sap-sipper",generation-v,False,False,black,quadruped,75
+524,roggenrola,4,180,56.0,rock,,55,75,85,25,25,15,"sturdy, weak-armor, sand-force",generation-v,False,False,blue,legs,255
+525,boldore,9,1020,137.0,rock,,70,105,105,50,40,20,"sturdy, weak-armor, sand-force",generation-v,False,False,blue,tentacles,120
+526,gigalith,17,2600,232.0,rock,,85,135,130,60,80,25,"sturdy, sand-stream, sand-force",generation-v,False,False,blue,tentacles,45
+527,woobat,4,21,65.0,psychic,flying,65,45,43,55,43,72,"unaware, klutz, simple",generation-v,False,False,blue,wings,190
+528,swoobat,9,105,149.0,psychic,flying,67,57,55,77,55,114,"unaware, klutz, simple",generation-v,False,False,blue,wings,45
+529,drilbur,3,85,66.0,ground,,60,85,40,30,45,68,"sand-rush, sand-force, mold-breaker",generation-v,False,False,gray,upright,120
+530,excadrill,7,404,178.0,ground,steel,110,135,60,50,65,88,"sand-rush, sand-force, mold-breaker",generation-v,False,False,gray,humanoid,60
+531,audino,11,310,390.0,normal,,103,60,86,60,86,50,"healer, regenerator, klutz",generation-v,False,False,pink,upright,255
+532,timburr,6,125,61.0,fighting,,75,80,55,25,35,35,"guts, sheer-force, iron-fist",generation-v,False,False,gray,humanoid,180
+533,gurdurr,12,400,142.0,fighting,,85,105,85,40,50,40,"guts, sheer-force, iron-fist",generation-v,False,False,gray,humanoid,90
+534,conkeldurr,14,870,227.0,fighting,,105,140,95,55,65,45,"guts, sheer-force, iron-fist",generation-v,False,False,brown,humanoid,45
+535,tympole,5,45,59.0,water,,50,50,40,50,40,64,"swift-swim, hydration, water-absorb",generation-v,False,False,blue,fish,255
+536,palpitoad,8,170,134.0,water,ground,75,65,55,65,55,69,"swift-swim, hydration, water-absorb",generation-v,False,False,blue,upright,120
+537,seismitoad,15,620,229.0,water,ground,105,95,75,85,75,74,"swift-swim, poison-touch, water-absorb",generation-v,False,False,blue,humanoid,45
+538,throh,13,555,163.0,fighting,,120,100,85,30,85,45,"guts, inner-focus, mold-breaker",generation-v,False,False,red,humanoid,45
+539,sawk,14,510,163.0,fighting,,75,125,75,30,75,85,"sturdy, inner-focus, mold-breaker",generation-v,False,False,blue,humanoid,45
+540,sewaddle,3,25,62.0,bug,grass,45,53,70,40,60,42,"swarm, chlorophyll, overcoat",generation-v,False,False,yellow,armor,255
+541,swadloon,5,73,133.0,bug,grass,55,63,90,50,80,42,"leaf-guard, chlorophyll, overcoat",generation-v,False,False,green,arms,120
+542,leavanny,12,205,225.0,bug,grass,75,103,80,70,80,92,"swarm, chlorophyll, overcoat",generation-v,False,False,yellow,humanoid,45
+543,venipede,4,53,52.0,bug,poison,30,45,59,30,39,57,"poison-point, swarm, speed-boost",generation-v,False,False,red,armor,255
+544,whirlipede,12,585,126.0,bug,poison,40,55,99,40,79,47,"poison-point, swarm, speed-boost",generation-v,False,False,gray,ball,120
+545,scolipede,25,2005,218.0,bug,poison,60,100,89,55,69,112,"poison-point, swarm, speed-boost",generation-v,False,False,red,armor,45
+546,cottonee,3,6,56.0,grass,fairy,40,27,60,37,50,66,"prankster, infiltrator, chlorophyll",generation-v,False,False,green,ball,190
+547,whimsicott,7,66,168.0,grass,fairy,60,67,85,77,75,116,"prankster, infiltrator, chlorophyll",generation-v,False,False,green,humanoid,75
+548,petilil,5,66,56.0,grass,,45,35,50,70,50,30,"chlorophyll, own-tempo, leaf-guard",generation-v,False,False,green,blob,190
+549,lilligant,11,163,168.0,grass,,70,60,75,110,75,90,"chlorophyll, own-tempo, leaf-guard",generation-v,False,False,green,blob,75
+550,basculin-red-striped,10,180,161.0,water,,70,92,65,80,55,98,"reckless, adaptability, mold-breaker",generation-v,False,False,green,fish,25
+551,sandile,7,152,58.0,ground,dark,50,72,35,35,35,65,"intimidate, moxie, anger-point",generation-v,False,False,brown,quadruped,180
+552,krokorok,10,334,123.0,ground,dark,60,82,45,45,45,74,"intimidate, moxie, anger-point",generation-v,False,False,brown,quadruped,90
+553,krookodile,15,963,234.0,ground,dark,95,117,80,65,70,92,"intimidate, moxie, anger-point",generation-v,False,False,red,upright,45
+554,darumaka,6,375,63.0,fire,,70,90,45,15,45,50,"hustle, inner-focus",generation-v,False,False,red,humanoid,120
+555,darmanitan-standard,13,929,168.0,fire,,105,140,55,30,55,95,"sheer-force, zen-mode",generation-v,False,False,red,quadruped,60
+556,maractus,10,280,161.0,grass,,75,86,67,106,67,60,"water-absorb, chlorophyll, storm-drain",generation-v,False,False,green,blob,255
+557,dwebble,3,145,65.0,bug,rock,50,65,85,35,35,55,"sturdy, shell-armor, weak-armor",generation-v,False,False,red,armor,190
+558,crustle,14,2000,170.0,bug,rock,70,105,125,65,75,45,"sturdy, shell-armor, weak-armor",generation-v,False,False,red,armor,75
+559,scraggy,6,118,70.0,dark,fighting,50,75,70,35,70,48,"shed-skin, moxie, intimidate",generation-v,False,False,yellow,upright,180
+560,scrafty,11,300,171.0,dark,fighting,65,90,115,45,115,58,"shed-skin, moxie, intimidate",generation-v,False,False,red,upright,90
+561,sigilyph,14,140,172.0,psychic,flying,72,58,80,103,80,97,"wonder-skin, magic-guard, tinted-lens",generation-v,False,False,black,wings,45
+562,yamask,5,15,61.0,ghost,,38,30,85,55,65,30,mummy,generation-v,False,False,black,arms,190
+563,cofagrigus,17,765,169.0,ghost,,58,50,145,95,105,30,mummy,generation-v,False,False,yellow,blob,90
+564,tirtouga,7,165,71.0,water,rock,54,78,103,53,45,22,"solid-rock, sturdy, swift-swim",generation-v,False,False,blue,quadruped,45
+565,carracosta,12,810,173.0,water,rock,74,108,133,83,65,32,"solid-rock, sturdy, swift-swim",generation-v,False,False,blue,upright,45
+566,archen,5,95,71.0,rock,flying,55,112,45,74,45,70,defeatist,generation-v,False,False,yellow,wings,45
+567,archeops,14,320,177.0,rock,flying,75,140,65,112,65,110,defeatist,generation-v,False,False,yellow,wings,45
+568,trubbish,6,310,66.0,poison,,50,50,62,40,62,65,"stench, sticky-hold, aftermath",generation-v,False,False,green,humanoid,190
+569,garbodor,19,1073,166.0,poison,,80,95,82,60,82,75,"stench, weak-armor, aftermath",generation-v,False,False,green,humanoid,60
+570,zorua,7,125,66.0,dark,,40,65,40,80,40,65,illusion,generation-v,False,False,gray,quadruped,75
+571,zoroark,16,811,179.0,dark,,60,105,60,120,60,105,illusion,generation-v,False,False,gray,upright,45
+572,minccino,4,58,60.0,normal,,55,50,40,40,40,75,"cute-charm, technician, skill-link",generation-v,False,False,gray,quadruped,255
+573,cinccino,5,75,165.0,normal,,75,95,60,65,60,115,"cute-charm, technician, skill-link",generation-v,False,False,gray,quadruped,60
+574,gothita,4,58,58.0,psychic,,45,30,50,55,65,45,"frisk, competitive, shadow-tag",generation-v,False,False,purple,humanoid,200
+575,gothorita,7,180,137.0,psychic,,60,45,70,75,85,55,"frisk, competitive, shadow-tag",generation-v,False,False,purple,humanoid,100
+576,gothitelle,15,440,221.0,psychic,,70,55,95,95,110,65,"frisk, competitive, shadow-tag",generation-v,False,False,purple,humanoid,50
+577,solosis,3,10,58.0,psychic,,45,30,40,105,50,20,"overcoat, magic-guard, regenerator",generation-v,False,False,green,ball,200
+578,duosion,6,80,130.0,psychic,,65,40,50,125,60,30,"overcoat, magic-guard, regenerator",generation-v,False,False,green,ball,100
+579,reuniclus,10,201,221.0,psychic,,110,65,75,125,85,30,"overcoat, magic-guard, regenerator",generation-v,False,False,green,arms,50
+580,ducklett,5,55,61.0,water,flying,62,44,50,44,50,55,"keen-eye, big-pecks, hydration",generation-v,False,False,blue,wings,190
+581,swanna,13,242,166.0,water,flying,75,87,63,87,63,98,"keen-eye, big-pecks, hydration",generation-v,False,False,white,wings,45
+582,vanillite,4,57,61.0,ice,,36,50,50,65,60,44,"ice-body, snow-cloak, weak-armor",generation-v,False,False,white,blob,255
+583,vanillish,11,410,138.0,ice,,51,65,65,80,75,59,"ice-body, snow-cloak, weak-armor",generation-v,False,False,white,blob,120
+584,vanilluxe,13,575,241.0,ice,,71,95,85,110,95,79,"ice-body, snow-warning, weak-armor",generation-v,False,False,white,heads,45
+585,deerling,6,195,67.0,normal,grass,60,60,50,40,50,75,"chlorophyll, sap-sipper, serene-grace",generation-v,False,False,pink,quadruped,190
+586,sawsbuck,19,925,166.0,normal,grass,80,100,70,60,70,95,"chlorophyll, sap-sipper, serene-grace",generation-v,False,False,brown,quadruped,75
+587,emolga,4,50,150.0,electric,flying,55,75,60,75,60,103,"static, motor-drive",generation-v,False,False,white,quadruped,200
+588,karrablast,5,59,63.0,bug,,50,75,45,40,45,60,"swarm, shed-skin, no-guard",generation-v,False,False,blue,humanoid,200
+589,escavalier,10,330,173.0,bug,steel,70,135,105,60,105,20,"swarm, shell-armor, overcoat",generation-v,False,False,gray,arms,75
+590,foongus,2,10,59.0,grass,poison,69,55,45,55,55,15,"effect-spore, regenerator",generation-v,False,False,white,arms,190
+591,amoonguss,6,105,162.0,grass,poison,114,85,70,85,80,30,"effect-spore, regenerator",generation-v,False,False,white,arms,75
+592,frillish-male,12,330,67.0,water,ghost,55,40,50,65,85,40,"water-absorb, cursed-body, damp",generation-v,False,False,white,tentacles,190
+593,jellicent-male,22,1350,168.0,water,ghost,100,60,70,85,105,60,"water-absorb, cursed-body, damp",generation-v,False,False,white,tentacles,60
+594,alomomola,12,316,165.0,water,,165,75,80,40,45,65,"healer, hydration, regenerator",generation-v,False,False,pink,fish,75
+595,joltik,1,6,64.0,bug,electric,50,47,50,57,50,65,"compound-eyes, unnerve, swarm",generation-v,False,False,yellow,armor,190
+596,galvantula,8,143,165.0,bug,electric,70,77,60,97,60,108,"compound-eyes, unnerve, swarm",generation-v,False,False,yellow,armor,75
+597,ferroseed,6,188,61.0,grass,steel,44,50,91,24,86,10,iron-barbs,generation-v,False,False,gray,ball,255
+598,ferrothorn,10,1100,171.0,grass,steel,74,94,131,54,116,20,"iron-barbs, anticipation",generation-v,False,False,gray,tentacles,90
+599,klink,3,210,60.0,steel,,40,55,70,45,60,30,"plus, minus, clear-body",generation-v,False,False,gray,heads,130
+600,klang,6,510,154.0,steel,,60,80,95,70,85,50,"plus, minus, clear-body",generation-v,False,False,gray,heads,60
+601,klinklang,6,810,234.0,steel,,60,100,115,70,85,90,"plus, minus, clear-body",generation-v,False,False,gray,heads,30
+602,tynamo,2,3,55.0,electric,,35,55,40,45,40,60,levitate,generation-v,False,False,white,fish,190
+603,eelektrik,12,220,142.0,electric,,65,85,70,75,70,40,levitate,generation-v,False,False,blue,fish,60
+604,eelektross,21,805,232.0,electric,,85,115,80,105,80,50,levitate,generation-v,False,False,blue,fish,30
+605,elgyem,5,90,67.0,psychic,,55,55,55,85,55,30,"telepathy, synchronize, analytic",generation-v,False,False,blue,upright,255
+606,beheeyem,10,345,170.0,psychic,,75,75,75,125,95,40,"telepathy, synchronize, analytic",generation-v,False,False,brown,humanoid,90
+607,litwick,3,31,55.0,ghost,fire,50,30,55,65,55,20,"flash-fire, flame-body, infiltrator",generation-v,False,False,white,blob,190
+608,lampent,6,130,130.0,ghost,fire,60,40,60,95,60,55,"flash-fire, flame-body, infiltrator",generation-v,False,False,black,arms,90
+609,chandelure,10,343,234.0,ghost,fire,60,55,90,145,90,80,"flash-fire, flame-body, infiltrator",generation-v,False,False,black,arms,45
+610,axew,6,180,64.0,dragon,,46,87,60,30,40,57,"rivalry, mold-breaker, unnerve",generation-v,False,False,green,upright,75
+611,fraxure,10,360,144.0,dragon,,66,117,70,40,50,67,"rivalry, mold-breaker, unnerve",generation-v,False,False,green,upright,60
+612,haxorus,18,1055,243.0,dragon,,76,147,90,60,70,97,"rivalry, mold-breaker, unnerve",generation-v,False,False,yellow,upright,45
+613,cubchoo,5,85,61.0,ice,,55,70,40,60,40,40,"snow-cloak, slush-rush, rattled",generation-v,False,False,white,upright,120
+614,beartic,26,2600,177.0,ice,,95,130,80,70,80,50,"snow-cloak, slush-rush, swift-swim",generation-v,False,False,white,quadruped,60
+615,cryogonal,11,1480,180.0,ice,,80,50,50,95,135,105,levitate,generation-v,False,False,blue,ball,25
+616,shelmet,4,77,61.0,bug,,50,40,85,40,65,25,"hydration, shell-armor, overcoat",generation-v,False,False,red,ball,200
+617,accelgor,8,253,173.0,bug,,80,70,40,100,60,145,"hydration, sticky-hold, unburden",generation-v,False,False,red,arms,75
+618,stunfisk,7,110,165.0,ground,electric,109,66,84,81,99,32,"static, limber, sand-veil",generation-v,False,False,brown,fish,75
+619,mienfoo,9,200,70.0,fighting,,45,85,50,55,50,65,"inner-focus, regenerator, reckless",generation-v,False,False,yellow,upright,180
+620,mienshao,14,355,179.0,fighting,,65,125,60,95,60,105,"inner-focus, regenerator, reckless",generation-v,False,False,purple,upright,45
+621,druddigon,16,1390,170.0,dragon,,77,120,90,60,90,48,"rough-skin, sheer-force, mold-breaker",generation-v,False,False,red,upright,45
+622,golett,10,920,61.0,ground,ghost,59,74,50,35,50,35,"iron-fist, klutz, no-guard",generation-v,False,False,green,humanoid,190
+623,golurk,28,3300,169.0,ground,ghost,89,124,80,55,80,55,"iron-fist, klutz, no-guard",generation-v,False,False,green,humanoid,90
+624,pawniard,5,102,68.0,dark,steel,45,85,70,40,40,60,"defiant, inner-focus, pressure",generation-v,False,False,red,humanoid,120
+625,bisharp,16,700,172.0,dark,steel,65,125,100,60,70,70,"defiant, inner-focus, pressure",generation-v,False,False,red,humanoid,45
+626,bouffalant,16,946,172.0,normal,,95,110,95,40,95,55,"reckless, sap-sipper, soundproof",generation-v,False,False,brown,quadruped,45
+627,rufflet,5,105,70.0,normal,flying,70,83,50,37,50,60,"keen-eye, sheer-force, hustle",generation-v,False,False,white,wings,190
+628,braviary,15,410,179.0,normal,flying,100,123,75,57,75,80,"keen-eye, sheer-force, defiant",generation-v,False,False,red,wings,60
+629,vullaby,5,90,74.0,dark,flying,70,55,75,45,65,60,"big-pecks, overcoat, weak-armor",generation-v,False,False,brown,wings,190
+630,mandibuzz,12,395,179.0,dark,flying,110,65,105,55,95,80,"big-pecks, overcoat, weak-armor",generation-v,False,False,brown,wings,60
+631,heatmor,14,580,169.0,fire,,85,97,66,105,66,65,"gluttony, flash-fire, white-smoke",generation-v,False,False,red,upright,90
+632,durant,3,330,169.0,bug,steel,58,109,112,48,48,109,"swarm, hustle, truant",generation-v,False,False,gray,armor,90
+633,deino,8,173,60.0,dark,dragon,52,65,50,45,50,38,hustle,generation-v,False,False,blue,quadruped,45
+634,zweilous,14,500,147.0,dark,dragon,72,85,70,65,70,58,hustle,generation-v,False,False,blue,quadruped,45
+635,hydreigon,18,1600,270.0,dark,dragon,92,105,90,125,90,98,levitate,generation-v,False,False,blue,upright,45
+636,larvesta,11,288,72.0,bug,fire,55,85,55,50,55,60,"flame-body, swarm",generation-v,False,False,white,armor,45
+637,volcarona,16,460,248.0,bug,fire,85,60,65,135,105,100,"flame-body, swarm",generation-v,False,False,white,bug-wings,15
+638,cobalion,21,2500,261.0,steel,fighting,91,90,129,90,72,108,justified,generation-v,True,False,blue,quadruped,3
+639,terrakion,19,2600,261.0,rock,fighting,91,129,90,72,90,108,justified,generation-v,True,False,gray,quadruped,3
+640,virizion,20,2000,261.0,grass,fighting,91,90,72,90,129,108,justified,generation-v,True,False,green,quadruped,3
+641,tornadus-incarnate,15,630,261.0,flying,,79,115,70,125,80,111,"prankster, defiant",generation-v,True,False,green,arms,3
+642,thundurus-incarnate,15,610,261.0,electric,flying,79,115,70,125,80,111,"prankster, defiant",generation-v,True,False,blue,arms,3
+643,reshiram,32,3300,306.0,dragon,fire,100,120,100,150,120,90,turboblaze,generation-v,True,False,white,wings,3
+644,zekrom,29,3450,306.0,dragon,electric,100,150,120,120,100,90,teravolt,generation-v,True,False,black,upright,3
+645,landorus-incarnate,15,680,270.0,ground,flying,89,125,90,115,80,101,"sand-force, sheer-force",generation-v,True,False,brown,arms,3
+646,kyurem,30,3250,297.0,dragon,ice,125,130,90,130,90,95,pressure,generation-v,True,False,gray,upright,3
+647,keldeo-ordinary,14,485,261.0,water,fighting,91,72,90,129,90,108,justified,generation-v,False,True,yellow,quadruped,3
+648,meloetta-aria,6,65,270.0,normal,psychic,100,77,77,128,128,90,serene-grace,generation-v,False,True,white,humanoid,3
+649,genesect,15,825,270.0,bug,steel,71,120,95,120,95,99,download,generation-v,False,True,purple,humanoid,3
+650,chespin,4,90,63.0,grass,,56,61,65,48,45,38,"overgrow, bulletproof",generation-vi,False,False,green,upright,45
+651,quilladin,7,290,142.0,grass,,61,78,95,56,58,57,"overgrow, bulletproof",generation-vi,False,False,green,upright,45
+652,chesnaught,16,900,239.0,grass,fighting,88,107,122,74,75,64,"overgrow, bulletproof",generation-vi,False,False,green,upright,45
+653,fennekin,4,94,61.0,fire,,40,45,40,62,60,60,"blaze, magician",generation-vi,False,False,red,quadruped,45
+654,braixen,10,145,143.0,fire,,59,59,58,90,70,73,"blaze, magician",generation-vi,False,False,red,upright,45
+655,delphox,15,390,240.0,fire,psychic,75,69,72,114,100,104,"blaze, magician",generation-vi,False,False,red,upright,45
+656,froakie,3,70,63.0,water,,41,56,40,62,44,71,"torrent, protean",generation-vi,False,False,blue,quadruped,45
+657,frogadier,6,109,142.0,water,,54,63,52,83,56,97,"torrent, protean",generation-vi,False,False,blue,humanoid,45
+658,greninja,15,400,239.0,water,dark,72,95,67,103,71,122,"torrent, protean",generation-vi,False,False,blue,humanoid,45
+659,bunnelby,4,50,47.0,normal,,38,36,38,32,36,57,"pickup, cheek-pouch, huge-power",generation-vi,False,False,brown,upright,255
+660,diggersby,10,424,148.0,normal,ground,85,56,77,50,77,78,"pickup, cheek-pouch, huge-power",generation-vi,False,False,brown,upright,127
+661,fletchling,3,17,56.0,normal,flying,45,50,43,40,38,62,"big-pecks, gale-wings",generation-vi,False,False,red,wings,255
+662,fletchinder,7,160,134.0,fire,flying,62,73,55,56,52,84,"flame-body, gale-wings",generation-vi,False,False,red,wings,120
+663,talonflame,12,245,175.0,fire,flying,78,81,71,74,69,126,"flame-body, gale-wings",generation-vi,False,False,red,wings,45
+664,scatterbug,3,25,40.0,bug,,38,35,40,27,25,35,"shield-dust, compound-eyes, friend-guard",generation-vi,False,False,black,armor,255
+665,spewpa,3,84,75.0,bug,,45,22,60,27,30,29,"shed-skin, friend-guard",generation-vi,False,False,black,blob,120
+666,vivillon,12,170,185.0,bug,flying,80,52,50,90,50,89,"shield-dust, compound-eyes, friend-guard",generation-vi,False,False,white,bug-wings,45
+667,litleo,6,135,74.0,fire,normal,62,50,58,73,54,72,"rivalry, unnerve, moxie",generation-vi,False,False,brown,quadruped,220
+668,pyroar-male,15,815,177.0,fire,normal,86,68,72,109,66,106,"rivalry, unnerve, moxie",generation-vi,False,False,brown,quadruped,65
+669,flabebe,1,1,61.0,fairy,,44,38,39,61,79,42,"flower-veil, symbiosis",generation-vi,False,False,white,arms,225
+670,floette,2,9,130.0,fairy,,54,45,47,75,98,52,"flower-veil, symbiosis",generation-vi,False,False,white,arms,120
+671,florges,11,100,248.0,fairy,,78,65,68,112,154,75,"flower-veil, symbiosis",generation-vi,False,False,white,arms,45
+672,skiddo,9,310,70.0,grass,,66,65,48,62,57,52,"sap-sipper, grass-pelt",generation-vi,False,False,brown,quadruped,200
+673,gogoat,17,910,186.0,grass,,123,100,62,97,81,68,"sap-sipper, grass-pelt",generation-vi,False,False,brown,quadruped,45
+674,pancham,6,80,70.0,fighting,,67,82,62,46,48,43,"iron-fist, mold-breaker, scrappy",generation-vi,False,False,white,upright,220
+675,pangoro,21,1360,173.0,fighting,dark,95,124,78,69,71,58,"iron-fist, mold-breaker, scrappy",generation-vi,False,False,white,humanoid,65
+676,furfrou,12,280,165.0,normal,,75,80,60,65,90,102,fur-coat,generation-vi,False,False,white,quadruped,160
+677,espurr,3,35,71.0,psychic,,62,48,54,63,60,68,"keen-eye, infiltrator, own-tempo",generation-vi,False,False,gray,upright,190
+678,meowstic-male,6,85,163.0,psychic,,74,48,76,83,81,104,"keen-eye, infiltrator, prankster",generation-vi,False,False,blue,upright,75
+679,honedge,8,20,65.0,steel,ghost,45,80,100,35,37,28,no-guard,generation-vi,False,False,brown,blob,180
+680,doublade,8,45,157.0,steel,ghost,59,110,150,45,49,35,no-guard,generation-vi,False,False,brown,heads,90
+681,aegislash-shield,17,530,234.0,steel,ghost,60,50,140,50,140,60,stance-change,generation-vi,False,False,brown,blob,45
+682,spritzee,2,5,68.0,fairy,,78,52,60,63,65,23,"healer, aroma-veil",generation-vi,False,False,pink,arms,200
+683,aromatisse,8,155,162.0,fairy,,101,72,72,99,89,29,"healer, aroma-veil",generation-vi,False,False,pink,humanoid,140
+684,swirlix,4,35,68.0,fairy,,62,48,66,59,57,49,"sweet-veil, unburden",generation-vi,False,False,white,legs,200
+685,slurpuff,8,50,168.0,fairy,,82,80,86,85,75,72,"sweet-veil, unburden",generation-vi,False,False,white,humanoid,140
+686,inkay,4,35,58.0,dark,psychic,53,54,53,37,46,45,"contrary, suction-cups, infiltrator",generation-vi,False,False,blue,tentacles,190
+687,malamar,15,470,169.0,dark,psychic,86,92,88,68,75,73,"contrary, suction-cups, infiltrator",generation-vi,False,False,blue,blob,80
+688,binacle,5,310,61.0,rock,water,42,52,67,39,56,50,"tough-claws, sniper, pickpocket",generation-vi,False,False,brown,heads,120
+689,barbaracle,13,960,175.0,rock,water,72,105,115,54,86,68,"tough-claws, sniper, pickpocket",generation-vi,False,False,brown,heads,45
+690,skrelp,5,73,64.0,poison,water,50,60,60,60,60,30,"poison-point, poison-touch, adaptability",generation-vi,False,False,brown,blob,225
+691,dragalge,18,815,173.0,poison,dragon,65,75,90,97,123,44,"poison-point, poison-touch, adaptability",generation-vi,False,False,brown,blob,55
+692,clauncher,5,83,66.0,water,,50,53,62,58,63,44,mega-launcher,generation-vi,False,False,blue,armor,225
+693,clawitzer,13,353,100.0,water,,71,73,88,120,89,59,mega-launcher,generation-vi,False,False,blue,squiggle,55
+694,helioptile,5,60,58.0,electric,normal,44,38,33,61,43,70,"dry-skin, sand-veil, solar-power",generation-vi,False,False,yellow,upright,190
+695,heliolisk,10,210,168.0,electric,normal,62,55,52,109,94,109,"dry-skin, sand-veil, solar-power",generation-vi,False,False,yellow,upright,75
+696,tyrunt,8,260,72.0,rock,dragon,58,89,77,45,45,48,"strong-jaw, sturdy",generation-vi,False,False,brown,upright,45
+697,tyrantrum,25,2700,182.0,rock,dragon,82,121,119,69,59,71,"strong-jaw, rock-head",generation-vi,False,False,red,upright,45
+698,amaura,13,252,72.0,rock,ice,77,59,50,67,63,46,"refrigerate, snow-warning",generation-vi,False,False,blue,quadruped,45
+699,aurorus,27,2250,104.0,rock,ice,123,77,72,99,92,58,"refrigerate, snow-warning",generation-vi,False,False,blue,quadruped,45
+700,sylveon,10,235,184.0,fairy,,95,65,65,110,130,60,"cute-charm, pixilate",generation-vi,False,False,pink,quadruped,45
+701,hawlucha,8,215,175.0,fighting,flying,78,92,75,74,63,118,"limber, unburden, mold-breaker",generation-vi,False,False,green,humanoid,100
+702,dedenne,2,22,151.0,electric,fairy,67,58,57,81,67,101,"cheek-pouch, pickup, plus",generation-vi,False,False,yellow,upright,180
+703,carbink,3,57,100.0,rock,fairy,50,50,150,50,150,50,"clear-body, sturdy",generation-vi,False,False,gray,ball,60
+704,goomy,3,28,60.0,dragon,,45,50,35,55,75,40,"sap-sipper, hydration, gooey",generation-vi,False,False,purple,squiggle,45
+705,sliggoo,8,175,158.0,dragon,,68,75,53,83,113,60,"sap-sipper, hydration, gooey",generation-vi,False,False,purple,squiggle,45
+706,goodra,20,1505,270.0,dragon,,90,100,70,110,150,80,"sap-sipper, hydration, gooey",generation-vi,False,False,purple,upright,45
+707,klefki,2,30,165.0,steel,fairy,57,80,91,80,87,75,"prankster, magician",generation-vi,False,False,gray,ball,75
+708,phantump,4,70,62.0,ghost,grass,43,70,48,50,60,38,"natural-cure, frisk, harvest",generation-vi,False,False,brown,arms,120
+709,trevenant,15,710,166.0,ghost,grass,85,110,76,65,82,56,"natural-cure, frisk, harvest",generation-vi,False,False,brown,tentacles,60
+710,pumpkaboo-average,4,50,67.0,ghost,grass,49,66,70,44,55,51,"pickup, frisk, insomnia",generation-vi,False,False,brown,ball,120
+711,gourgeist-average,9,125,173.0,ghost,grass,65,90,122,58,75,84,"pickup, frisk, insomnia",generation-vi,False,False,brown,blob,60
+712,bergmite,10,995,61.0,ice,,55,69,85,32,35,28,"own-tempo, ice-body, sturdy",generation-vi,False,False,blue,quadruped,190
+713,avalugg,20,5050,180.0,ice,,95,117,184,44,46,28,"own-tempo, ice-body, sturdy",generation-vi,False,False,blue,quadruped,55
+714,noibat,5,80,49.0,flying,dragon,40,30,35,45,40,55,"frisk, infiltrator, telepathy",generation-vi,False,False,purple,wings,190
+715,noivern,15,850,187.0,flying,dragon,85,70,80,97,80,123,"frisk, infiltrator, telepathy",generation-vi,False,False,purple,wings,45
+716,xerneas,30,2150,306.0,fairy,,126,131,95,131,98,99,fairy-aura,generation-vi,True,False,blue,quadruped,45
+717,yveltal,58,2030,306.0,dark,flying,126,131,95,131,98,99,dark-aura,generation-vi,True,False,red,wings,45
+718,zygarde-50,50,3050,270.0,dragon,ground,108,100,121,81,95,95,aura-break,generation-vi,True,False,green,squiggle,3
+719,diancie,7,88,270.0,rock,fairy,50,100,150,100,150,50,clear-body,generation-vi,False,True,pink,arms,3
+720,hoopa,5,90,270.0,psychic,ghost,80,110,60,150,130,70,magician,generation-vi,False,True,purple,arms,3
+721,volcanion,17,1950,270.0,fire,water,80,110,120,130,90,70,water-absorb,generation-vi,False,True,brown,quadruped,3
+722,rowlet,3,15,64.0,grass,flying,68,55,55,50,50,42,"overgrow, long-reach",generation-vii,False,False,brown,wings,45
+723,dartrix,7,160,147.0,grass,flying,78,75,75,70,70,52,"overgrow, long-reach",generation-vii,False,False,brown,wings,45
+724,decidueye,16,366,239.0,grass,ghost,78,107,75,100,100,70,"overgrow, long-reach",generation-vii,False,False,brown,wings,45
+725,litten,4,43,64.0,fire,,45,65,40,60,40,70,"blaze, intimidate",generation-vii,False,False,red,quadruped,45
+726,torracat,7,250,147.0,fire,,65,85,50,80,50,90,"blaze, intimidate",generation-vii,False,False,red,quadruped,45
+727,incineroar,18,830,239.0,fire,dark,95,115,90,80,90,60,"blaze, intimidate",generation-vii,False,False,red,upright,45
+728,popplio,4,75,64.0,water,,50,54,54,66,56,40,"torrent, liquid-voice",generation-vii,False,False,blue,fish,45
+729,brionne,6,175,147.0,water,,60,69,69,91,81,50,"torrent, liquid-voice",generation-vii,False,False,blue,fish,45
+730,primarina,18,440,239.0,water,fairy,80,74,74,126,116,60,"torrent, liquid-voice",generation-vii,False,False,blue,fish,45
+731,pikipek,3,12,53.0,normal,flying,35,75,30,30,30,65,"keen-eye, skill-link, pickup",generation-vii,False,False,black,wings,255
+732,trumbeak,6,148,124.0,normal,flying,55,85,50,40,50,75,"keen-eye, skill-link, pickup",generation-vii,False,False,black,wings,120
+733,toucannon,11,260,218.0,normal,flying,80,120,75,75,75,60,"keen-eye, skill-link, sheer-force",generation-vii,False,False,black,wings,45
+734,yungoos,4,60,51.0,normal,,48,70,30,30,30,45,"stakeout, strong-jaw, adaptability",generation-vii,False,False,brown,quadruped,255
+735,gumshoos,7,142,146.0,normal,,88,110,60,55,60,45,"stakeout, strong-jaw, adaptability",generation-vii,False,False,brown,quadruped,127
+736,grubbin,4,44,60.0,bug,,47,62,45,55,45,46,swarm,generation-vii,False,False,gray,armor,255
+737,charjabug,5,105,140.0,bug,electric,57,82,95,55,75,36,battery,generation-vii,False,False,green,squiggle,120
+738,vikavolt,15,450,225.0,bug,electric,77,70,90,145,75,43,levitate,generation-vii,False,False,blue,armor,45
+739,crabrawler,6,70,68.0,fighting,,47,82,57,42,47,63,"hyper-cutter, iron-fist, anger-point",generation-vii,False,False,purple,armor,225
+740,crabominable,17,1800,167.0,fighting,ice,97,132,77,62,67,43,"hyper-cutter, iron-fist, anger-point",generation-vii,False,False,white,armor,60
+741,oricorio-baile,6,34,167.0,fire,flying,75,70,70,98,70,93,dancer,generation-vii,False,False,red,wings,45
+742,cutiefly,1,2,61.0,bug,fairy,40,45,40,55,40,84,"honey-gather, shield-dust, sweet-veil",generation-vii,False,False,yellow,armor,190
+743,ribombee,2,5,162.0,bug,fairy,60,55,60,95,70,124,"honey-gather, shield-dust, sweet-veil",generation-vii,False,False,yellow,bug-wings,75
+744,rockruff,5,92,56.0,rock,,45,65,40,30,40,60,"keen-eye, vital-spirit, steadfast",generation-vii,False,False,brown,quadruped,190
+745,lycanroc-midday,8,250,170.0,rock,,75,115,65,55,65,112,"keen-eye, sand-rush, steadfast",generation-vii,False,False,brown,quadruped,90
+746,wishiwashi-solo,2,3,61.0,water,,45,20,20,25,25,40,schooling,generation-vii,False,False,blue,fish,60
+747,mareanie,4,80,61.0,poison,water,50,53,62,43,52,45,"merciless, limber, regenerator",generation-vii,False,False,blue,blob,190
+748,toxapex,7,145,173.0,poison,water,50,63,152,53,142,35,"merciless, limber, regenerator",generation-vii,False,False,blue,tentacles,75
+749,mudbray,10,1100,77.0,ground,,70,100,70,45,55,45,"own-tempo, stamina, inner-focus",generation-vii,False,False,brown,quadruped,190
+750,mudsdale,25,9200,175.0,ground,,100,125,100,55,85,35,"own-tempo, stamina, inner-focus",generation-vii,False,False,brown,quadruped,60
+751,dewpider,3,40,54.0,water,bug,38,40,52,40,72,27,"water-bubble, water-absorb",generation-vii,False,False,green,legs,200
+752,araquanid,18,820,159.0,water,bug,68,70,92,50,132,42,"water-bubble, water-absorb",generation-vii,False,False,green,armor,100
+753,fomantis,3,15,50.0,grass,,40,55,35,50,35,35,"leaf-guard, contrary",generation-vii,False,False,pink,upright,190
+754,lurantis,9,185,168.0,grass,,70,105,90,80,90,45,"leaf-guard, contrary",generation-vii,False,False,pink,humanoid,75
+755,morelull,2,15,57.0,grass,fairy,40,35,55,65,75,15,"illuminate, effect-spore, rain-dish",generation-vii,False,False,purple,blob,190
+756,shiinotic,10,115,142.0,grass,fairy,60,45,80,90,100,30,"illuminate, effect-spore, rain-dish",generation-vii,False,False,purple,humanoid,75
+757,salandit,6,48,64.0,poison,fire,48,44,40,71,40,77,"corrosion, oblivious",generation-vii,False,False,black,quadruped,120
+758,salazzle,12,222,168.0,poison,fire,68,64,60,111,60,117,"corrosion, oblivious",generation-vii,False,False,black,quadruped,45
+759,stufful,5,68,68.0,normal,fighting,70,75,50,45,50,50,"fluffy, klutz, cute-charm",generation-vii,False,False,pink,quadruped,140
+760,bewear,21,1350,175.0,normal,fighting,120,125,80,55,60,60,"fluffy, klutz, unnerve",generation-vii,False,False,pink,upright,70
+761,bounsweet,3,32,42.0,grass,,42,30,38,30,38,32,"leaf-guard, oblivious, sweet-veil",generation-vii,False,False,purple,legs,235
+762,steenee,7,82,102.0,grass,,52,40,48,40,48,62,"leaf-guard, oblivious, sweet-veil",generation-vii,False,False,purple,humanoid,120
+763,tsareena,12,214,230.0,grass,,72,120,98,50,98,72,"leaf-guard, queenly-majesty, sweet-veil",generation-vii,False,False,purple,humanoid,45
+764,comfey,1,3,170.0,fairy,,51,52,90,82,110,100,"flower-veil, triage, natural-cure",generation-vii,False,False,green,ball,60
+765,oranguru,15,760,172.0,normal,psychic,90,60,80,90,110,60,"inner-focus, telepathy, symbiosis",generation-vii,False,False,white,humanoid,45
+766,passimian,20,828,172.0,fighting,,100,120,90,40,60,80,"receiver, defiant",generation-vii,False,False,white,upright,45
+767,wimpod,5,120,46.0,bug,water,25,35,40,20,30,80,wimp-out,generation-vii,False,False,gray,tentacles,90
+768,golisopod,20,1080,186.0,bug,water,75,125,140,60,90,40,emergency-exit,generation-vii,False,False,gray,humanoid,45
+769,sandygast,5,700,64.0,ghost,ground,55,55,80,70,45,15,"water-compaction, sand-veil",generation-vii,False,False,brown,squiggle,140
+770,palossand,13,2500,168.0,ghost,ground,85,75,110,100,75,35,"water-compaction, sand-veil",generation-vii,False,False,brown,squiggle,60
+771,pyukumuku,3,12,144.0,water,,55,60,130,30,130,5,"innards-out, unaware",generation-vii,False,False,black,squiggle,60
+772,type-null,19,1205,107.0,normal,,95,95,95,95,95,59,battle-armor,generation-vii,True,False,gray,quadruped,3
+773,silvally,23,1005,257.0,normal,,95,95,95,95,95,95,rks-system,generation-vii,True,False,gray,quadruped,3
+774,minior-red-meteor,3,400,154.0,rock,flying,60,60,100,60,100,60,shields-down,generation-vii,False,False,brown,ball,30
+775,komala,4,199,168.0,normal,,65,115,65,75,95,65,comatose,generation-vii,False,False,blue,humanoid,45
+776,turtonator,20,2120,170.0,fire,dragon,60,78,135,91,85,36,shell-armor,generation-vii,False,False,red,upright,70
+777,togedemaru,3,33,152.0,electric,steel,65,98,63,40,73,96,"iron-barbs, lightning-rod, sturdy",generation-vii,False,False,gray,upright,180
+778,mimikyu-disguised,2,7,167.0,ghost,fairy,55,90,80,50,105,96,disguise,generation-vii,False,False,yellow,squiggle,45
+779,bruxish,9,190,166.0,water,psychic,68,105,70,70,70,92,"dazzling, strong-jaw, wonder-skin",generation-vii,False,False,pink,fish,80
+780,drampa,30,1850,170.0,normal,dragon,78,60,85,135,91,36,"berserk, sap-sipper, cloud-nine",generation-vii,False,False,white,squiggle,70
+781,dhelmise,39,2100,181.0,ghost,grass,70,131,100,86,90,40,steelworker,generation-vii,False,False,green,blob,25
+782,jangmo-o,6,297,60.0,dragon,,45,55,65,45,45,45,"bulletproof, soundproof, overcoat",generation-vii,False,False,gray,quadruped,45
+783,hakamo-o,12,470,147.0,dragon,fighting,55,75,90,65,70,65,"bulletproof, soundproof, overcoat",generation-vii,False,False,gray,upright,45
+784,kommo-o,16,782,270.0,dragon,fighting,75,110,125,100,105,85,"bulletproof, soundproof, overcoat",generation-vii,False,False,gray,upright,45
+785,tapu-koko,18,205,257.0,electric,fairy,70,115,85,95,75,130,"electric-surge, telepathy",generation-vii,True,False,yellow,arms,3
+786,tapu-lele,12,186,257.0,psychic,fairy,70,85,75,130,115,95,"psychic-surge, telepathy",generation-vii,True,False,pink,arms,3
+787,tapu-bulu,19,455,257.0,grass,fairy,70,130,115,85,95,75,"grassy-surge, telepathy",generation-vii,True,False,red,arms,3
+788,tapu-fini,13,212,257.0,water,fairy,70,75,115,95,130,85,"misty-surge, telepathy",generation-vii,True,False,purple,arms,3
+789,cosmog,2,1,40.0,psychic,,43,29,31,29,31,37,unaware,generation-vii,True,False,blue,ball,45
+790,cosmoem,1,9999,140.0,psychic,,43,29,131,29,131,37,sturdy,generation-vii,True,False,blue,ball,45
+791,solgaleo,34,2300,306.0,psychic,steel,137,137,107,113,89,97,full-metal-body,generation-vii,True,False,white,quadruped,45
+792,lunala,40,1200,306.0,psychic,ghost,137,113,89,137,107,97,shadow-shield,generation-vii,True,False,purple,wings,45
+793,nihilego,12,555,257.0,rock,poison,109,53,47,127,131,103,beast-boost,generation-vii,False,False,white,tentacles,45
+794,buzzwole,24,3336,257.0,bug,fighting,107,139,139,53,53,79,beast-boost,generation-vii,False,False,red,tentacles,45
+795,pheromosa,18,250,257.0,bug,fighting,71,137,37,137,37,151,beast-boost,generation-vii,False,False,white,humanoid,45
+796,xurkitree,38,1000,257.0,electric,,83,89,71,173,71,83,beast-boost,generation-vii,False,False,black,upright,45
+797,celesteela,92,9999,257.0,steel,flying,97,101,103,107,101,61,beast-boost,generation-vii,False,False,green,humanoid,45
+798,kartana,3,1,257.0,grass,steel,59,181,131,59,31,109,beast-boost,generation-vii,False,False,white,humanoid,45
+799,guzzlord,55,8880,257.0,dark,dragon,223,101,53,97,53,43,beast-boost,generation-vii,False,False,black,upright,45
+800,necrozma,24,2300,270.0,psychic,,97,107,101,127,89,79,prism-armor,generation-vii,True,False,black,arms,255
+801,magearna,10,805,270.0,steel,fairy,80,95,115,130,115,65,soul-heart,generation-vii,False,True,gray,humanoid,3
+802,marshadow,7,222,270.0,fighting,ghost,90,125,80,90,90,125,technician,generation-vii,False,True,gray,humanoid,3
+803,poipole,6,18,189.0,poison,,67,73,67,73,67,73,beast-boost,generation-vii,False,False,purple,upright,45
+804,naganadel,36,1500,243.0,poison,dragon,73,73,73,127,73,121,beast-boost,generation-vii,False,False,purple,wings,45
+805,stakataka,55,8200,257.0,rock,steel,61,131,211,53,101,13,beast-boost,generation-vii,False,False,gray,quadruped,30
+806,blacephalon,18,130,257.0,fire,ghost,53,127,53,151,79,107,beast-boost,generation-vii,False,False,white,humanoid,30
+807,zeraora,15,445,270.0,electric,,88,112,75,102,80,143,volt-absorb,generation-vii,False,True,yellow,humanoid,3
+808,meltan,2,80,135.0,steel,,46,65,65,55,35,34,magnet-pull,generation-vii,False,True,gray,ball,3
+809,melmetal,25,8000,270.0,steel,,135,143,143,80,65,34,iron-fist,generation-vii,False,True,gray,humanoid,3
+810,grookey,3,50,62.0,grass,,50,65,50,40,40,65,"overgrow, grassy-surge",generation-viii,False,False,green,upright,45
+811,thwackey,7,140,147.0,grass,,70,85,70,55,60,80,"overgrow, grassy-surge",generation-viii,False,False,green,upright,45
+812,rillaboom,21,900,265.0,grass,,100,125,90,60,70,85,"overgrow, grassy-surge",generation-viii,False,False,green,humanoid,45
+813,scorbunny,3,45,62.0,fire,,50,71,40,40,40,69,"blaze, libero",generation-viii,False,False,white,upright,45
+814,raboot,6,90,147.0,fire,,65,86,60,55,60,94,"blaze, libero",generation-viii,False,False,gray,upright,45
+815,cinderace,14,330,265.0,fire,,80,116,75,65,75,119,"blaze, libero",generation-viii,False,False,white,upright,45
+816,sobble,3,40,62.0,water,,50,40,40,70,40,70,"torrent, sniper",generation-viii,False,False,blue,quadruped,45
+817,drizzile,7,115,147.0,water,,65,60,55,95,55,90,"torrent, sniper",generation-viii,False,False,blue,upright,45
+818,inteleon,19,452,265.0,water,,70,85,65,125,65,120,"torrent, sniper",generation-viii,False,False,blue,upright,45
+819,skwovet,3,25,55.0,normal,,70,55,55,35,35,25,"cheek-pouch, gluttony",generation-viii,False,False,brown,upright,255
+820,greedent,6,60,161.0,normal,,120,95,95,55,75,20,"cheek-pouch, gluttony",generation-viii,False,False,brown,upright,90
+821,rookidee,2,18,49.0,flying,,38,47,35,33,35,57,"keen-eye, unnerve, big-pecks",generation-viii,False,False,blue,wings,255
+822,corvisquire,8,160,128.0,flying,,68,67,55,43,55,77,"keen-eye, unnerve, big-pecks",generation-viii,False,False,blue,wings,120
+823,corviknight,22,750,248.0,flying,steel,98,87,105,53,85,67,"pressure, unnerve, mirror-armor",generation-viii,False,False,purple,wings,45
+824,blipbug,4,80,36.0,bug,,25,20,20,25,45,45,"swarm, compound-eyes, telepathy",generation-viii,False,False,blue,armor,255
+825,dottler,4,195,117.0,bug,psychic,50,35,80,50,90,30,"swarm, compound-eyes, telepathy",generation-viii,False,False,yellow,armor,120
+826,orbeetle,4,408,253.0,bug,psychic,60,45,110,80,120,90,"swarm, frisk, telepathy",generation-viii,False,False,red,wings,45
+827,nickit,6,89,49.0,dark,,40,28,28,47,52,50,"run-away, unburden, stakeout",generation-viii,False,False,brown,quadruped,255
+828,thievul,12,199,159.0,dark,,70,58,58,87,92,90,"run-away, unburden, stakeout",generation-viii,False,False,brown,quadruped,127
+829,gossifleur,4,22,50.0,grass,,40,40,60,40,60,10,"cotton-down, regenerator, effect-spore",generation-viii,False,False,green,blob,190
+830,eldegoss,5,25,161.0,grass,,60,50,90,80,120,60,"cotton-down, regenerator, effect-spore",generation-viii,False,False,green,blob,75
+831,wooloo,6,60,122.0,normal,,42,40,55,40,45,48,"fluffy, run-away, bulletproof",generation-viii,False,False,white,quadruped,255
+832,dubwool,13,430,172.0,normal,,72,80,100,60,90,88,"fluffy, steadfast, bulletproof",generation-viii,False,False,white,quadruped,127
+833,chewtle,3,85,57.0,water,,50,64,50,38,38,44,"strong-jaw, shell-armor, swift-swim",generation-viii,False,False,green,quadruped,255
+834,drednaw,10,1155,170.0,water,rock,90,115,90,48,68,74,"strong-jaw, shell-armor, swift-swim",generation-viii,False,False,green,quadruped,75
+835,yamper,3,135,54.0,electric,,59,45,50,40,50,26,"ball-fetch, rattled",generation-viii,False,False,yellow,quadruped,255
+836,boltund,10,340,172.0,electric,,69,90,60,90,60,121,"strong-jaw, competitive",generation-viii,False,False,yellow,quadruped,45
+837,rolycoly,3,120,48.0,rock,,30,40,50,40,50,30,"steam-engine, heatproof, flash-fire",generation-viii,False,False,black,ball,255
+838,carkol,11,780,144.0,rock,fire,80,60,90,60,70,50,"steam-engine, flame-body, flash-fire",generation-viii,False,False,black,legs,120
+839,coalossal,28,3105,255.0,rock,fire,110,80,120,80,90,30,"steam-engine, flame-body, flash-fire",generation-viii,False,False,black,humanoid,45
+840,applin,2,5,52.0,grass,dragon,40,40,80,40,40,20,"ripen, gluttony, bulletproof",generation-viii,False,False,green,squiggle,255
+841,flapple,3,10,170.0,grass,dragon,70,110,80,95,60,70,"ripen, gluttony, hustle",generation-viii,False,False,green,wings,45
+842,appletun,4,130,170.0,grass,dragon,110,85,80,100,80,30,"ripen, gluttony, thick-fat",generation-viii,False,False,green,quadruped,45
+843,silicobra,22,76,63.0,ground,,52,57,75,35,50,46,"sand-spit, shed-skin, sand-veil",generation-viii,False,False,green,squiggle,255
+844,sandaconda,38,655,179.0,ground,,72,107,125,65,70,71,"sand-spit, shed-skin, sand-veil",generation-viii,False,False,green,squiggle,120
+845,cramorant,8,180,166.0,flying,water,70,85,55,85,95,85,gulp-missile,generation-viii,False,False,blue,wings,45
+846,arrokuda,5,10,56.0,water,,41,63,40,40,30,66,"swift-swim, propeller-tail",generation-viii,False,False,brown,fish,255
+847,barraskewda,13,300,172.0,water,,61,123,60,60,50,136,"swift-swim, propeller-tail",generation-viii,False,False,brown,fish,60
+848,toxel,4,110,48.0,electric,poison,40,38,35,54,35,40,"rattled, static, klutz",generation-viii,False,False,purple,upright,75
+849,toxtricity-amped,16,400,176.0,electric,poison,75,98,70,114,70,75,"punk-rock, plus, technician",generation-viii,False,False,purple,upright,45
+850,sizzlipede,7,10,61.0,fire,bug,50,65,45,50,50,45,"flash-fire, white-smoke, flame-body",generation-viii,False,False,red,tentacles,190
+851,centiskorch,30,1200,184.0,fire,bug,100,115,65,90,90,65,"flash-fire, white-smoke, flame-body",generation-viii,False,False,red,tentacles,75
+852,clobbopus,6,40,62.0,fighting,,50,68,60,50,50,32,"limber, technician",generation-viii,False,False,brown,tentacles,180
+853,grapploct,16,390,168.0,fighting,,80,118,90,70,80,42,"limber, technician",generation-viii,False,False,blue,tentacles,45
+854,sinistea,1,2,62.0,ghost,,40,45,45,74,54,50,"weak-armor, cursed-body",generation-viii,False,False,purple,ball,120
+855,polteageist,2,4,178.0,ghost,,60,65,65,134,114,70,"weak-armor, cursed-body",generation-viii,False,False,purple,ball,60
+856,hatenna,4,34,53.0,psychic,,42,30,45,56,53,39,"healer, anticipation, magic-bounce",generation-viii,False,False,pink,legs,235
+857,hattrem,6,48,130.0,psychic,,57,40,65,86,73,49,"healer, anticipation, magic-bounce",generation-viii,False,False,pink,humanoid,120
+858,hatterene,21,51,255.0,psychic,fairy,57,90,95,136,103,29,"healer, anticipation, magic-bounce",generation-viii,False,False,pink,blob,45
+859,impidimp,4,55,53.0,dark,fairy,45,45,30,55,40,50,"prankster, frisk, pickpocket",generation-viii,False,False,pink,humanoid,255
+860,morgrem,8,125,130.0,dark,fairy,65,60,45,75,55,70,"prankster, frisk, pickpocket",generation-viii,False,False,pink,humanoid,120
+861,grimmsnarl,15,610,255.0,dark,fairy,95,120,65,95,75,60,"prankster, frisk, pickpocket",generation-viii,False,False,purple,humanoid,45
+862,obstagoon,16,460,260.0,dark,normal,93,90,101,60,81,95,"reckless, guts, defiant",generation-viii,False,False,gray,upright,45
+863,perrserker,8,280,154.0,steel,,70,110,100,50,60,50,"battle-armor, tough-claws, steely-spirit",generation-viii,False,False,brown,upright,90
+864,cursola,10,4,179.0,ghost,,60,95,50,145,130,30,"weak-armor, perish-body",generation-viii,False,False,white,arms,30
+865,sirfetchd,8,1170,177.0,fighting,,62,135,95,68,82,65,"steadfast, scrappy",generation-viii,False,False,white,wings,45
+866,mr-rime,15,582,182.0,ice,psychic,80,85,75,110,100,70,"tangled-feet, screen-cleaner, ice-body",generation-viii,False,False,purple,humanoid,45
+867,runerigus,16,666,169.0,ground,ghost,58,95,145,50,105,30,wandering-spirit,generation-viii,False,False,gray,blob,90
+868,milcery,2,3,54.0,fairy,,45,40,40,50,61,34,"sweet-veil, aroma-veil",generation-viii,False,False,white,ball,200
+869,alcremie,3,5,173.0,fairy,,65,60,75,110,121,64,"sweet-veil, aroma-veil",generation-viii,False,False,white,blob,100
+870,falinks,30,620,165.0,fighting,,65,100,100,70,60,75,"battle-armor, defiant",generation-viii,False,False,yellow,heads,45
+871,pincurchin,3,10,152.0,electric,,48,101,95,91,85,15,"lightning-rod, electric-surge",generation-viii,False,False,purple,tentacles,75
+872,snom,3,38,37.0,ice,bug,30,25,35,45,30,20,"shield-dust, ice-scales",generation-viii,False,False,white,squiggle,190
+873,frosmoth,13,420,166.0,ice,bug,70,65,60,125,90,65,"shield-dust, ice-scales",generation-viii,False,False,white,bug-wings,75
+874,stonjourner,25,5200,165.0,rock,,100,125,135,20,20,70,power-spot,generation-viii,False,False,gray,legs,60
+875,eiscue-ice,14,890,165.0,ice,,75,80,110,65,90,50,ice-face,generation-viii,False,False,blue,upright,60
+876,indeedee-male,9,280,166.0,psychic,normal,60,65,55,105,95,95,"inner-focus, synchronize, psychic-surge",generation-viii,False,False,purple,upright,30
+877,morpeko-full-belly,3,30,153.0,electric,dark,58,95,58,70,58,97,hunger-switch,generation-viii,False,False,yellow,humanoid,180
+878,cufant,12,1000,66.0,steel,,72,80,49,40,49,40,"sheer-force, heavy-metal",generation-viii,False,False,yellow,quadruped,190
+879,copperajah,30,6500,175.0,steel,,122,130,69,80,69,30,"sheer-force, heavy-metal",generation-viii,False,False,green,quadruped,90
+880,dracozolt,18,1900,177.0,electric,dragon,90,100,90,80,70,75,"volt-absorb, hustle, sand-rush",generation-viii,False,False,green,upright,45
+881,arctozolt,23,1500,177.0,electric,ice,90,100,90,90,80,55,"volt-absorb, static, slush-rush",generation-viii,False,False,blue,upright,45
+882,dracovish,23,2150,177.0,water,dragon,90,90,100,70,80,75,"water-absorb, strong-jaw, sand-rush",generation-viii,False,False,green,legs,45
+883,arctovish,20,1750,177.0,water,ice,90,90,100,80,90,55,"water-absorb, ice-body, slush-rush",generation-viii,False,False,blue,fish,45
+884,duraludon,18,400,187.0,steel,dragon,70,95,115,120,50,85,"light-metal, heavy-metal, stalwart",generation-viii,False,False,white,upright,45
+885,dreepy,5,20,54.0,dragon,ghost,28,60,30,40,30,82,"clear-body, infiltrator, cursed-body",generation-viii,False,False,green,squiggle,45
+886,drakloak,14,110,144.0,dragon,ghost,68,80,50,60,50,102,"clear-body, infiltrator, cursed-body",generation-viii,False,False,green,arms,45
+887,dragapult,30,500,300.0,dragon,ghost,88,120,75,100,75,142,"clear-body, infiltrator, cursed-body",generation-viii,False,False,green,upright,45
+888,zacian,28,1100,335.0,fairy,,92,120,115,80,115,138,intrepid-sword,generation-viii,True,False,blue,quadruped,10
+889,zamazenta,29,2100,335.0,fighting,,92,120,115,80,115,138,dauntless-shield,generation-viii,True,False,red,quadruped,10
+890,eternatus,200,9500,345.0,poison,dragon,140,85,95,145,95,130,pressure,generation-viii,True,False,purple,wings,255
+891,kubfu,6,120,77.0,fighting,,60,90,60,53,50,72,inner-focus,generation-viii,True,False,gray,upright,3
+892,urshifu-single-strike,19,1050,275.0,fighting,dark,100,130,100,63,60,97,unseen-fist,generation-viii,True,False,gray,humanoid,3
+893,zarude,18,700,300.0,dark,grass,105,120,105,70,95,105,leaf-guard,generation-viii,False,True,green,upright,3
+894,regieleki,12,1450,290.0,electric,,80,100,50,100,50,200,transistor,generation-viii,True,False,yellow,humanoid,3
+895,regidrago,21,2000,290.0,dragon,,200,100,50,100,50,80,dragons-maw,generation-viii,True,False,green,humanoid,3
+896,glastrier,22,8000,290.0,ice,,100,145,130,65,110,30,chilling-neigh,generation-viii,True,False,white,quadruped,3
+897,spectrier,20,445,290.0,ghost,,100,65,60,145,80,130,grim-neigh,generation-viii,True,False,black,quadruped,3
+898,calyrex,11,77,250.0,psychic,grass,100,80,80,80,80,80,unnerve,generation-viii,True,False,green,humanoid,3
+899,wyrdeer,18,951,263.0,normal,psychic,103,105,72,105,75,65,"intimidate, frisk, sap-sipper",generation-viii,False,False,gray,quadruped,135
+900,kleavor,18,890,175.0,bug,rock,70,135,95,45,70,85,"swarm, sheer-force, sharpness",generation-viii,False,False,brown,bug-wings,115
+901,ursaluna,24,2900,275.0,ground,normal,130,140,105,45,80,50,"guts, bulletproof, unnerve",generation-viii,False,False,brown,quadruped,75
+902,basculegion-male,30,1100,265.0,water,ghost,120,112,65,80,75,78,"swift-swim, adaptability, mold-breaker",generation-viii,False,False,green,fish,135
+903,sneasler,13,430,102.0,fighting,poison,80,130,60,40,80,120,"pressure, unburden, poison-touch",generation-viii,False,False,gray,upright,135
+904,overqwil,25,605,179.0,dark,poison,85,115,95,65,65,85,"poison-point, swift-swim, intimidate",generation-viii,False,False,black,fish,135
+905,enamorus-incarnate,16,480,116.0,fairy,flying,74,115,70,135,80,106,"cute-charm, contrary",generation-viii,True,False,pink,arms,3
+906,sprigatito,4,41,62.0,grass,,40,61,54,45,45,65,"overgrow, protean",generation-ix,False,False,green,quadruped,45
+907,floragato,9,122,144.0,grass,,61,80,63,60,63,83,"overgrow, protean",generation-ix,False,False,green,upright,45
+908,meowscarada,15,312,265.0,grass,dark,76,110,70,81,70,123,"overgrow, protean",generation-ix,False,False,green,upright,45
+909,fuecoco,4,98,62.0,fire,,67,45,59,63,40,36,"blaze, unaware",generation-ix,False,False,red,upright,45
+910,crocalor,10,307,144.0,fire,,81,55,78,90,58,49,"blaze, unaware",generation-ix,False,False,red,upright,45
+911,skeledirge,16,3265,265.0,fire,ghost,104,75,100,110,75,66,"blaze, unaware",generation-ix,False,False,red,quadruped,45
+912,quaxly,5,61,62.0,water,,55,65,45,50,45,50,"torrent, moxie",generation-ix,False,False,white,upright,45
+913,quaxwell,12,215,144.0,water,,70,85,65,65,60,65,"torrent, moxie",generation-ix,False,False,blue,upright,45
+914,quaquaval,18,619,265.0,water,fighting,85,120,80,85,75,85,"torrent, moxie",generation-ix,False,False,blue,upright,45
+915,lechonk,5,102,51.0,normal,,54,45,40,35,45,35,"aroma-veil, gluttony, thick-fat",generation-ix,False,False,gray,quadruped,255
+916,oinkologne-male,10,1200,171.0,normal,,110,100,75,59,80,65,"lingering-aroma, gluttony, thick-fat",generation-ix,False,False,gray,quadruped,100
+917,tarountula,3,40,42.0,bug,,35,41,45,29,40,20,"insomnia, stakeout",generation-ix,False,False,white,armor,255
+918,spidops,10,165,141.0,bug,,60,79,92,52,86,35,"insomnia, stakeout",generation-ix,False,False,green,armor,120
+919,nymble,2,10,42.0,bug,,33,46,40,21,25,45,"swarm, tinted-lens",generation-ix,False,False,gray,armor,190
+920,lokix,10,175,158.0,bug,dark,71,102,78,52,55,92,"swarm, tinted-lens",generation-ix,False,False,gray,humanoid,30
+921,pawmi,3,25,48.0,electric,,45,50,20,40,25,60,"static, natural-cure, iron-fist",generation-ix,False,False,yellow,quadruped,190
+922,pawmo,4,65,123.0,electric,fighting,60,75,40,50,40,85,"volt-absorb, natural-cure, iron-fist",generation-ix,False,False,yellow,upright,80
+923,pawmot,9,410,245.0,electric,fighting,70,115,70,70,60,105,"volt-absorb, natural-cure, iron-fist",generation-ix,False,False,yellow,upright,45
+924,tandemaus,3,18,61.0,normal,,50,50,45,40,45,75,"run-away, pickup, own-tempo",generation-ix,False,False,white,heads,150
+925,maushold-family-of-four,3,28,165.0,normal,,74,75,70,65,75,111,"friend-guard, cheek-pouch, technician",generation-ix,False,False,white,heads,75
+926,fidough,3,109,62.0,fairy,,37,55,70,30,55,65,"own-tempo, klutz",generation-ix,False,False,yellow,quadruped,190
+927,dachsbun,5,149,167.0,fairy,,57,80,115,50,80,95,"well-baked-body, aroma-veil",generation-ix,False,False,brown,quadruped,90
+928,smoliv,3,65,52.0,grass,normal,41,35,45,58,51,30,"early-bird, harvest",generation-ix,False,False,green,legs,255
+929,dolliv,6,119,124.0,grass,normal,52,53,60,78,78,33,"early-bird, harvest",generation-ix,False,False,green,humanoid,120
+930,arboliva,14,482,255.0,grass,normal,78,69,90,125,109,39,"seed-sower, harvest",generation-ix,False,False,green,humanoid,45
+931,squawkabilly-green-plumage,6,24,146.0,normal,flying,82,96,51,45,51,92,"intimidate, hustle, guts",generation-ix,False,False,green,wings,190
+932,nacli,4,160,56.0,rock,,55,55,75,35,35,25,"purifying-salt, sturdy, clear-body",generation-ix,False,False,brown,ball,255
+933,naclstack,6,1050,124.0,rock,,60,60,100,35,65,35,"purifying-salt, sturdy, clear-body",generation-ix,False,False,brown,quadruped,120
+934,garganacl,23,2400,250.0,rock,,100,100,130,45,90,35,"purifying-salt, sturdy, clear-body",generation-ix,False,False,brown,humanoid,45
+935,charcadet,6,105,51.0,fire,,40,50,40,50,40,35,"flash-fire, flame-body",generation-ix,False,False,red,humanoid,90
+936,armarouge,15,850,263.0,fire,psychic,85,60,100,125,80,75,"flash-fire, weak-armor",generation-ix,False,False,red,humanoid,25
+937,ceruledge,16,620,263.0,fire,ghost,75,125,80,60,100,85,"flash-fire, weak-armor",generation-ix,False,False,blue,humanoid,25
+938,tadbulb,3,4,54.0,electric,,61,31,41,59,35,45,"own-tempo, static, damp",generation-ix,False,False,yellow,ball,190
+939,bellibolt,12,1130,173.0,electric,,109,64,91,103,83,45,"electromorphosis, static, damp",generation-ix,False,False,green,humanoid,50
+940,wattrel,4,36,56.0,electric,flying,40,40,35,55,40,70,"wind-power, volt-absorb, competitive",generation-ix,False,False,black,wings,180
+941,kilowattrel,14,386,172.0,electric,flying,70,70,60,105,60,125,"wind-power, volt-absorb, competitive",generation-ix,False,False,yellow,wings,90
+942,maschiff,5,160,68.0,dark,,60,78,60,40,51,51,"intimidate, run-away, stakeout",generation-ix,False,False,brown,quadruped,150
+943,mabosstiff,11,610,177.0,dark,,80,120,90,60,70,85,"intimidate, guard-dog, stakeout",generation-ix,False,False,gray,quadruped,75
+944,shroodle,2,7,58.0,poison,normal,40,65,35,40,35,75,"unburden, pickpocket, prankster",generation-ix,False,False,gray,quadruped,190
+945,grafaiai,7,272,170.0,poison,normal,63,95,65,80,72,110,"unburden, poison-touch, prankster",generation-ix,False,False,gray,upright,90
+946,bramblin,6,6,55.0,grass,ghost,40,65,30,45,35,60,"wind-rider, infiltrator",generation-ix,False,False,brown,ball,190
+947,brambleghast,12,60,168.0,grass,ghost,55,115,70,80,70,90,"wind-rider, infiltrator",generation-ix,False,False,brown,ball,45
+948,toedscool,9,330,67.0,ground,grass,40,40,35,50,100,70,mycelium-might,generation-ix,False,False,yellow,legs,190
+949,toedscruel,19,580,180.0,ground,grass,80,70,65,80,120,100,mycelium-might,generation-ix,False,False,black,tentacles,90
+950,klawf,13,790,158.0,rock,,70,100,115,35,55,75,"anger-shell, shell-armor, regenerator",generation-ix,False,False,red,armor,120
+951,capsakid,3,30,61.0,grass,,50,62,40,62,40,50,"chlorophyll, insomnia, klutz",generation-ix,False,False,green,upright,190
+952,scovillain,9,150,170.0,grass,fire,65,108,65,108,65,75,"chlorophyll, insomnia, moody",generation-ix,False,False,green,upright,75
+953,rellor,2,10,54.0,bug,,41,50,60,31,58,30,"compound-eyes, shed-skin",generation-ix,False,False,brown,armor,190
+954,rabsca,3,35,165.0,bug,psychic,75,50,85,115,100,45,"synchronize, telepathy",generation-ix,False,False,green,armor,45
+955,flittle,2,15,51.0,psychic,,30,35,30,55,30,75,"anticipation, frisk, speed-boost",generation-ix,False,False,yellow,legs,120
+956,espathra,19,900,168.0,psychic,,95,60,60,101,60,105,"opportunist, frisk, speed-boost",generation-ix,False,False,yellow,upright,60
+957,tinkatink,4,89,59.0,fairy,steel,50,45,45,35,64,58,"mold-breaker, own-tempo, pickpocket",generation-ix,False,False,pink,humanoid,190
+958,tinkatuff,7,591,133.0,fairy,steel,65,55,55,45,82,78,"mold-breaker, own-tempo, pickpocket",generation-ix,False,False,pink,humanoid,90
+959,tinkaton,7,1128,253.0,fairy,steel,85,75,77,70,105,94,"mold-breaker, own-tempo, pickpocket",generation-ix,False,False,pink,humanoid,45
+960,wiglett,12,18,49.0,water,,10,55,25,35,25,95,"gooey, rattled, sand-veil",generation-ix,False,False,white,blob,255
+961,wugtrio,12,54,149.0,water,,35,100,50,50,70,120,"gooey, rattled, sand-veil",generation-ix,False,False,red,blob,50
+962,bombirdier,15,429,243.0,flying,dark,70,103,85,60,85,82,"big-pecks, keen-eye, rocky-payload",generation-ix,False,False,white,wings,25
+963,finizen,13,602,63.0,water,,70,45,40,45,40,75,water-veil,generation-ix,False,False,blue,fish,200
+964,palafin-zero,13,602,160.0,water,,100,70,72,53,62,100,zero-to-hero,generation-ix,False,False,blue,fish,45
+965,varoom,10,350,60.0,steel,poison,45,70,63,30,45,47,"overcoat, slow-start",generation-ix,False,False,gray,legs,190
+966,revavroom,18,1200,175.0,steel,poison,80,119,90,54,67,90,"overcoat, filter",generation-ix,False,False,gray,legs,75
+967,cyclizar,16,630,175.0,dragon,normal,70,95,65,85,65,121,"shed-skin, regenerator",generation-ix,False,False,green,quadruped,190
+968,orthworm,25,3100,240.0,steel,,70,85,145,60,55,65,"earth-eater, sand-veil",generation-ix,False,False,pink,squiggle,25
+969,glimmet,7,80,70.0,rock,poison,48,35,42,105,60,60,"toxic-debris, corrosion",generation-ix,False,False,blue,ball,70
+970,glimmora,15,450,184.0,rock,poison,83,55,90,130,81,86,"toxic-debris, corrosion",generation-ix,False,False,blue,ball,25
+971,greavard,6,350,58.0,ghost,,50,61,60,30,55,34,"pickup, fluffy",generation-ix,False,False,white,quadruped,120
+972,houndstone,20,150,171.0,ghost,,72,101,100,50,97,68,"sand-rush, fluffy",generation-ix,False,False,white,quadruped,60
+973,flamigo,16,370,175.0,flying,fighting,82,115,74,75,64,90,"scrappy, tangled-feet, costar",generation-ix,False,False,pink,wings,100
+974,cetoddle,12,450,67.0,ice,,108,68,45,30,40,43,"thick-fat, snow-cloak, sheer-force",generation-ix,False,False,white,upright,150
+975,cetitan,45,7000,182.0,ice,,170,113,65,45,55,73,"thick-fat, slush-rush, sheer-force",generation-ix,False,False,white,upright,50
+976,veluza,25,900,167.0,water,psychic,90,102,73,78,65,70,"mold-breaker, sharpness",generation-ix,False,False,gray,fish,100
+977,dondozo,120,2200,265.0,water,,150,100,115,65,65,35,"unaware, oblivious, water-veil",generation-ix,False,False,blue,fish,25
+978,tatsugiri-curly,3,80,166.0,dragon,water,68,50,60,120,95,82,"commander, storm-drain",generation-ix,False,False,pink,fish,100
+979,annihilape,12,560,268.0,fighting,ghost,110,115,80,50,90,90,"vital-spirit, inner-focus, defiant",generation-ix,False,False,gray,humanoid,45
+980,clodsire,18,2230,151.0,poison,ground,130,75,60,45,100,20,"poison-point, water-absorb, unaware",generation-ix,False,False,brown,quadruped,90
+981,farigiraf,32,1600,260.0,normal,psychic,120,90,70,110,70,60,"cud-chew, armor-tail, sap-sipper",generation-ix,False,False,brown,quadruped,45
+982,dudunsparce-two-segment,36,392,182.0,normal,,125,100,80,85,75,55,"serene-grace, run-away, rattled",generation-ix,False,False,yellow,squiggle,45
+983,kingambit,20,1200,275.0,dark,steel,100,135,120,60,85,50,"defiant, supreme-overlord, pressure",generation-ix,False,False,black,humanoid,25
+984,great-tusk,22,3200,285.0,ground,fighting,115,131,131,53,53,87,protosynthesis,generation-ix,False,False,purple,quadruped,30
+985,scream-tail,12,80,285.0,fairy,psychic,115,65,99,65,115,111,protosynthesis,generation-ix,False,False,pink,upright,50
+986,brute-bonnet,12,210,285.0,grass,dark,111,127,99,79,99,55,protosynthesis,generation-ix,False,False,gray,quadruped,50
+987,flutter-mane,14,40,285.0,ghost,fairy,55,55,55,135,135,135,protosynthesis,generation-ix,False,False,gray,wings,30
+988,slither-wing,32,920,285.0,bug,fighting,85,135,79,85,105,81,protosynthesis,generation-ix,False,False,red,quadruped,30
+989,sandy-shocks,23,600,285.0,electric,ground,85,81,97,121,85,101,protosynthesis,generation-ix,False,False,gray,quadruped,30
+990,iron-treads,9,2400,285.0,ground,steel,90,112,120,72,70,106,quark-drive,generation-ix,False,False,gray,quadruped,30
+991,iron-bundle,6,110,285.0,ice,water,56,80,114,124,60,136,quark-drive,generation-ix,False,False,red,upright,50
+992,iron-hands,18,3807,285.0,fighting,electric,154,140,108,50,68,50,quark-drive,generation-ix,False,False,gray,humanoid,50
+993,iron-jugulis,13,1110,285.0,dark,flying,94,80,86,122,80,108,quark-drive,generation-ix,False,False,blue,upright,30
+994,iron-moth,12,360,285.0,fire,poison,80,70,60,140,110,110,quark-drive,generation-ix,False,False,yellow,bug-wings,30
+995,iron-thorns,16,3030,285.0,rock,electric,100,134,110,70,84,72,quark-drive,generation-ix,False,False,green,upright,30
+996,frigibax,5,170,64.0,dragon,ice,65,75,45,35,45,55,"thermal-exchange, ice-body",generation-ix,False,False,gray,upright,45
+997,arctibax,8,300,148.0,dragon,ice,90,95,66,45,65,62,"thermal-exchange, ice-body",generation-ix,False,False,gray,upright,25
+998,baxcalibur,21,2100,300.0,dragon,ice,115,145,92,75,86,87,"thermal-exchange, ice-body",generation-ix,False,False,gray,upright,10
+999,gimmighoul,3,50,60.0,ghost,,45,30,70,75,70,10,rattled,generation-ix,False,False,brown,blob,45
+1000,gholdengo,12,300,275.0,steel,ghost,87,60,95,133,91,84,good-as-gold,generation-ix,False,False,yellow,humanoid,45
+1001,wo-chien,15,742,285.0,dark,grass,85,85,100,95,135,70,tablets-of-ruin,generation-ix,True,False,brown,squiggle,6
+1002,chien-pao,19,1522,285.0,dark,ice,80,120,80,90,65,135,sword-of-ruin,generation-ix,True,False,white,quadruped,6
+1003,ting-lu,27,6997,285.0,dark,ground,155,110,125,55,80,45,vessel-of-ruin,generation-ix,True,False,brown,quadruped,6
+1004,chi-yu,4,49,285.0,dark,fire,55,80,80,135,120,100,beads-of-ruin,generation-ix,True,False,red,fish,6
+1005,roaring-moon,20,3800,295.0,dragon,dark,105,139,71,55,101,119,protosynthesis,generation-ix,False,False,green,quadruped,10
+1006,iron-valiant,14,350,295.0,fairy,fighting,74,130,90,120,60,116,quark-drive,generation-ix,False,False,white,humanoid,10
+1007,koraidon,25,3030,335.0,fighting,dragon,100,135,115,85,100,135,orichalcum-pulse,generation-ix,True,False,red,upright,3
+1008,miraidon,35,2400,335.0,electric,dragon,100,85,100,135,115,135,hadron-engine,generation-ix,True,False,blue,quadruped,3
+1009,walking-wake,35,2800,295.0,water,dragon,99,83,91,125,83,109,protosynthesis,generation-ix,False,False,blue,upright,5
+1010,iron-leaves,15,1250,295.0,grass,psychic,90,130,88,70,108,104,quark-drive,generation-ix,False,False,green,quadruped,5
+1011,dipplin,4,97,170.0,grass,dragon,80,80,110,95,80,40,"supersweet-syrup, gluttony, sticky-hold",generation-ix,False,False,green,heads,45
+1012,poltchageist,1,11,62.0,grass,ghost,40,45,45,74,54,50,"hospitality, heatproof",generation-ix,False,False,green,ball,120
+1013,sinistcha,2,22,178.0,grass,ghost,71,60,106,121,80,70,"hospitality, heatproof",generation-ix,False,False,green,ball,60
+1014,okidogi,18,922,278.0,poison,fighting,88,128,115,58,86,80,"toxic-chain, guard-dog",generation-ix,True,False,black,upright,3
+1015,munkidori,10,122,278.0,poison,psychic,88,75,66,130,90,106,"toxic-chain, frisk",generation-ix,True,False,black,humanoid,3
+1016,fezandipiti,14,301,278.0,poison,fairy,88,91,82,70,125,99,"toxic-chain, technician",generation-ix,True,False,black,wings,3
+1017,ogerpon,12,398,275.0,grass,,80,120,84,60,96,110,defiant,generation-ix,True,False,green,humanoid,5
+1018,archaludon,20,600,300.0,steel,dragon,90,105,130,125,65,85,"stamina, sturdy, stalwart",generation-ix,False,False,white,upright,10
+1019,hydrapple,18,930,270.0,grass,dragon,106,80,110,120,80,44,"supersweet-syrup, regenerator, sticky-hold",generation-ix,False,False,green,heads,10
+1020,gouging-fire,35,5900,295.0,fire,dragon,105,115,121,65,93,91,protosynthesis,generation-ix,False,False,brown,quadruped,10
+1021,raging-bolt,52,4800,295.0,electric,dragon,125,73,91,137,89,75,protosynthesis,generation-ix,False,False,yellow,quadruped,10
+1022,iron-boulder,15,1625,295.0,rock,psychic,90,120,80,68,108,124,quark-drive,generation-ix,False,False,gray,quadruped,10
+1023,iron-crown,16,1560,295.0,steel,psychic,90,72,100,122,108,98,quark-drive,generation-ix,False,False,blue,quadruped,10
+1024,terapagos,2,65,90.0,normal,,90,65,85,65,85,60,tera-shift,generation-ix,True,False,blue,quadruped,255
+1025,pecharunt,3,3,300.0,poison,ghost,88,88,160,88,88,88,poison-puppeteer,generation-ix,False,True,purple,ball,3
+10001,deoxys-attack,17,608,270.0,psychic,,50,180,20,180,20,150,pressure,generation-iii,False,True,red,humanoid,3
+10002,deoxys-defense,17,608,270.0,psychic,,50,70,160,70,160,90,pressure,generation-iii,False,True,red,humanoid,3
+10003,deoxys-speed,17,608,270.0,psychic,,50,95,90,95,90,180,pressure,generation-iii,False,True,red,humanoid,3
+10004,wormadam-sandy,5,65,148.0,bug,ground,60,79,105,59,85,36,"anticipation, overcoat",generation-iv,False,False,green,blob,45
+10005,wormadam-trash,5,65,148.0,bug,steel,60,69,95,69,95,36,"anticipation, overcoat",generation-iv,False,False,green,blob,45
+10006,shaymin-sky,4,52,270.0,grass,flying,100,103,75,120,75,127,serene-grace,generation-iv,False,True,green,quadruped,45
+10007,giratina-origin,69,6500,340.0,ghost,dragon,150,120,100,120,100,90,levitate,generation-iv,True,False,black,tentacles,3
+10008,rotom-heat,3,3,182.0,electric,fire,50,65,107,105,107,86,levitate,generation-iv,False,False,red,ball,45
+10009,rotom-wash,3,3,182.0,electric,water,50,65,107,105,107,86,levitate,generation-iv,False,False,red,ball,45
+10010,rotom-frost,3,3,182.0,electric,ice,50,65,107,105,107,86,levitate,generation-iv,False,False,red,ball,45
+10011,rotom-fan,3,3,182.0,electric,flying,50,65,107,105,107,86,levitate,generation-iv,False,False,red,ball,45
+10012,rotom-mow,3,3,182.0,electric,grass,50,65,107,105,107,86,levitate,generation-iv,False,False,red,ball,45
+10013,castform-sunny,3,8,147.0,fire,,70,70,70,70,70,70,forecast,generation-iii,False,False,gray,ball,45
+10014,castform-rainy,3,8,147.0,water,,70,70,70,70,70,70,forecast,generation-iii,False,False,gray,ball,45
+10015,castform-snowy,3,8,147.0,ice,,70,70,70,70,70,70,forecast,generation-iii,False,False,gray,ball,45
+10016,basculin-blue-striped,10,180,161.0,water,,70,92,65,80,55,98,"rock-head, adaptability, mold-breaker",generation-v,False,False,green,fish,25
+10017,darmanitan-zen,13,929,189.0,fire,psychic,105,30,105,140,105,55,"sheer-force, zen-mode",generation-v,False,False,red,quadruped,60
+10018,meloetta-pirouette,6,65,270.0,normal,fighting,100,128,90,77,77,128,serene-grace,generation-v,False,True,white,humanoid,3
+10019,tornadus-therian,14,630,290.0,flying,,79,100,80,110,90,121,regenerator,generation-v,True,False,green,arms,3
+10020,thundurus-therian,30,610,290.0,electric,flying,79,105,70,145,80,101,volt-absorb,generation-v,True,False,blue,arms,3
+10021,landorus-therian,13,680,300.0,ground,flying,89,145,90,105,80,91,intimidate,generation-v,True,False,brown,arms,3
+10022,kyurem-black,33,3250,350.0,dragon,ice,125,170,100,120,90,95,teravolt,generation-v,True,False,gray,upright,3
+10023,kyurem-white,36,3250,350.0,dragon,ice,125,120,90,170,100,95,turboblaze,generation-v,True,False,gray,upright,3
+10024,keldeo-resolute,14,485,290.0,water,fighting,91,72,90,129,90,108,justified,generation-v,False,True,yellow,quadruped,3
+10025,meowstic-female,6,85,163.0,psychic,,74,48,76,83,81,104,"keen-eye, infiltrator, competitive",generation-vi,False,False,blue,upright,75
+10026,aegislash-blade,17,530,250.0,steel,ghost,60,140,50,140,50,60,stance-change,generation-vi,False,False,brown,blob,45
+10027,pumpkaboo-small,3,35,67.0,ghost,grass,44,66,70,44,55,56,"pickup, frisk, insomnia",generation-vi,False,False,brown,ball,120
+10028,pumpkaboo-large,5,75,67.0,ghost,grass,54,66,70,44,55,46,"pickup, frisk, insomnia",generation-vi,False,False,brown,ball,120
+10029,pumpkaboo-super,8,150,67.0,ghost,grass,59,66,70,44,55,41,"pickup, frisk, insomnia",generation-vi,False,False,brown,ball,120
+10030,gourgeist-small,7,95,173.0,ghost,grass,55,85,122,58,75,99,"pickup, frisk, insomnia",generation-vi,False,False,brown,blob,60
+10031,gourgeist-large,11,140,173.0,ghost,grass,75,95,122,58,75,69,"pickup, frisk, insomnia",generation-vi,False,False,brown,blob,60
+10032,gourgeist-super,17,390,173.0,ghost,grass,85,100,122,58,75,54,"pickup, frisk, insomnia",generation-vi,False,False,brown,blob,60
+10033,venusaur-mega,24,1555,281.0,grass,poison,80,100,123,122,120,80,thick-fat,generation-i,False,False,green,quadruped,45
+10034,charizard-mega-x,17,1105,285.0,fire,dragon,78,130,111,130,85,100,tough-claws,generation-i,False,False,red,upright,45
+10035,charizard-mega-y,17,1005,285.0,fire,flying,78,104,78,159,115,100,drought,generation-i,False,False,red,upright,45
+10036,blastoise-mega,16,1011,284.0,water,,79,103,120,135,115,78,mega-launcher,generation-i,False,False,blue,upright,45
+10037,alakazam-mega,12,480,270.0,psychic,,55,50,65,175,105,150,trace,generation-i,False,False,brown,humanoid,50
+10038,gengar-mega,14,405,270.0,ghost,poison,60,65,80,170,95,130,shadow-tag,generation-i,False,False,purple,upright,45
+10039,kangaskhan-mega,22,1000,207.0,normal,,105,125,100,60,100,100,parental-bond,generation-i,False,False,brown,upright,45
+10040,pinsir-mega,17,590,210.0,bug,flying,65,155,120,65,90,105,aerilate,generation-i,False,False,brown,humanoid,45
+10041,gyarados-mega,65,3050,224.0,water,dark,95,155,109,70,130,81,mold-breaker,generation-i,False,False,blue,squiggle,45
+10042,aerodactyl-mega,21,790,215.0,rock,flying,80,135,85,70,95,150,tough-claws,generation-i,False,False,purple,wings,45
+10043,mewtwo-mega-x,23,1270,351.0,psychic,fighting,106,190,100,154,100,130,steadfast,generation-i,True,False,purple,upright,3
+10044,mewtwo-mega-y,15,330,351.0,psychic,,106,150,70,194,120,140,insomnia,generation-i,True,False,purple,upright,3
+10045,ampharos-mega,14,615,275.0,electric,dragon,90,95,105,165,110,45,mold-breaker,generation-ii,False,False,yellow,upright,45
+10046,scizor-mega,20,1250,210.0,bug,steel,70,150,140,65,100,75,technician,generation-ii,False,False,red,bug-wings,25
+10047,heracross-mega,17,625,210.0,bug,fighting,80,185,115,40,105,75,skill-link,generation-ii,False,False,blue,humanoid,45
+10048,houndoom-mega,19,495,210.0,dark,fire,75,90,90,140,90,115,solar-power,generation-ii,False,False,black,quadruped,45
+10049,tyranitar-mega,25,2550,315.0,rock,dark,100,164,150,95,120,71,sand-stream,generation-ii,False,False,green,upright,45
+10050,blaziken-mega,19,520,284.0,fire,fighting,80,160,80,130,80,100,speed-boost,generation-iii,False,False,red,upright,45
+10051,gardevoir-mega,16,484,278.0,psychic,fairy,68,85,65,165,135,100,pixilate,generation-iii,False,False,white,humanoid,45
+10052,mawile-mega,10,235,168.0,steel,fairy,50,105,125,55,95,50,huge-power,generation-iii,False,False,black,humanoid,45
+10053,aggron-mega,22,3950,284.0,steel,,70,140,230,60,80,50,filter,generation-iii,False,False,gray,upright,45
+10054,medicham-mega,13,315,179.0,fighting,psychic,60,100,85,80,85,100,pure-power,generation-iii,False,False,red,humanoid,90
+10055,manectric-mega,18,440,201.0,electric,,70,75,80,135,80,135,intimidate,generation-iii,False,False,yellow,quadruped,45
+10056,banette-mega,12,130,194.0,ghost,,64,165,75,93,83,75,prankster,generation-iii,False,False,black,upright,45
+10057,absol-mega,12,490,198.0,dark,,65,150,60,115,60,115,magic-bounce,generation-iii,False,False,white,quadruped,30
+10058,garchomp-mega,19,950,315.0,dragon,ground,108,170,115,120,95,92,sand-force,generation-iv,False,False,blue,upright,45
+10059,lucario-mega,13,575,219.0,fighting,steel,70,145,88,140,70,112,adaptability,generation-iv,False,False,blue,upright,45
+10060,abomasnow-mega,27,1850,208.0,grass,ice,90,132,105,132,105,30,snow-warning,generation-iv,False,False,white,upright,60
+10061,floette-eternal,2,9,243.0,fairy,,74,65,67,125,128,92,"flower-veil, symbiosis",generation-vi,False,False,white,arms,120
+10062,latias-mega,18,520,315.0,dragon,psychic,80,100,120,140,150,110,levitate,generation-iii,True,False,red,wings,3
+10063,latios-mega,23,700,315.0,dragon,psychic,80,130,100,160,120,110,levitate,generation-iii,True,False,blue,wings,3
+10064,swampert-mega,19,1020,286.0,water,ground,100,150,110,95,110,70,swift-swim,generation-iii,False,False,blue,upright,45
+10065,sceptile-mega,19,552,284.0,grass,dragon,70,110,75,145,85,145,lightning-rod,generation-iii,False,False,green,upright,45
+10066,sableye-mega,5,1610,168.0,dark,ghost,50,85,125,85,115,20,magic-bounce,generation-iii,False,False,purple,humanoid,45
+10067,altaria-mega,15,206,207.0,dragon,fairy,75,110,110,110,105,80,pixilate,generation-iii,False,False,blue,wings,45
+10068,gallade-mega,16,564,278.0,psychic,fighting,68,165,95,65,115,110,inner-focus,generation-iv,False,False,white,humanoid,45
+10069,audino-mega,15,320,425.0,normal,fairy,103,60,126,80,126,50,healer,generation-v,False,False,pink,upright,255
+10070,sharpedo-mega,25,1303,196.0,water,dark,70,140,70,110,65,105,strong-jaw,generation-iii,False,False,blue,fish,60
+10071,slowbro-mega,20,1200,207.0,water,psychic,95,75,180,130,80,30,shell-armor,generation-i,False,False,pink,upright,75
+10072,steelix-mega,105,7400,214.0,steel,ground,75,125,230,55,95,30,sand-force,generation-ii,False,False,gray,squiggle,25
+10073,pidgeot-mega,22,505,261.0,normal,flying,83,80,80,135,80,121,no-guard,generation-i,False,False,brown,wings,45
+10074,glalie-mega,21,3502,203.0,ice,,80,120,80,120,80,100,refrigerate,generation-iii,False,False,gray,ball,75
+10075,diancie-mega,11,278,315.0,rock,fairy,50,160,110,160,110,110,magic-bounce,generation-vi,False,True,pink,arms,3
+10076,metagross-mega,25,9429,315.0,steel,psychic,80,145,150,105,110,110,tough-claws,generation-iii,False,False,blue,heads,3
+10077,kyogre-primal,98,4300,347.0,water,,100,150,90,180,160,90,primordial-sea,generation-iii,True,False,blue,fish,3
+10078,groudon-primal,50,9997,347.0,ground,fire,100,180,160,150,90,90,desolate-land,generation-iii,True,False,red,upright,3
+10079,rayquaza-mega,108,3920,351.0,dragon,flying,105,180,100,180,100,115,delta-stream,generation-iii,True,False,green,squiggle,45
+10080,pikachu-rock-star,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10081,pikachu-belle,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10082,pikachu-pop-star,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10083,pikachu-phd,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10084,pikachu-libre,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10085,pikachu-cosplay,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10086,hoopa-unbound,65,4900,306.0,psychic,dark,80,160,60,170,130,80,magician,generation-vi,False,True,purple,arms,3
+10087,camerupt-mega,25,3205,196.0,fire,ground,70,120,100,145,105,20,sheer-force,generation-iii,False,False,red,quadruped,150
+10088,lopunny-mega,13,283,203.0,normal,fighting,65,136,94,54,96,135,scrappy,generation-iv,False,False,brown,upright,60
+10089,salamence-mega,18,1126,315.0,dragon,flying,95,145,130,120,90,120,aerilate,generation-iii,False,False,blue,quadruped,45
+10090,beedrill-mega,14,405,223.0,bug,poison,65,150,40,15,80,145,adaptability,generation-i,False,False,yellow,bug-wings,45
+10091,rattata-alola,3,38,51.0,dark,normal,30,56,35,25,35,72,"gluttony, hustle, thick-fat",generation-i,False,False,purple,quadruped,255
+10092,raticate-alola,7,255,145.0,dark,normal,75,71,70,40,80,77,"gluttony, hustle, thick-fat",generation-i,False,False,brown,quadruped,127
+10093,raticate-totem-alola,14,1050,145.0,dark,normal,75,71,70,40,80,77,"gluttony, hustle, thick-fat",generation-i,False,False,brown,quadruped,127
+10094,pikachu-original-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10095,pikachu-hoenn-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10096,pikachu-sinnoh-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10097,pikachu-unova-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10098,pikachu-kalos-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10099,pikachu-alola-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10100,raichu-alola,7,210,243.0,electric,psychic,60,85,50,95,85,110,surge-surfer,generation-i,False,False,yellow,upright,75
+10101,sandshrew-alola,7,400,60.0,ice,steel,50,75,90,10,35,40,"snow-cloak, slush-rush",generation-i,False,False,yellow,upright,255
+10102,sandslash-alola,12,550,158.0,ice,steel,75,100,120,25,65,65,"snow-cloak, slush-rush",generation-i,False,False,yellow,upright,90
+10103,vulpix-alola,6,99,60.0,ice,,38,41,40,50,65,65,"snow-cloak, snow-warning",generation-i,False,False,brown,quadruped,190
+10104,ninetales-alola,11,199,177.0,ice,fairy,73,67,75,81,100,109,"snow-cloak, snow-warning",generation-i,False,False,yellow,quadruped,75
+10105,diglett-alola,2,10,53.0,ground,steel,10,55,30,35,45,90,"sand-veil, tangling-hair, sand-force",generation-i,False,False,brown,blob,255
+10106,dugtrio-alola,7,666,149.0,ground,steel,35,100,60,50,70,110,"sand-veil, tangling-hair, sand-force",generation-i,False,False,brown,heads,50
+10107,meowth-alola,4,42,58.0,dark,,40,35,35,50,40,90,"pickup, technician, rattled",generation-i,False,False,yellow,quadruped,255
+10108,persian-alola,11,330,154.0,dark,,65,60,60,75,65,115,"fur-coat, technician, rattled",generation-i,False,False,yellow,quadruped,90
+10109,geodude-alola,4,203,60.0,rock,electric,40,80,100,30,30,20,"magnet-pull, sturdy, galvanize",generation-i,False,False,brown,arms,255
+10110,graveler-alola,10,1100,137.0,rock,electric,55,95,115,45,45,35,"magnet-pull, sturdy, galvanize",generation-i,False,False,brown,humanoid,120
+10111,golem-alola,17,3160,223.0,rock,electric,80,120,130,55,65,45,"magnet-pull, sturdy, galvanize",generation-i,False,False,brown,humanoid,45
+10112,grimer-alola,7,420,65.0,poison,dark,80,80,50,40,50,25,"poison-touch, gluttony, power-of-alchemy",generation-i,False,False,purple,arms,190
+10113,muk-alola,10,520,175.0,poison,dark,105,105,75,65,100,50,"poison-touch, gluttony, power-of-alchemy",generation-i,False,False,purple,arms,75
+10114,exeggutor-alola,109,4156,186.0,grass,dragon,95,105,85,125,75,45,"frisk, harvest",generation-i,False,False,yellow,legs,45
+10115,marowak-alola,10,340,149.0,fire,ghost,60,80,110,50,80,45,"cursed-body, lightning-rod, rock-head",generation-i,False,False,brown,upright,75
+10116,greninja-battle-bond,15,400,239.0,water,dark,72,95,67,103,71,122,battle-bond,generation-vi,False,False,blue,humanoid,45
+10117,greninja-ash,15,400,288.0,water,dark,72,145,67,153,71,132,battle-bond,generation-vi,False,False,blue,humanoid,45
+10118,zygarde-10-power-construct,12,335,243.0,dragon,ground,54,100,71,61,85,115,power-construct,generation-vi,True,False,green,squiggle,3
+10119,zygarde-50-power-construct,50,3050,300.0,dragon,ground,108,100,121,81,95,95,power-construct,generation-vi,True,False,green,squiggle,3
+10120,zygarde-complete,45,6100,354.0,dragon,ground,216,100,121,91,95,85,power-construct,generation-vi,True,False,green,squiggle,3
+10121,gumshoos-totem,14,600,146.0,normal,,88,110,60,55,60,45,"stakeout, strong-jaw, adaptability",generation-vii,False,False,brown,quadruped,127
+10122,vikavolt-totem,26,1475,225.0,bug,electric,77,70,90,145,75,43,levitate,generation-vii,False,False,blue,armor,45
+10123,oricorio-pom-pom,6,34,167.0,electric,flying,75,70,70,98,70,93,dancer,generation-vii,False,False,red,wings,45
+10124,oricorio-pau,6,34,167.0,psychic,flying,75,70,70,98,70,93,dancer,generation-vii,False,False,red,wings,45
+10125,oricorio-sensu,6,34,167.0,ghost,flying,75,70,70,98,70,93,dancer,generation-vii,False,False,red,wings,45
+10126,lycanroc-midnight,11,250,170.0,rock,,85,115,75,55,75,82,"keen-eye, vital-spirit, no-guard",generation-vii,False,False,brown,quadruped,90
+10127,wishiwashi-school,82,786,217.0,water,,45,140,130,140,135,30,schooling,generation-vii,False,False,blue,fish,60
+10128,lurantis-totem,15,580,168.0,grass,,70,105,90,80,90,45,"leaf-guard, contrary",generation-vii,False,False,pink,humanoid,75
+10129,salazzle-totem,21,810,168.0,poison,fire,68,64,60,111,60,117,"corrosion, oblivious",generation-vii,False,False,black,quadruped,45
+10130,minior-orange-meteor,3,400,154.0,rock,flying,60,60,100,60,100,60,shields-down,generation-vii,False,False,brown,ball,30
+10131,minior-yellow-meteor,3,400,154.0,rock,flying,60,60,100,60,100,60,shields-down,generation-vii,False,False,brown,ball,30
+10132,minior-green-meteor,3,400,154.0,rock,flying,60,60,100,60,100,60,shields-down,generation-vii,False,False,brown,ball,30
+10133,minior-blue-meteor,3,400,154.0,rock,flying,60,60,100,60,100,60,shields-down,generation-vii,False,False,brown,ball,30
+10134,minior-indigo-meteor,3,400,154.0,rock,flying,60,60,100,60,100,60,shields-down,generation-vii,False,False,brown,ball,30
+10135,minior-violet-meteor,3,400,154.0,rock,flying,60,60,100,60,100,60,shields-down,generation-vii,False,False,brown,ball,30
+10136,minior-red,3,3,175.0,rock,flying,60,100,60,100,60,120,shields-down,generation-vii,False,False,brown,ball,30
+10137,minior-orange,3,3,175.0,rock,flying,60,100,60,100,60,120,shields-down,generation-vii,False,False,brown,ball,30
+10138,minior-yellow,3,3,175.0,rock,flying,60,100,60,100,60,120,shields-down,generation-vii,False,False,brown,ball,30
+10139,minior-green,3,3,175.0,rock,flying,60,100,60,100,60,120,shields-down,generation-vii,False,False,brown,ball,30
+10140,minior-blue,3,3,175.0,rock,flying,60,100,60,100,60,120,shields-down,generation-vii,False,False,brown,ball,30
+10141,minior-indigo,3,3,175.0,rock,flying,60,100,60,100,60,120,shields-down,generation-vii,False,False,brown,ball,30
+10142,minior-violet,3,3,175.0,rock,flying,60,100,60,100,60,120,shields-down,generation-vii,False,False,brown,ball,30
+10143,mimikyu-busted,2,7,167.0,ghost,fairy,55,90,80,50,105,96,disguise,generation-vii,False,False,yellow,squiggle,45
+10144,mimikyu-totem-disguised,4,28,167.0,ghost,fairy,55,90,80,50,105,96,disguise,generation-vii,False,False,yellow,squiggle,45
+10145,mimikyu-totem-busted,4,28,167.0,ghost,fairy,55,90,80,50,105,96,disguise,generation-vii,False,False,yellow,squiggle,45
+10146,kommo-o-totem,24,2075,270.0,dragon,fighting,75,110,125,100,105,85,"bulletproof, soundproof, overcoat",generation-vii,False,False,gray,upright,45
+10147,magearna-original,10,805,300.0,steel,fairy,80,95,115,130,115,65,soul-heart,generation-vii,False,True,gray,humanoid,3
+10148,pikachu-partner-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10149,marowak-totem,17,980,149.0,fire,ghost,60,80,110,50,80,45,"cursed-body, lightning-rod, rock-head",generation-i,False,False,brown,upright,75
+10150,ribombee-totem,4,20,162.0,bug,fairy,60,55,60,95,70,124,"honey-gather, shield-dust, sweet-veil",generation-vii,False,False,yellow,bug-wings,75
+10151,rockruff-own-tempo,5,92,56.0,rock,,45,65,40,30,40,60,own-tempo,generation-vii,False,False,brown,quadruped,190
+10152,lycanroc-dusk,8,250,170.0,rock,,75,117,65,55,65,110,tough-claws,generation-vii,False,False,brown,quadruped,90
+10153,araquanid-totem,31,2175,159.0,water,bug,68,70,92,50,132,42,"water-bubble, water-absorb",generation-vii,False,False,green,armor,100
+10154,togedemaru-totem,6,130,152.0,electric,steel,65,98,63,40,73,96,"iron-barbs, lightning-rod, sturdy",generation-vii,False,False,gray,upright,180
+10155,necrozma-dusk,38,4600,340.0,psychic,steel,97,157,127,113,109,77,prism-armor,generation-vii,True,False,black,arms,255
+10156,necrozma-dawn,42,3500,340.0,psychic,ghost,97,113,109,157,127,77,prism-armor,generation-vii,True,False,black,arms,255
+10157,necrozma-ultra,75,2300,339.0,psychic,dragon,97,167,97,167,97,129,neuroforce,generation-vii,True,False,black,arms,255
+10158,pikachu-starter,4,60,86.0,electric,,45,80,50,75,60,120,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10159,eevee-starter,3,65,87.0,normal,,65,75,70,65,85,75,"run-away, adaptability, anticipation",generation-i,False,False,brown,quadruped,45
+10160,pikachu-world-cap,4,60,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10161,meowth-galar,4,75,58.0,steel,,50,65,55,40,40,40,"pickup, tough-claws, unnerve",generation-i,False,False,yellow,quadruped,255
+10162,ponyta-galar,8,240,82.0,psychic,,50,85,55,65,65,90,"run-away, pastel-veil, anticipation",generation-i,False,False,yellow,quadruped,190
+10163,rapidash-galar,17,800,175.0,psychic,fairy,65,100,70,80,80,105,"run-away, pastel-veil, anticipation",generation-i,False,False,yellow,quadruped,60
+10164,slowpoke-galar,12,360,63.0,psychic,,90,65,65,40,40,15,"gluttony, own-tempo, regenerator",generation-i,False,False,pink,quadruped,190
+10165,slowbro-galar,16,705,172.0,poison,psychic,95,100,95,100,70,30,"quick-draw, own-tempo, regenerator",generation-i,False,False,pink,upright,75
+10166,farfetchd-galar,8,420,132.0,fighting,,52,95,55,58,62,55,"steadfast, scrappy",generation-i,False,False,brown,wings,45
+10167,weezing-galar,30,160,172.0,poison,fairy,65,90,120,85,70,60,"levitate, neutralizing-gas, misty-surge",generation-i,False,False,purple,heads,60
+10168,mr-mime-galar,14,568,161.0,ice,psychic,50,65,65,90,90,100,"vital-spirit, screen-cleaner, ice-body",generation-i,False,False,pink,humanoid,45
+10169,articuno-galar,17,509,290.0,psychic,flying,90,85,85,125,100,95,competitive,generation-i,True,False,blue,wings,3
+10170,zapdos-galar,16,582,290.0,fighting,flying,90,125,90,85,90,100,defiant,generation-i,True,False,yellow,wings,3
+10171,moltres-galar,20,660,290.0,dark,flying,90,85,90,100,125,90,berserk,generation-i,True,False,yellow,wings,3
+10172,slowking-galar,18,795,172.0,poison,psychic,95,65,80,110,110,30,"curious-medicine, own-tempo, regenerator",generation-ii,False,False,pink,upright,70
+10173,corsola-galar,6,5,144.0,ghost,,60,55,100,65,100,30,"weak-armor, cursed-body",generation-ii,False,False,pink,armor,60
+10174,zigzagoon-galar,4,175,56.0,dark,normal,38,30,41,30,41,60,"pickup, gluttony, quick-feet",generation-iii,False,False,brown,quadruped,255
+10175,linoone-galar,5,325,147.0,dark,normal,78,70,61,50,61,100,"pickup, gluttony, quick-feet",generation-iii,False,False,white,quadruped,90
+10176,darumaka-galar,7,400,63.0,ice,,70,90,45,15,45,50,"hustle, inner-focus",generation-v,False,False,red,humanoid,120
+10177,darmanitan-galar-standard,17,1200,168.0,ice,,105,140,55,30,55,95,"gorilla-tactics, zen-mode",generation-v,False,False,red,quadruped,60
+10178,darmanitan-galar-zen,17,1200,189.0,ice,fire,105,160,55,30,55,135,"gorilla-tactics, zen-mode",generation-v,False,False,red,quadruped,60
+10179,yamask-galar,5,15,61.0,ground,ghost,38,55,85,30,65,30,wandering-spirit,generation-v,False,False,black,arms,190
+10180,stunfisk-galar,7,205,165.0,ground,steel,109,81,99,66,84,32,mimicry,generation-v,False,False,brown,fish,75
+10181,zygarde-10,12,335,243.0,dragon,ground,54,100,71,61,85,115,aura-break,generation-vi,True,False,green,squiggle,3
+10182,cramorant-gulping,8,180,166.0,flying,water,70,85,55,85,95,85,gulp-missile,generation-viii,False,False,blue,wings,45
+10183,cramorant-gorging,8,180,166.0,flying,water,70,85,55,85,95,85,gulp-missile,generation-viii,False,False,blue,wings,45
+10184,toxtricity-low-key,16,400,176.0,electric,poison,75,98,70,114,70,75,"punk-rock, minus, technician",generation-viii,False,False,purple,upright,45
+10185,eiscue-noice,14,890,165.0,ice,,75,80,70,65,50,130,ice-face,generation-viii,False,False,blue,upright,60
+10186,indeedee-female,9,280,166.0,psychic,normal,70,55,65,95,105,85,"own-tempo, synchronize, psychic-surge",generation-viii,False,False,purple,upright,30
+10187,morpeko-hangry,3,30,153.0,electric,dark,58,95,58,70,58,97,hunger-switch,generation-viii,False,False,yellow,humanoid,180
+10188,zacian-crowned,28,3550,360.0,fairy,steel,92,150,115,80,115,148,intrepid-sword,generation-viii,True,False,blue,quadruped,10
+10189,zamazenta-crowned,29,7850,360.0,fighting,steel,92,120,140,80,140,128,dauntless-shield,generation-viii,True,False,red,quadruped,10
+10190,eternatus-eternamax,1000,0,563.0,poison,dragon,255,115,250,125,250,130,pressure,generation-viii,True,False,purple,wings,255
+10191,urshifu-rapid-strike,19,1050,275.0,fighting,water,100,130,100,63,60,97,unseen-fist,generation-viii,True,False,gray,humanoid,3
+10192,zarude-dada,18,700,300.0,dark,grass,105,120,105,70,95,105,leaf-guard,generation-viii,False,True,green,upright,3
+10193,calyrex-ice,24,8091,340.0,psychic,ice,100,165,150,85,130,50,as-one-glastrier,generation-viii,True,False,green,humanoid,3
+10194,calyrex-shadow,24,536,340.0,psychic,ghost,100,85,80,165,100,150,as-one-spectrier,generation-viii,True,False,green,humanoid,3
+10195,venusaur-gmax,240,10000,236.0,grass,poison,80,82,83,100,100,80,"overgrow, chlorophyll",generation-i,False,False,green,quadruped,45
+10196,charizard-gmax,280,10000,240.0,fire,flying,78,84,78,109,85,100,"blaze, solar-power",generation-i,False,False,red,upright,45
+10197,blastoise-gmax,250,10000,239.0,water,,79,83,100,85,105,78,"torrent, rain-dish",generation-i,False,False,blue,upright,45
+10198,butterfree-gmax,170,10000,178.0,bug,flying,60,45,50,90,80,70,"compound-eyes, tinted-lens",generation-i,False,False,white,bug-wings,45
+10199,pikachu-gmax,210,10000,112.0,electric,,35,55,40,50,50,90,"static, lightning-rod",generation-i,False,False,yellow,quadruped,190
+10200,meowth-gmax,330,10000,58.0,normal,,40,45,35,40,40,90,"pickup, technician, unnerve",generation-i,False,False,yellow,quadruped,255
+10201,machamp-gmax,250,10000,227.0,fighting,,90,130,80,65,85,55,"guts, no-guard, steadfast",generation-i,False,False,gray,humanoid,45
+10202,gengar-gmax,200,10000,225.0,ghost,poison,60,65,60,130,75,110,cursed-body,generation-i,False,False,purple,upright,45
+10203,kingler-gmax,190,10000,166.0,water,,55,130,115,50,50,75,"hyper-cutter, shell-armor, sheer-force",generation-i,False,False,red,armor,60
+10204,lapras-gmax,240,10000,187.0,water,ice,130,85,80,85,95,60,"water-absorb, shell-armor, hydration",generation-i,False,False,blue,fish,45
+10205,eevee-gmax,180,10000,65.0,normal,,55,55,50,45,65,55,"run-away, adaptability, anticipation",generation-i,False,False,brown,quadruped,45
+10206,snorlax-gmax,350,10000,189.0,normal,,160,110,65,65,110,30,"immunity, thick-fat, gluttony",generation-i,False,False,black,humanoid,25
+10207,garbodor-gmax,210,10000,166.0,poison,,80,95,82,60,82,75,"stench, weak-armor, aftermath",generation-v,False,False,green,humanoid,60
+10208,melmetal-gmax,250,10000,270.0,steel,,135,143,143,80,65,34,iron-fist,generation-vii,False,True,gray,humanoid,3
+10209,rillaboom-gmax,280,10000,265.0,grass,,100,125,90,60,70,85,"overgrow, grassy-surge",generation-viii,False,False,green,humanoid,45
+10210,cinderace-gmax,270,10000,265.0,fire,,80,116,75,65,75,119,"blaze, libero",generation-viii,False,False,white,upright,45
+10211,inteleon-gmax,400,10000,265.0,water,,70,85,65,125,65,120,"torrent, sniper",generation-viii,False,False,blue,upright,45
+10212,corviknight-gmax,140,10000,248.0,flying,steel,98,87,105,53,85,67,"pressure, unnerve, mirror-armor",generation-viii,False,False,purple,wings,45
+10213,orbeetle-gmax,140,10000,253.0,bug,psychic,60,45,110,80,120,90,"swarm, frisk, telepathy",generation-viii,False,False,red,wings,45
+10214,drednaw-gmax,240,10000,170.0,water,rock,90,115,90,48,68,74,"strong-jaw, shell-armor, swift-swim",generation-viii,False,False,green,quadruped,75
+10215,coalossal-gmax,420,10000,255.0,rock,fire,110,80,120,80,90,30,"steam-engine, flame-body, flash-fire",generation-viii,False,False,black,humanoid,45
+10216,flapple-gmax,240,10000,170.0,grass,dragon,70,110,80,95,60,70,"ripen, gluttony, hustle",generation-viii,False,False,green,wings,45
+10217,appletun-gmax,240,10000,170.0,grass,dragon,110,85,80,100,80,30,"ripen, gluttony, thick-fat",generation-viii,False,False,green,quadruped,45
+10218,sandaconda-gmax,220,10000,179.0,ground,,72,107,125,65,70,71,"sand-spit, shed-skin, sand-veil",generation-viii,False,False,green,squiggle,120
+10219,toxtricity-amped-gmax,240,10000,176.0,electric,poison,75,98,70,114,70,75,"punk-rock, plus, technician",generation-viii,False,False,purple,upright,45
+10220,centiskorch-gmax,750,10000,184.0,fire,bug,100,115,65,90,90,65,"flash-fire, white-smoke, flame-body",generation-viii,False,False,red,tentacles,75
+10221,hatterene-gmax,260,10000,255.0,psychic,fairy,57,90,95,136,103,29,"healer, anticipation, magic-bounce",generation-viii,False,False,pink,blob,45
+10222,grimmsnarl-gmax,320,10000,255.0,dark,fairy,95,120,65,95,75,60,"prankster, frisk, pickpocket",generation-viii,False,False,purple,humanoid,45
+10223,alcremie-gmax,300,10000,173.0,fairy,,65,60,75,110,121,64,"sweet-veil, aroma-veil",generation-viii,False,False,white,blob,100
+10224,copperajah-gmax,230,10000,175.0,steel,,122,130,69,80,69,30,"sheer-force, heavy-metal",generation-viii,False,False,green,quadruped,90
+10225,duraludon-gmax,430,10000,187.0,steel,dragon,70,95,115,120,50,85,"light-metal, heavy-metal, stalwart",generation-viii,False,False,white,upright,45
+10226,urshifu-single-strike-gmax,290,10000,275.0,fighting,dark,100,130,100,63,60,97,unseen-fist,generation-viii,True,False,gray,humanoid,3
+10227,urshifu-rapid-strike-gmax,260,10000,275.0,fighting,water,100,130,100,63,60,97,unseen-fist,generation-viii,True,False,gray,humanoid,3
+10228,toxtricity-low-key-gmax,240,10000,176.0,electric,poison,75,98,70,114,70,75,"punk-rock, minus, technician",generation-viii,False,False,purple,upright,45
+10229,growlithe-hisui,8,227,70.0,fire,rock,60,75,45,65,50,55,"intimidate, flash-fire, rock-head",generation-i,False,False,brown,quadruped,190
+10230,arcanine-hisui,20,1680,194.0,fire,rock,95,115,80,95,80,90,"intimidate, flash-fire, rock-head",generation-i,False,False,brown,quadruped,75
+10231,voltorb-hisui,5,130,66.0,electric,grass,40,30,50,55,55,100,"soundproof, static, aftermath",generation-i,False,False,red,ball,190
+10232,electrode-hisui,12,710,172.0,electric,grass,60,50,70,80,80,150,"soundproof, static, aftermath",generation-i,False,False,red,ball,60
+10233,typhlosion-hisui,16,698,240.0,fire,ghost,73,84,78,119,85,95,"blaze, frisk",generation-ii,False,False,yellow,quadruped,45
+10234,qwilfish-hisui,5,39,88.0,dark,poison,65,95,85,55,55,85,"poison-point, swift-swim, intimidate",generation-ii,False,False,gray,fish,45
+10235,sneasel-hisui,9,270,86.0,fighting,poison,55,95,55,35,75,115,"inner-focus, keen-eye, pickpocket",generation-ii,False,False,black,upright,60
+10236,samurott-hisui,15,582,238.0,water,dark,90,108,80,100,65,85,"torrent, sharpness",generation-v,False,False,blue,quadruped,45
+10237,lilligant-hisui,12,192,168.0,grass,fighting,70,105,75,50,75,105,"chlorophyll, hustle, leaf-guard",generation-v,False,False,green,blob,75
+10238,zorua-hisui,7,125,66.0,normal,ghost,35,60,40,85,40,70,illusion,generation-v,False,False,gray,quadruped,75
+10239,zoroark-hisui,16,730,179.0,normal,ghost,55,100,60,125,60,110,illusion,generation-v,False,False,gray,upright,45
+10240,braviary-hisui,17,434,179.0,psychic,flying,110,83,70,112,70,65,"keen-eye, sheer-force, tinted-lens",generation-v,False,False,red,wings,60
+10241,sliggoo-hisui,7,685,158.0,steel,dragon,58,75,83,83,113,40,"sap-sipper, shell-armor, gooey",generation-vi,False,False,purple,squiggle,45
+10242,goodra-hisui,17,3341,270.0,steel,dragon,80,100,100,110,150,60,"sap-sipper, shell-armor, gooey",generation-vi,False,False,purple,upright,45
+10243,avalugg-hisui,14,2624,180.0,ice,rock,95,127,184,34,36,38,"strong-jaw, ice-body, sturdy",generation-vi,False,False,blue,quadruped,55
+10244,decidueye-hisui,16,370,239.0,grass,fighting,88,112,80,95,95,60,"overgrow, scrappy",generation-vii,False,False,brown,wings,45
+10245,dialga-origin,70,8487,306.0,steel,dragon,100,100,120,150,120,90,"pressure, telepathy",generation-iv,True,False,white,quadruped,3
+10246,palkia-origin,63,6590,306.0,water,dragon,90,100,100,150,120,120,"pressure, telepathy",generation-iv,True,False,purple,upright,3
+10247,basculin-white-striped,10,180,161.0,water,,70,92,65,80,55,98,"rattled, adaptability, mold-breaker",generation-v,False,False,green,fish,25
+10248,basculegion-female,30,1100,265.0,water,ghost,120,92,65,100,75,78,"swift-swim, adaptability, mold-breaker",generation-viii,False,False,green,fish,135
+10249,enamorus-therian,16,480,116.0,fairy,flying,74,115,110,135,100,46,overcoat,generation-viii,True,False,pink,arms,3
+10250,tauros-paldea-combat-breed,14,1150,172.0,fighting,,75,110,105,30,70,100,"intimidate, anger-point, cud-chew",generation-i,False,False,brown,quadruped,45
+10251,tauros-paldea-blaze-breed,14,850,172.0,fighting,fire,75,110,105,30,70,100,"intimidate, anger-point, cud-chew",generation-i,False,False,brown,quadruped,45
+10252,tauros-paldea-aqua-breed,14,1100,172.0,fighting,water,75,110,105,30,70,100,"intimidate, anger-point, cud-chew",generation-i,False,False,brown,quadruped,45
+10253,wooper-paldea,4,110,42.0,poison,ground,55,45,45,25,25,15,"poison-point, water-absorb, unaware",generation-ii,False,False,blue,legs,255
+10254,oinkologne-female,10,1200,171.0,normal,,115,90,70,59,90,65,"aroma-veil, gluttony, thick-fat",generation-ix,False,False,gray,quadruped,100
+10255,dudunsparce-three-segment,45,474,182.0,normal,,125,100,80,85,75,55,"serene-grace, run-away, rattled",generation-ix,False,False,yellow,squiggle,45
+10256,palafin-hero,18,974,160.0,water,,100,160,97,106,87,100,zero-to-hero,generation-ix,False,False,blue,fish,45
+10257,maushold-family-of-three,3,23,165.0,normal,,74,75,70,65,75,111,"friend-guard, cheek-pouch, technician",generation-ix,False,False,white,heads,75
+10258,tatsugiri-droopy,3,80,166.0,dragon,water,68,50,60,120,95,82,"commander, storm-drain",generation-ix,False,False,pink,fish,100
+10259,tatsugiri-stretchy,3,80,166.0,dragon,water,68,50,60,120,95,82,"commander, storm-drain",generation-ix,False,False,pink,fish,100
+10260,squawkabilly-blue-plumage,6,24,146.0,normal,flying,82,96,51,45,51,92,"intimidate, hustle, guts",generation-ix,False,False,green,wings,190
+10261,squawkabilly-yellow-plumage,6,24,146.0,normal,flying,82,96,51,45,51,92,"intimidate, hustle, sheer-force",generation-ix,False,False,green,wings,190
+10262,squawkabilly-white-plumage,6,24,146.0,normal,flying,82,96,51,45,51,92,"intimidate, hustle, sheer-force",generation-ix,False,False,green,wings,190
+10263,gimmighoul-roaming,1,10,60.0,ghost,,45,30,25,75,45,80,run-away,generation-ix,False,False,brown,blob,45
+10264,koraidon-limited-build,35,3030,335.0,fighting,dragon,100,135,115,85,100,135,orichalcum-pulse,generation-ix,True,False,red,upright,3
+10265,koraidon-sprinting-build,35,3030,335.0,fighting,dragon,100,135,115,85,100,135,orichalcum-pulse,generation-ix,True,False,red,upright,3
+10266,koraidon-swimming-build,35,3030,335.0,fighting,dragon,100,135,115,85,100,135,orichalcum-pulse,generation-ix,True,False,red,upright,3
+10267,koraidon-gliding-build,35,3030,335.0,fighting,dragon,100,135,115,85,100,135,orichalcum-pulse,generation-ix,True,False,red,upright,3
+10268,miraidon-low-power-mode,28,2400,335.0,electric,dragon,100,85,100,135,115,135,hadron-engine,generation-ix,True,False,blue,quadruped,3
+10269,miraidon-drive-mode,28,2400,335.0,electric,dragon,100,85,100,135,115,135,hadron-engine,generation-ix,True,False,blue,quadruped,3
+10270,miraidon-aquatic-mode,28,2400,335.0,electric,dragon,100,85,100,135,115,135,hadron-engine,generation-ix,True,False,blue,quadruped,3
+10271,miraidon-glide-mode,28,2400,335.0,electric,dragon,100,85,100,135,115,135,hadron-engine,generation-ix,True,False,blue,quadruped,3
+10272,ursaluna-bloodmoon,24,2900,275.0,ground,normal,113,70,120,135,65,52,minds-eye,generation-viii,False,False,brown,quadruped,75
+10273,ogerpon-wellspring-mask,12,398,275.0,grass,water,80,120,84,60,96,110,water-absorb,generation-ix,True,False,green,humanoid,5
+10274,ogerpon-hearthflame-mask,12,398,275.0,grass,fire,80,120,84,60,96,110,mold-breaker,generation-ix,True,False,green,humanoid,5
+10275,ogerpon-cornerstone-mask,12,398,275.0,grass,rock,80,120,84,60,96,110,sturdy,generation-ix,True,False,green,humanoid,5
+10276,terapagos-terastal,3,160,90.0,normal,,95,95,110,105,110,85,tera-shell,generation-ix,True,False,blue,quadruped,255
+10277,terapagos-stellar,17,770,90.0,normal,,160,105,110,130,110,85,teraform-zero,generation-ix,True,False,blue,quadruped,255
+10278,clefable-mega,17,423,,fairy,flying,95,80,93,135,110,70,magic-bounce,generation-i,False,False,pink,upright,25
+10279,victreebel-mega,45,1255,,grass,poison,80,125,85,135,95,70,innards-out,generation-i,False,False,green,blob,45
+10280,starmie-mega,23,800,,water,psychic,60,100,105,130,105,120,huge-power,generation-i,False,False,purple,blob,60
+10281,dragonite-mega,22,2900,,dragon,flying,91,124,115,145,125,100,multiscale,generation-i,False,False,brown,upright,45
+10282,meganium-mega,24,2010,,grass,fairy,80,92,115,143,115,80,mega-sol,generation-ii,False,False,green,quadruped,45
+10283,feraligatr-mega,23,1088,,water,dragon,85,160,125,89,93,78,dragonize,generation-ii,False,False,blue,upright,45
+10284,skarmory-mega,17,404,,steel,flying,65,140,110,40,100,110,stalwart,generation-ii,False,False,gray,wings,25
+10285,froslass-mega,26,296,,ice,ghost,70,80,70,140,100,120,snow-warning,generation-iv,False,False,white,arms,75
+10286,emboar-mega,18,1803,,fire,fighting,110,148,75,110,110,75,mold-breaker,generation-v,False,False,red,upright,45
+10287,excadrill-mega,9,600,,ground,steel,110,165,100,65,65,103,piercing-drill,generation-v,False,False,gray,humanoid,60
+10288,scolipede-mega,32,2305,,bug,poison,60,140,149,75,99,62,shell-armor,generation-v,False,False,red,armor,45
+10289,scrafty-mega,11,310,,dark,fighting,65,130,135,55,135,68,intimidate,generation-v,False,False,red,upright,90
+10290,eelektross-mega,30,1800,,electric,,85,145,80,135,90,80,eelevate,generation-v,False,False,blue,fish,30
+10291,chandelure-mega,25,696,,ghost,fire,60,75,110,175,110,90,infiltrator,generation-v,False,False,black,arms,45
+10292,chesnaught-mega,16,900,,grass,fighting,88,137,172,74,115,44,bulletproof,generation-vi,False,False,green,upright,45
+10293,delphox-mega,15,390,,fire,psychic,75,69,72,159,125,134,levitate,generation-vi,False,False,red,upright,45
+10294,greninja-mega,15,400,,water,dark,72,125,77,133,81,142,protean,generation-vi,False,False,blue,humanoid,45
+10295,pyroar-mega,15,933,,fire,normal,86,88,92,129,86,126,fire-mane,generation-vi,False,False,brown,quadruped,65
+10296,floette-mega,2,1008,,fairy,,74,85,87,155,148,102,fairy-aura,generation-vi,False,False,white,arms,120
+10297,malamar-mega,29,698,,dark,psychic,86,102,88,98,120,88,contrary,generation-vi,False,False,blue,blob,80
+10298,barbaracle-mega,22,1000,,rock,fighting,72,140,130,64,106,88,tough-claws,generation-vi,False,False,brown,heads,45
+10299,dragalge-mega,21,1003,,poison,dragon,65,85,105,132,163,44,regenerator,generation-vi,False,False,brown,blob,55
+10300,hawlucha-mega,10,250,,fighting,flying,78,137,100,74,93,118,no-guard,generation-vi,False,False,green,humanoid,100
+10301,zygarde-mega,77,6100,,dragon,ground,216,70,91,216,85,100,,generation-vi,True,False,green,squiggle,3
+10302,drampa-mega,30,2405,,normal,dragon,78,85,110,160,116,36,berserk,generation-vii,False,False,white,squiggle,70
+10303,falinks-mega,16,990,,fighting,,65,135,135,70,65,100,defiant,generation-viii,False,False,yellow,heads,45
+10304,raichu-mega-x,12,380,,electric,,60,135,95,90,95,110,electric-surge,generation-i,False,False,yellow,upright,75
+10305,raichu-mega-y,10,260,,electric,,60,100,55,160,80,130,no-guard,generation-i,False,False,yellow,upright,75
+10306,chimecho-mega,12,80,,psychic,steel,75,50,110,135,120,65,levitate,generation-iii,False,False,blue,arms,45
+10307,absol-mega-z,12,490,,dark,ghost,65,154,60,75,60,151,,generation-iii,False,False,white,quadruped,30
+10308,staraptor-mega,19,500,,fighting,flying,85,140,100,60,90,110,contrary,generation-iv,False,False,brown,wings,45
+10309,garchomp-mega-z,19,990,,dragon,,108,130,85,141,85,151,,generation-iv,False,False,blue,upright,45
+10310,lucario-mega-z,13,494,,fighting,steel,70,100,70,164,70,151,,generation-iv,False,False,blue,upright,45
+10311,heatran-mega,28,5700,,fire,steel,91,120,106,175,141,67,,generation-iv,True,False,brown,quadruped,3
+10312,darkrai-mega,30,2400,,dark,,70,120,130,165,130,85,,generation-iv,False,True,black,humanoid,3
+10313,golurk-mega,40,3300,,ground,ghost,89,159,105,70,105,55,unseen-fist,generation-v,False,False,green,humanoid,90
+10314,meowstic-male-mega,8,101,,psychic,,74,48,76,143,101,124,trace,generation-vi,False,False,blue,upright,75
+10315,crabominable-mega,26,2528,,fighting,ice,97,157,122,62,107,33,iron-fist,generation-vii,False,False,white,armor,60
+10316,golisopod-mega,23,1480,,bug,steel,75,150,175,70,120,40,,generation-vii,False,False,gray,humanoid,45
+10317,magearna-mega,13,2481,,steel,fairy,80,125,115,170,115,95,,generation-vii,False,True,gray,humanoid,3
+10318,magearna-original-mega,13,2481,,steel,fairy,80,125,115,170,115,95,,generation-vii,False,True,gray,humanoid,3
+10319,zeraora-mega,15,445,,electric,,88,157,75,147,80,153,,generation-vii,False,True,yellow,humanoid,3
+10320,scovillain-mega,12,220,,grass,fire,65,138,85,138,85,75,spicy-spray,generation-ix,False,False,green,upright,75
+10321,glimmora-mega,28,770,,rock,poison,83,90,105,150,96,101,adaptability,generation-ix,False,False,blue,ball,25
+10322,tatsugiri-curly-mega,6,240,,dragon,water,68,65,90,135,125,92,,generation-ix,False,False,pink,fish,100
+10323,tatsugiri-droopy-mega,6,240,,dragon,water,68,65,90,135,125,92,,generation-ix,False,False,pink,fish,100
+10324,tatsugiri-stretchy-mega,6,240,,dragon,water,68,65,90,135,125,92,,generation-ix,False,False,pink,fish,100
+10325,baxcalibur-mega,21,3150,,dragon,ice,115,175,117,105,101,87,,generation-ix,False,False,gray,upright,10
+10326,meowstic-female-mega,8,101,,psychic,,74,48,76,143,101,124,trace,generation-vi,False,False,blue,upright,75
