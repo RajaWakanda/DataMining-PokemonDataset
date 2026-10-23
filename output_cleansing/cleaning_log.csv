@@ -1,0 +1,10 @@
+tahap,aksi,jumlah_baris_terdampak,keterangan
+B1,Hapus duplikat,0,duplikat baris penuh dan duplikat id
+B2,Standardisasi teks (strip + lowercase),0,0 berarti teks sudah konsisten
+B3,Berat tidak valid (<=0) diubah jadi NaN,1,
+B4,type_2 NaN -> 'none',586,kosong berarti tipe tunggal
+B4,abilities NaN -> 'unknown',14,
+B4,base_experience NaN -> median,49,median = 165.0
+B4,weight_hg NaN -> median,1,median = 327.0
+B5,"Outlier ditandai, tidak dihapus",327,nilai ekstrem valid secara domain
+B6,Konversi tipe data,1351,"category, ordered category, bool, int"
